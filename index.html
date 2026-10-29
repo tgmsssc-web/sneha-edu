@@ -208,29 +208,46 @@ restartMsg:"دوسرا کوئز شروع کرنے کے لیے جماعت منت�
 }
 };
 
-const questions=[
-{
-q:{en:"Which is the largest planet in our Solar System?",te:"మన సౌర కుటుంబంలో అతిపెద్ద గ్రహం ఏది?",ur:"ہمارے نظام شمسی کا سب سے بڑا سیارہ کون سا ہے؟"},
-o:[{en:"Earth",te:"భూమి",ur:"زمین"},{en:"Jupiter",te:"గురుడు",ur:"مشتری"},{en:"Mars",te:"అంగారకుడు",ur:"مریخ"},{en:"Venus",te:"శుక్రుడు",ur:"زہرہ"}],
-a:1,e:{en:"Jupiter is the largest planet in the Solar System.",te:"సౌర కుటుంబంలో గురుడు అతిపెద్ద గ్రహం.",ur:"مشتری نظام شمسی کا سب سے بڑا سیارہ ہے۔"}
-},
-{
-q:{en:"What is 12 × 8?",te:"12 × 8 ఎంత?",ur:"12 × 8 کتنا ہے؟"},
-o:[{en:"84",te:"84",ur:"84"},{en:"92",te:"92",ur:"92"},{en:"96",te:"96",ur:"96"},{en:"108",te:"108",ur:"108"}],
-a:2,e:{en:"12 multiplied by 8 equals 96.",te:"12ను 8తో గుణిస్తే 96 వస్తుంది.",ur:"12 کو 8 سے ضرب دینے پر 96 حاصل ہوتا ہے۔"}
-},
-{
-q:{en:"When did the Constitution of India come into effect?",te:"భారత రాజ్యాంగం ఎప్పుడు అమల్లోకి వచ్చింది?",ur:"بھارت کا آئین کب نافذ ہوا؟"},
-o:[{en:"15 August 1947",te:"15 ఆగస్టు 1947",ur:"15 اگست 1947"},{en:"26 January 1950",te:"26 జనవరి 1950",ur:"26 جنوری 1950"},{en:"26 November 1949",te:"26 నవంబర్ 1949",ur:"26 نومبر 1949"},{en:"2 October 1950",te:"2 అక్టోబర్ 1950",ur:"2 اکتوبر 1950"}],
-a:1,e:{en:"The Constitution came into effect on 26 January 1950.",te:"భారత రాజ్యాంగం 26 జనవరి 1950న అమల్లోకి వచ్చింది.",ur:"بھارت کا آئین 26 جنوری 1950 کو نافذ ہوا۔"}
-}
-];
 
+let questions = [];
 let lang=localStorage.getItem("snehaLang")||"en";
 let chosenClass=6,index=0,answers={},marked={},reviewOnly=false,submitted=false;
 let questionSeconds=0,questionRemaining=0,examRemaining=0,examTimerId=null,questionTimerId=null;
 let mode="practice";
+const questionBankUrl = "https://raw.githubusercontent.com/tgmsssc-web/sneha-edu/refs/heads/main/EduSeva_SSC_Class10_Social_Chapter1_QuestionBank.json";
 
+async function loadQuestionBank() {
+  try {
+    const response = await fetch(questionBankUrl);
+    if (!response.ok) throw new Error("Question bank could not load");
+
+    const data = await response.json();
+
+    questions = data.questions.map(item => ({
+      q: {
+        en: item.question,
+        te: item.question,
+        ur: item.question
+      },
+      o: ["A", "B", "C", "D"].map(key => ({
+        en: item.options[key],
+        te: item.options[key],
+        ur: item.options[key]
+      })),
+      a: ["A", "B", "C", "D"].indexOf(item.correct_answer),
+      e: {
+        en: item.explanation || "",
+        te: item.explanation || "",
+        ur: item.explanation || ""
+      }
+    }));
+
+    return true;
+  } catch (error) {
+    alert("Question bank could not load. Please check your internet connection.");
+    return false;
+  }
+}
 function tr(key){return (words[lang]&&words[lang][key])||words.en[key]||key}
 function qtext(item){return item[lang]||item.en}
 function changeLanguage(value){
@@ -271,8 +288,10 @@ function updateClassButtons(){
  b.setAttribute("aria-pressed",i+6===chosenClass?"true":"false");
  });
 }
-function startQuiz(){
+async function startQuiz(){
  clearTimers();index=0;answers={};marked={};reviewOnly=false;submitted=false;
+ const loaded = await loadQuestionBank();
+if (!loaded) return;
  mode=document.getElementById("mode").value;
  questionSeconds=mode==="practice"?Number(document.getElementById("questionTimer").value):0;
  if(document.getElementById("questionTimer").value==="off")questionSeconds=0;
