@@ -3,460 +3,195 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sneha Edu | Smart Learning</title>
+<meta name="theme-color" content="#123a72">
+<title>Sneha Edu | Smart Learning & Quiz</title>
 <style>
+:root{--navy:#123a72;--blue:#2563eb;--sky:#eaf2ff;--green:#16834a;--red:#c62828;--ink:#172033;--muted:#64748b;--line:#dbe4f0;--paper:#fff;--bg:#f3f6fb;--gold:#f4b400}
 *{box-sizing:border-box}
-body{margin:0;font-family:Arial,sans-serif;background:#f3f7ff;color:#183153;line-height:1.6}
-header{background:#0756a5;color:white;text-align:center;padding:22px 12px}
-header h1{margin:0;font-size:28px}
-header p{margin:5px 0}
-.container{max-width:950px;margin:auto;padding:16px}
-.card{background:white;border-radius:14px;padding:18px;margin:15px 0;box-shadow:0 3px 12px #00000012}
-h2,h3{color:#0756a5;margin-top:0}
-button,.btn{border:0;border-radius:8px;padding:11px 15px;background:#0756a5;color:white;font-size:15px;cursor:pointer;margin:4px}
-button:disabled{opacity:.45;cursor:not-allowed}
-.secondary{background:#52657a}
-.green{background:#16804a}
-.orange{background:#b96a00}
-.red{background:#b42318}
-select,input{padding:11px;border:1px solid #ccd6e5;border-radius:8px;font-size:16px;max-width:100%}
-select{width:100%}
-label{display:block;font-weight:bold;margin:8px 0}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(125px,1fr));gap:10px}
-.class-btn{background:#e7f0ff;color:#0756a5;border:1px solid #c4d9fa;font-weight:bold}
-.class-btn.active{background:#0756a5;color:white}
-.option{display:block;width:100%;text-align:left;background:#fff;color:#183153;border:1px solid #cbd5e1;margin:9px 0;padding:13px}
-.option.selected{background:#e5efff;border:2px solid #0756a5}
-.option.correct{background:#dcfce7;border:2px solid #16804a}
-.option.wrong{background:#fee2e2;border:2px solid #b42318}
-.small{font-size:13px;color:#60748a}
-.row{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
-.spread{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
-.timer{font-size:20px;font-weight:bold;color:#b42318}
-.progress{height:9px;background:#e2e8f0;border-radius:8px;overflow:hidden;margin:10px 0}
-.progress div{height:100%;background:#16804a;width:0}
-.nav-number{min-width:42px;background:#e2e8f0;color:#183153}
-.nav-number.current{background:#0756a5;color:white}
-.nav-number.answered{background:#16804a;color:white}
-.nav-number.marked{background:#b96a00;color:white}
-.hidden{display:none!important}
-footer{text-align:center;padding:20px;color:#60748a}
-[dir="rtl"]{text-align:right}
-[dir="rtl"] .option{text-align:right}
-@media(max-width:480px){
- header h1{font-size:23px}
- .container{padding:10px}
- .card{padding:14px}
- button,.btn{font-size:14px;padding:10px}
-}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5}
+header{background:linear-gradient(125deg,#102b54,#2563eb);color:#fff;padding:22px 16px 26px}
+.headwrap{max-width:1050px;margin:auto;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:12px}.logo{width:48px;height:48px;border-radius:15px;background:#fff;color:var(--navy);display:grid;place-items:center;font-size:24px;font-weight:900;box-shadow:0 6px 18px #001b4533}
+h1{font-size:clamp(23px,4vw,32px);margin:0;line-height:1.15}header p{margin:6px 0 0;color:#e5edff}
+select,button,input{font:inherit}select{padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:#fff;color:var(--ink);max-width:100%}
+main{max-width:1050px;margin:22px auto;padding:0 14px 36px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:17px;padding:18px;box-shadow:0 5px 18px #0f2f5b0a;margin-bottom:16px}
+h2{font-size:21px;margin:0 0 8px}h3{margin:0 0 8px;font-size:17px}
+.muted{color:var(--muted)}.small{font-size:13px}.controls{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:16px}
+.field label{display:block;font-weight:700;font-size:13px;margin:0 0 5px}
+.btn{border:0;border-radius:11px;padding:11px 16px;font-weight:750;cursor:pointer;transition:.15s}
+.btn:disabled{opacity:.45;cursor:not-allowed}.primary{background:var(--blue);color:white}.secondary{background:var(--sky);color:var(--navy)}.outline{background:#fff;border:1px solid var(--line);color:var(--ink)}.success{background:var(--green);color:#fff}.danger{background:var(--red);color:#fff}.gold{background:#fff3cc;color:#714c00}
+.actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:15px}
+.statusrow{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:12px}
+.pill{display:inline-flex;align-items:center;gap:6px;border-radius:99px;background:#edf3ff;color:#17417b;padding:6px 10px;font-weight:750;font-size:13px}
+.progress{height:8px;background:#e5eaf2;border-radius:99px;overflow:hidden;margin:12px 0 18px}.progress>div{height:100%;width:0;background:linear-gradient(90deg,#2563eb,#14b8a6);transition:width .2s}
+.question-text{font-size:clamp(18px,3vw,22px);font-weight:750;margin:14px 0 16px}
+.options{display:grid;gap:10px}.option{display:flex;align-items:flex-start;gap:10px;border:1.5px solid var(--line);border-radius:12px;padding:13px;cursor:pointer;background:#fff}.option:hover{border-color:#8ab0f8;background:#f8fbff}.option.selected{border-color:var(--blue);background:#edf4ff}.option input{margin-top:5px;accent-color:var(--blue)}.option-letter{font-weight:850;color:var(--navy);min-width:24px}
+.feedback{padding:13px;border-radius:12px;margin-top:14px}.correct{background:#e8f7ee;border:1px solid #b9e5c9;color:#14532d}.incorrect{background:#fff0f0;border:1px solid #f3c2c2;color:#8b1e1e}
+.navigator{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));gap:7px;margin-top:12px}.navq{border:1px solid var(--line);background:#fff;border-radius:8px;padding:8px 0;font-weight:750;cursor:pointer}.navq.current{outline:2px solid var(--blue);border-color:var(--blue)}.navq.answered{background:#dff5e7;border-color:#9edbb4}.navq.review{background:#fff0c2;border-color:#e9c85b}
+.summary-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.stat{padding:14px;border-radius:12px;background:#f5f8ff;text-align:center}.stat strong{font-size:25px;display:block;color:var(--navy)}
+.hidden{display:none!important}.notice{padding:12px 14px;border-radius:11px;background:#fff7df;border:1px solid #f2d889;color:#684c00;margin-top:12px}
+footer{text-align:center;padding:20px;color:var(--muted);font-size:13px}
+@media(max-width:700px){.controls{grid-template-columns:repeat(2,minmax(0,1fr))}.navigator{grid-template-columns:repeat(6,minmax(0,1fr))}.card{padding:15px}.headwrap{align-items:flex-start}.headwrap>select{width:100%}}
+@media(max-width:420px){.controls{grid-template-columns:1fr}.navigator{grid-template-columns:repeat(5,minmax(0,1fr))}.actions .btn{flex:1 1 42%}}
 </style>
 </head>
 <body>
 <header>
-  <h1>📚 Sneha Edu</h1>
-  <p id="tagline">Smart Learning for a Better Future</p>
+  <div class="headwrap">
+    <div class="brand"><div class="logo">S</div><div><h1>Sneha Edu</h1><p>Learn • Practice • Improve</p></div></div>
+    <select id="language" aria-label="Interface language" onchange="changeLanguage()">
+      <option value="en">English</option><option value="te">తెలుగు interface</option><option value="ur">اردو interface</option>
+    </select>
+  </div>
 </header>
-
-<main class="container">
-  <section class="card">
-    <label id="languageLabel" for="language">Choose Language</label>
-    <select id="language" onchange="changeLanguage(this.value)">
-      <option value="en">English</option>
-      <option value="te">తెలుగు</option>
-      <option value="ur">اردو</option>
-    </select>
-    <p class="small" id="languageHint">You can change the language at any time.</p>
+<main>
+  <section class="card" id="setupCard">
+    <h2 id="welcomeTitle">Welcome to Sneha Edu Quiz</h2>
+    <p class="muted" id="welcomeText">Choose your class and quiz settings to begin. Your current question bank contains Class 10 Social Studies, Chapter 1: India – Relief Features.</p>
+    <div class="controls">
+      <div class="field"><label for="classSelect" id="classLabel">Class</label><select id="classSelect"><option value="6">Class 6</option><option value="7">Class 7</option><option value="8">Class 8</option><option value="9">Class 9</option><option value="10" selected>Class 10</option></select></div>
+      <div class="field"><label for="subjectSelect" id="subjectLabel">Subject</label><select id="subjectSelect"><option value="social">Social Studies</option></select></div>
+      <div class="field"><label for="modeSelect" id="modeLabel">Quiz mode</label><select id="modeSelect"><option value="practice">Practice (instant feedback)</option><option value="exam">Exam (feedback at end)</option></select></div>
+      <div class="field"><label for="countSelect" id="countLabel">Questions per round</label><select id="countSelect"><option value="10">10 questions</option><option value="20">20 questions</option><option value="all" selected>All available (50)</option></select></div>
+    </div>
+    <div class="notice" id="bankNotice">Available now: Class 10 • Social Studies • Chapter 1 • 50 MCQs. Question text currently available in English; translated question banks can be connected later.</div>
+    <div class="actions"><button class="btn primary" id="startBtn" onclick="startQuiz()">Start Quiz</button><button class="btn outline" onclick="showInstructions()">How to use</button></div>
+    <div id="instructions" class="notice hidden">Select an option for each question. Use Back/Next or the question navigator. Mark questions for review. In Practice mode, feedback appears after answering. In Exam mode, answers and explanations appear after submission.</div>
   </section>
 
-  <section id="home" class="card">
-    <h2 id="welcomeTitle">Learn • Practice • Succeed</h2>
-    <p id="welcomeText">Prepare for examinations with practice questions.</p>
-    <h3 id="chooseClass">Choose Your Class</h3>
-    <div class="grid" id="classButtons">
-      <button class="class-btn active" onclick="chooseClass(6)">Class 6</button>
-      <button class="class-btn" onclick="chooseClass(7)">Class 7</button>
-      <button class="class-btn" onclick="chooseClass(8)">Class 8</button>
-      <button class="class-btn" onclick="chooseClass(9)">Class 9</button>
-      <button class="class-btn" onclick="chooseClass(10)">Class 10</button>
+  <section class="card hidden" id="quizCard">
+    <div class="statusrow">
+      <span class="pill" id="chapterPill">Class 10 • Social Studies • Chapter 1</span>
+      <span class="pill">⏱ <span id="timerLabel">Time</span>: <strong id="timer">00:00</strong></span>
     </div>
-    <h3 id="modeTitle" style="margin-top:20px">Choose Quiz Mode</h3>
-    <label id="modeLabel" for="mode">Mode</label>
-    <select id="mode">
-      <option value="practice">Practice Mode</option>
-      <option value="exam">Exam Mode</option>
-    </select>
-    <label id="questionTimerLabel" for="questionTimer">Per-question timer</label>
-    <select id="questionTimer">
-      <option value="off">Off</option>
-      <option value="30">30 seconds</option>
-      <option value="45">45 seconds</option>
-      <option value="60">60 seconds</option>
-    </select>
-    <label id="examTimerLabel" for="examMinutes">Total exam timer</label>
-    <select id="examMinutes">
-      <option value="30">30 minutes</option>
-      <option value="20">20 minutes</option>
-      <option value="45">45 minutes</option>
-      <option value="60">60 minutes</option>
-    </select>
-    <button class="green" id="startButton" onclick="startQuiz()">Start Quiz</button>
-    <p class="small" id="demoNotice">Demo questions only. More subject-wise questions will be added.</p>
-  </section>
-
-  <section id="quiz" class="card hidden">
-    <div class="spread">
-      <strong id="quizHeading">Quiz</strong>
-      <span class="timer" id="timerDisplay"></span>
-    </div>
+    <div class="statusrow small muted"><span id="questionCounter">Question 1 of 50</span><span id="scoreLive">Answered: 0</span></div>
     <div class="progress"><div id="progressBar"></div></div>
-    <div class="spread">
-      <span id="questionCount"></span>
-      <span id="scoreLive"></span>
+    <div class="statusrow"><span class="pill" id="categoryPill">High priority</span><button class="btn gold" id="reviewBtn" onclick="toggleReview()">☆ Mark for Review</button></div>
+    <div class="question-text" id="questionText">Loading question…</div>
+    <div class="options" id="options"></div>
+    <div id="feedback" class="feedback hidden" aria-live="polite"></div>
+    <div class="actions">
+      <button class="btn outline" id="prevBtn" onclick="moveQuestion(-1)">← Back</button>
+      <button class="btn secondary" id="nextBtn" onclick="moveQuestion(1)">Next →</button>
+      <button class="btn success" id="submitBtn" onclick="submitQuiz()">Submit Test</button>
     </div>
-    <h3 id="questionText"></h3>
-    <div id="options"></div>
-    <p id="explanation" class="hidden"></p>
-
-    <div class="row">
-      <button class="secondary" id="backButton" onclick="goBack()">⬅ Back</button>
-      <button id="nextButton" onclick="goNext()">Next ➡</button>
-      <button class="orange" id="markButton" onclick="toggleMark()">🔖 Mark for Review</button>
-    </div>
-
-    <h3 id="navigatorTitle" style="margin-top:20px">Question Navigator</h3>
-    <div id="navigator" class="grid"></div>
-    <p class="small" id="navigatorHint">Green = answered; orange = marked for review; blue = current question.</p>
-    <button class="green" id="reviewButton" onclick="reviewAnswers()">Review Answers</button>
-    <button class="red" id="submitButton" onclick="submitQuiz(false)">Submit Test</button>
+    <h3 style="margin-top:22px" id="navigatorTitle">Question Navigator</h3>
+    <p class="small muted" id="navigatorHelp">Green = answered • Yellow = marked for review • Blue outline = current question</p>
+    <div class="navigator" id="navigator"></div>
   </section>
 
-  <section id="results" class="card hidden">
+  <section class="card hidden" id="resultCard">
     <h2 id="resultTitle">Your Results</h2>
-    <h3 id="finalScore"></h3>
-    <p id="resultMessage"></p>
-    <div id="answerReview"></div>
-    <button class="green" id="restartButton" onclick="backHome()">Try Again</button>
-  </section>
-
-  <section class="card">
-    <h2 id="premiumTitle">⭐ Premium Learning</h2>
-    <p id="premiumText">Premium lessons and additional question banks will be available in a future update.</p>
-    <p class="small" id="premiumNote">Online payments are not enabled in this demo.</p>
+    <p class="muted" id="resultMessage"></p>
+    <div class="summary-grid">
+      <div class="stat"><strong id="scoreStat">0/50</strong><span id="scoreText">Score</span></div>
+      <div class="stat"><strong id="percentStat">0%</strong><span id="percentText">Percentage</span></div>
+      <div class="stat"><strong id="timeStat">00:00</strong><span id="timeText">Time taken</span></div>
+    </div>
+    <div class="actions"><button class="btn primary" onclick="reviewAnswers()" id="reviewAnswersBtn">Review Answers</button><button class="btn secondary" onclick="restartQuiz()" id="retryBtn">Try Again</button><button class="btn outline" onclick="backToSetup()" id="homeBtn">Back to Setup</button></div>
+    <div id="answerReview" class="hidden" style="margin-top:18px"></div>
   </section>
 </main>
-
-<footer>© Sneha Edu | Learn Today, Lead Tomorrow</footer>
-
+<footer>© <span id="year"></span> Sneha Edu • Educational practice platform</footer>
 <script>
-const words={
-en:{
-tagline:"Smart Learning for a Better Future",languageLabel:"Choose Language",languageHint:"You can change the language at any time.",
-welcomeTitle:"Learn • Practice • Succeed",welcomeText:"Prepare for examinations with practice questions.",
-chooseClass:"Choose Your Class",modeTitle:"Choose Quiz Mode",modeLabel:"Mode",
-practice:"Practice Mode",exam:"Exam Mode",questionTimerLabel:"Per-question timer",
-off:"Off",seconds30:"30 seconds",seconds45:"45 seconds",seconds60:"60 seconds",
-examTimerLabel:"Total exam timer",minutes20:"20 minutes",minutes30:"30 minutes",minutes45:"45 minutes",minutes60:"60 minutes",
-start:"Start Quiz",demoNotice:"Demo questions only. More subject-wise questions will be added.",
-quiz:"Quiz",back:"⬅ Back",next:"Next ➡",mark:"🔖 Mark for Review",unmark:"✓ Remove Review Mark",
-navigatorTitle:"Question Navigator",navigatorHint:"Green = answered; orange = marked for review; blue = current question.",
-review:"Review Answers",submit:"Submit Test",resultTitle:"Your Results",restart:"Try Again",
-premiumTitle:"⭐ Premium Learning",premiumText:"Premium lessons and additional question banks will be available in a future update.",
-premiumNote:"Online payments are not enabled in this demo.",question:"Question",of:"of",answered:"Answered",score:"Score",
-chooseAnswer:"Choose an answer.",confirmSubmit:"Submit the test now?",timeUp:"Time is up! Your test will be submitted.",
-perQuestionUp:"Time for this question is up.",correct:"Correct",incorrect:"Incorrect",unanswered:"Not answered",
-yourAnswer:"Your answer",correctAnswer:"Correct answer",explanation:"Explanation",resultMsg:"You have completed the quiz.",
-noAnswer:"No answer selected",marked:"Marked for review",reviewMode:"Review your answers, then submit when ready.",
-restartMsg:"Choose a class and start another quiz."
-},
-te:{
-tagline:"మెరుగైన భవిష్యత్తు కోసం స్మార్ట్ లెర్నింగ్",languageLabel:"భాషను ఎంచుకోండి",languageHint:"మీరు ఎప్పుడైనా భాషను మార్చుకోవచ్చు.",
-welcomeTitle:"నేర్చుకోండి • సాధన చేయండి • విజయం సాధించండి",welcomeText:"ప్రాక్టీస్ ప్రశ్నలతో పరీక్షలకు సిద్ధం కండి.",
-chooseClass:"మీ తరగతిని ఎంచుకోండి",modeTitle:"క్విజ్ విధానాన్ని ఎంచుకోండి",modeLabel:"విధానం",
-practice:"ప్రాక్టీస్ మోడ్",exam:"పరీక్ష మోడ్",questionTimerLabel:"ప్రతి ప్రశ్నకు టైమర్",
-off:"ఆఫ్",seconds30:"30 సెకన్లు",seconds45:"45 సెకన్లు",seconds60:"60 సెకన్లు",
-examTimerLabel:"మొత్తం పరీక్ష సమయం",minutes20:"20 నిమిషాలు",minutes30:"30 నిమిషాలు",minutes45:"45 నిమిషాలు",minutes60:"60 నిమిషాలు",
-start:"క్విజ్ ప్రారంభించండి",demoNotice:"ఇవి నమూనా ప్రశ్నలు మాత్రమే. మరిన్ని సబ్జెక్టు ప్రశ్నలు త్వరలో జోడిస్తాం.",
-quiz:"క్విజ్",back:"⬅ వెనుకకు",next:"తదుపరి ➡",mark:"🔖 సమీక్షకు గుర్తించండి",unmark:"✓ సమీక్ష గుర్తును తొలగించండి",
-navigatorTitle:"ప్రశ్నల జాబితా",navigatorHint:"ఆకుపచ్చ = సమాధానం ఇచ్చారు; నారింజ = సమీక్షకు గుర్తించారు; నీలం = ప్రస్తుత ప్రశ్న.",
-review:"సమాధానాలను సమీక్షించండి",submit:"పరీక్షను సమర్పించండి",resultTitle:"మీ ఫలితాలు",restart:"మళ్లీ ప్రయత్నించండి",
-premiumTitle:"⭐ ప్రీమియం లెర్నింగ్",premiumText:"ప్రీమియం పాఠాలు, అదనపు ప్రశ్నల బ్యాంక్‌ను భవిష్యత్తులో అందిస్తాం.",
-premiumNote:"ఈ డెమోలో ఆన్‌లైన్ చెల్లింపులు ప్రారంభించలేదు.",question:"ప్రశ్న",of:"లో",answered:"సమాధానాలు",score:"స్కోరు",
-chooseAnswer:"ఒక సమాధానాన్ని ఎంచుకోండి.",confirmSubmit:"ఇప్పుడే పరీక్షను సమర్పించాలా?",timeUp:"సమయం ముగిసింది! మీ పరీక్ష సమర్పించబడుతుంది.",
-perQuestionUp:"ఈ ప్రశ్నకు సమయం ముగిసింది.",correct:"సరైనది",incorrect:"తప్పు",unanswered:"సమాధానం ఇవ్వలేదు",
-yourAnswer:"మీ సమాధానం",correctAnswer:"సరైన సమాధానం",explanation:"వివరణ",resultMsg:"మీరు క్విజ్ పూర్తి చేశారు.",
-noAnswer:"సమాధానం ఎంచుకోలేదు",marked:"సమీక్షకు గుర్తించారు",reviewMode:"సమాధానాలను పరిశీలించి, సిద్ధమైనప్పుడు సమర్పించండి.",
-restartMsg:"తరగతిని ఎంచుకుని మరో క్విజ్ ప్రారంభించండి."
-},
-ur:{
-tagline:"بہتر مستقبل کے لیے اسمارٹ تعلیم",languageLabel:"زبان منتخب کریں",languageHint:"آپ کسی بھی وقت زبان تبدیل کر سکتے ہیں۔",
-welcomeTitle:"سیکھیں • مشق کریں • کامیاب ہوں",welcomeText:"مشق کے سوالات کے ساتھ امتحانات کی تیاری کریں۔",
-chooseClass:"اپنی جماعت منتخب کریں",modeTitle:"کوئز کا طریقہ منتخب کریں",modeLabel:"طریقہ",
-practice:"مشق کا طریقہ",exam:"امتحان کا طریقہ",questionTimerLabel:"ہر سوال کا ٹائمر",
-off:"بند",seconds30:"30 سیکنڈ",seconds45:"45 سیکنڈ",seconds60:"60 سیکنڈ",
-examTimerLabel:"امتحان کا کل وقت",minutes20:"20 منٹ",minutes30:"30 منٹ",minutes45:"45 منٹ",minutes60:"60 منٹ",
-start:"کوئز شروع کریں",demoNotice:"یہ صرف نمونہ سوالات ہیں۔ مزید مضامین کے سوالات شامل کیے جائیں گے۔",
-quiz:"کوئز",back:"⬅ واپس",next:"اگلا ➡",mark:"🔖 نظرثانی کے لیے نشان لگائیں",unmark:"✓ نشان ہٹائیں",
-navigatorTitle:"سوالات کی فہرست",navigatorHint:"سبز = جواب دیا؛ نارنجی = نظرثانی؛ نیلا = موجودہ سوال۔",
-review:"جوابات کا جائزہ",submit:"امتحان جمع کریں",resultTitle:"آپ کے نتائج",restart:"دوبارہ کوشش کریں",
-premiumTitle:"⭐ پریمیم تعلیم",premiumText:"پریمیم اسباق اور اضافی سوالات مستقبل میں دستیاب ہوں گے۔",
-premiumNote:"اس ڈیمو میں آن لائن ادائیگی فعال نہیں ہے۔",question:"سوال",of:"میں سے",answered:"جواب دیے",score:"اسکور",
-chooseAnswer:"ایک جواب منتخب کریں۔",confirmSubmit:"کیا ابھی امتحان جمع کرنا ہے؟",timeUp:"وقت ختم! آپ کا امتحان جمع کیا جائے گا۔",
-perQuestionUp:"اس سوال کا وقت ختم ہو گیا۔",correct:"درست",incorrect:"غلط",unanswered:"جواب نہیں دیا",
-yourAnswer:"آپ کا جواب",correctAnswer:"درست جواب",explanation:"وضاحت",resultMsg:"آپ نے کوئز مکمل کر لیا ہے۔",
-noAnswer:"کوئی جواب منتخب نہیں",marked:"نظرثانی کے لیے نشان زد",reviewMode:"جوابات دیکھیں اور تیار ہونے پر جمع کریں۔",
-restartMsg:"دوسرا کوئز شروع کرنے کے لیے جماعت منتخب کریں۔"
-}
+"use strict";
+const questionBankUrl = "https://raw.githubusercontent.com/tgmsssc-web/sneha-edu/refs/heads/main/EduSeva_SSC_Class10_Social_Chapter1_QuestionBank_50.json";
+let allQuestions = [], quizQuestions = [], answers = [], reviewFlags = [], currentIndex = 0;
+let startedAt = 0, elapsedSeconds = 0, timerInterval = null, submitted = false, reviewMode = false;
+const $ = id => document.getElementById(id);
+const translations = {
+ en:{welcomeTitle:"Welcome to Sneha Edu Quiz",welcomeText:"Choose your class and quiz settings to begin. Your current question bank contains Class 10 Social Studies, Chapter 1: India – Relief Features.",classLabel:"Class",subjectLabel:"Subject",modeLabel:"Quiz mode",countLabel:"Questions per round",startBtn:"Start Quiz",timerLabel:"Time",reviewBtn:"☆ Mark for Review",reviewedBtn:"★ Marked for Review",prevBtn:"← Back",nextBtn:"Next →",submitBtn:"Submit Test",navigatorTitle:"Question Navigator",navigatorHelp:"Green = answered • Yellow = marked for review • Blue outline = current question",reviewAnswersBtn:"Review Answers",retryBtn:"Try Again",homeBtn:"Back to Setup",scoreText:"Score",percentText:"Percentage",timeText:"Time taken",resultTitle:"Your Results",all:"All available (50)",practice:"Practice (instant feedback)",exam:"Exam (feedback at end)",answered:"Answered",question:"Question",correct:"Correct!",incorrect:"Not quite.",answer:"Correct answer",explanation:"Explanation",timeUp:"Time is up. Your quiz will be submitted.",loading:"Loading question bank…",loadError:"Could not load the question bank. Check your internet connection and confirm the JSON file name in GitHub.",onlyClass10:"Currently, only the Class 10 Social Studies Chapter 1 question bank is connected.",questions:"questions"},
+ te:{welcomeTitle:"స్నేహ ఎడ్యూ క్విజ్‌కు స్వాగతం",welcomeText:"ప్రారంభించడానికి తరగతి, క్విజ్ సెట్టింగ్స్ ఎంచుకోండి. ప్రస్తుతం 10వ తరగతి సామాజిక శాస్త్రం, అధ్యాయం 1 ప్రశ్నల బ్యాంక్ అందుబాటులో ఉంది.",classLabel:"తరగతి",subjectLabel:"విషయం",modeLabel:"క్విజ్ విధానం",countLabel:"ప్రశ్నల సంఖ్య",startBtn:"క్విజ్ ప్రారంభించండి",timerLabel:"సమయం",reviewBtn:"☆ తర్వాత చూడాలి",reviewedBtn:"★ సమీక్షకు గుర్తించారు",prevBtn:"← వెనుకకు",nextBtn:"తర్వాత →",submitBtn:"పరీక్ష సమర్పించండి",navigatorTitle:"ప్రశ్నల జాబితా",navigatorHelp:"ఆకుపచ్చ = సమాధానం ఇచ్చారు • పసుపు = సమీక్ష • నీలి అంచు = ప్రస్తుత ప్రశ్న",reviewAnswersBtn:"సమాధానాలు చూడండి",retryBtn:"మళ్లీ ప్రయత్నించండి",homeBtn:"సెట్టింగ్స్‌కు తిరిగి",scoreText:"స్కోరు",percentText:"శాతం",timeText:"పట్టిన సమయం",resultTitle:"మీ ఫలితాలు",all:"అందుబాటులో ఉన్నవి (50)",practice:"ప్రాక్టీస్ (వెంటనే వివరణ)",exam:"పరీక్ష (చివరలో వివరణ)",answered:"సమాధానాలు",question:"ప్రశ్న",correct:"సరైన సమాధానం!",incorrect:"సమాధానం సరైనది కాదు.",answer:"సరైన సమాధానం",explanation:"వివరణ",timeUp:"సమయం ముగిసింది. పరీక్ష సమర్పించబడుతుంది.",loading:"ప్రశ్నల బ్యాంక్ లోడ్ అవుతోంది…",loadError:"ప్రశ్నల బ్యాంక్ లోడ్ కాలేదు. ఇంటర్నెట్, GitHub ఫైల్ పేరును తనిఖీ చేయండి.",onlyClass10:"ప్రస్తుతం 10వ తరగతి సామాజిక శాస్త్రం అధ్యాయం 1 మాత్రమే అందుబాటులో ఉంది.",questions:"ప్రశ్నలు"},
+ ur:{welcomeTitle:"سنیہا ایڈو کوئز میں خوش آمدید",welcomeText:"شروع کرنے کے لیے جماعت اور کوئز کی ترتیبات منتخب کریں۔ فی الحال جماعت دہم سماجی علوم، باب 1 کا سوال بینک دستیاب ہے۔",classLabel:"جماعت",subjectLabel:"مضمون",modeLabel:"کوئز موڈ",countLabel:"سوالات کی تعداد",startBtn:"کوئز شروع کریں",timerLabel:"وقت",reviewBtn:"☆ نظرثانی کے لیے نشان",reviewedBtn:"★ نظرثانی کے لیے نشان زد",prevBtn:"← واپس",nextBtn:"اگلا →",submitBtn:"ٹیسٹ جمع کریں",navigatorTitle:"سوالات کی فہرست",navigatorHelp:"سبز = جواب دیا • پیلا = نظرثانی • نیلا کنارہ = موجودہ سوال",reviewAnswersBtn:"جوابات دیکھیں",retryBtn:"دوبارہ کوشش کریں",homeBtn:"ترتیبات پر واپس",scoreText:"اسکور",percentText:"فیصد",timeText:"صرف شدہ وقت",resultTitle:"آپ کے نتائج",all:"تمام دستیاب (50)",practice:"پریکٹس (فوری وضاحت)",exam:"امتحان (آخر میں وضاحت)",answered:"جواب دیے",question:"سوال",correct:"درست!",incorrect:"درست نہیں۔",answer:"درست جواب",explanation:"وضاحت",timeUp:"وقت ختم۔ ٹیسٹ جمع کیا جا رہا ہے۔",loading:"سوالات لوڈ ہو رہے ہیں…",loadError:"سوالات لوڈ نہیں ہو سکے۔ انٹرنیٹ اور GitHub فائل کا نام چیک کریں۔",onlyClass10:"فی الحال صرف جماعت دہم سماجی علوم باب 1 دستیاب ہے۔",questions:"سوالات"}
 };
-
-
-let questions = [];
-let lang=localStorage.getItem("snehaLang")||"en";
-let chosenClass=6,index=0,answers={},marked={},reviewOnly=false,submitted=false;
-let questionSeconds=0,questionRemaining=0,examRemaining=0,examTimerId=null,questionTimerId=null;
-let mode="practice";
-const questionBankUrl = "https://raw.githubusercontent.com/tgmsssc-web/sneha-edu/refs/heads/main/EduSeva_SSC_Class10_Social_Chapter1_QuestionBank.json";
-
-async function loadQuestionBank() {
-  try {
-    const response = await fetch(questionBankUrl);
-    if (!response.ok) throw new Error("Question bank could not load");
-
-    const data = await response.json();
-
-    questions = data.questions.map(item => ({
-      q: {
-        en: item.question,
-        te: item.question,
-        ur: item.question
-      },
-      o: ["A", "B", "C", "D"].map(key => ({
-        en: item.options[key],
-        te: item.options[key],
-        ur: item.options[key]
-      })),
-      a: ["A", "B", "C", "D"].indexOf(item.correct_answer),
-      e: {
-        en: item.explanation || "",
-        te: item.explanation || "",
-        ur: item.explanation || ""
-      }
-    }));
-
-    return true;
-  } catch (error) {
-    alert("Question bank could not load. Please check your internet connection.");
-    return false;
-  }
+function t(key){return (translations[$("language").value]||translations.en)[key]||translations.en[key]||key}
+function changeLanguage(){
+ const lang=$("language").value;document.documentElement.lang=lang;$("welcomeTitle").textContent=t("welcomeTitle");$("welcomeText").textContent=t("welcomeText");
+ ["classLabel","subjectLabel","modeLabel","countLabel","startBtn","timerLabel","navigatorTitle","navigatorHelp","reviewAnswersBtn","retryBtn","homeBtn","scoreText","percentText","timeText","resultTitle"].forEach(id=>{if($(id))$(id).textContent=t(id)});
+ $("reviewBtn").textContent=reviewFlags[currentIndex]?t("reviewedBtn"):t("reviewBtn");$("prevBtn").textContent=t("prevBtn");$("nextBtn").textContent=t("nextBtn");$("submitBtn").textContent=t("submitBtn");
+ const mode=$("modeSelect");mode.options[0].text=t("practice");mode.options[1].text=t("exam");$("countSelect").options[2].text=t("all");
+ if(!submitted && !$("quizCard").classList.contains("hidden"))renderQuestion();
 }
-function tr(key){return (words[lang]&&words[lang][key])||words.en[key]||key}
-function qtext(item){return item[lang]||item.en}
-function changeLanguage(value){
- lang=value;localStorage.setItem("snehaLang",lang);
- document.documentElement.lang=lang;document.documentElement.dir=lang==="ur"?"rtl":"ltr";
- applyLanguage();
- if(!document.getElementById("quiz").classList.contains("hidden")&&!submitted)renderQuestion();
- if(submitted)renderResults();
-}
-function applyLanguage(){
- const ids={
- tagline:"tagline",languageLabel:"languageLabel",languageHint:"languageHint",
- welcomeTitle:"welcomeTitle",welcomeText:"welcomeText",chooseClass:"chooseClass",
- modeTitle:"modeTitle",modeLabel:"modeLabel",questionTimerLabel:"questionTimerLabel",
- examTimerLabel:"examTimerLabel",startButton:"start",demoNotice:"demoNotice",
- premiumTitle:"premiumTitle",premiumText:"premiumText",premiumNote:"premiumNote",
- navigatorTitle:"navigatorTitle",navigatorHint:"navigatorHint",reviewButton:"review",
- submitButton:"submit",resultTitle:"resultTitle",restartButton:"restart"
- };
- Object.keys(ids).forEach(id=>{let el=document.getElementById(id);if(el)el.textContent=tr(ids[id])});
- document.getElementById("language").value=lang;
- document.querySelector('#mode option[value="practice"]').textContent=tr("practice");
- document.querySelector('#mode option[value="exam"]').textContent=tr("exam");
- const qt=document.getElementById("questionTimer");
- qt.options[0].textContent=tr("off");qt.options[1].textContent=tr("seconds30");
- qt.options[2].textContent=tr("seconds45");qt.options[3].textContent=tr("seconds60");
- const et=document.getElementById("examMinutes");
- et.options[0].textContent=tr("minutes30");et.options[1].textContent=tr("minutes20");
- et.options[2].textContent=tr("minutes45");et.options[3].textContent=tr("minutes60");
- updateClassButtons();
-}
-function chooseClass(n){
- chosenClass=n;updateClassButtons();
-}
-function updateClassButtons(){
- document.querySelectorAll(".class-btn").forEach((b,i)=>{
- b.classList.toggle("active",i+6===chosenClass);
- b.setAttribute("aria-pressed",i+6===chosenClass?"true":"false");
+function showInstructions(){$("instructions").classList.toggle("hidden")}
+async function loadQuestionBank(){
+ const response=await fetch(questionBankUrl,{cache:"no-store"});if(!response.ok)throw new Error("HTTP "+response.status);
+ const data=await response.json();const raw=Array.isArray(data)?data:data.questions;
+ if(!Array.isArray(raw)||raw.length===0)throw new Error("No questions array");
+ return raw.map((item,i)=>{
+   const options=item.options||item.o||{};
+   const answer=item.correct_answer??item.answer??item.a;
+   let correctIndex=typeof answer==="number"?answer:["A","B","C","D"].indexOf(String(answer).toUpperCase());
+   if(correctIndex<0||correctIndex>3)correctIndex=0;
+   const optionList=Array.isArray(options)?options:["A","B","C","D"].map(k=>options[k]??options[k.toLowerCase()]??"");
+   return {id:item.id||i+1,q:item.question||item.q||("Question "+(i+1)),o:optionList,a:correctIndex,e:item.explanation||item.e||"",category:item.source_category||item.category||"Practice",raw:item};
  });
 }
 async function startQuiz(){
- clearTimers();index=0;answers={};marked={};reviewOnly=false;submitted=false;
- const loaded = await loadQuestionBank();
-if (!loaded) return;
- mode=document.getElementById("mode").value;
- questionSeconds=mode==="practice"?Number(document.getElementById("questionTimer").value):0;
- if(document.getElementById("questionTimer").value==="off")questionSeconds=0;
- examRemaining=Number(document.getElementById("examMinutes").value)*60;
- document.getElementById("home").classList.add("hidden");
- document.getElementById("results").classList.add("hidden");
- document.getElementById("quiz").classList.remove("hidden");
- document.getElementById("quizHeading").textContent="Class "+chosenClass+" • "+tr(mode);
- if(mode==="exam"){
- questionSeconds=Number(document.getElementById("questionTimer").value)||0;
- startExamTimer();
- }
- renderQuestion();
- window.scrollTo(0,0);
+ if($("classSelect").value!=="10"){alert(t("onlyClass10"));return}
+ $("startBtn").disabled=true;$("startBtn").textContent=t("loading");
+ try{allQuestions=await loadQuestionBank()}catch(e){console.error(e);alert(t("loadError"));$("startBtn").disabled=false;$("startBtn").textContent=t("startBtn");return}
+ let count=$("countSelect").value==="all"?allQuestions.length:Math.min(Number($("countSelect").value),allQuestions.length);
+ quizQuestions=allQuestions.slice(0,count);answers=Array(quizQuestions.length).fill(null);reviewFlags=Array(quizQuestions.length).fill(false);currentIndex=0;submitted=false;reviewMode=false;elapsedSeconds=0;startedAt=Date.now();
+ $("setupCard").classList.add("hidden");$("resultCard").classList.add("hidden");$("quizCard").classList.remove("hidden");
+ clearInterval(timerInterval);timerInterval=setInterval(updateTimer,1000);updateTimer();renderQuestion();
+ $("startBtn").disabled=false;$("startBtn").textContent=t("startBtn");
 }
-function clearTimers(){
- if(examTimerId)clearInterval(examTimerId);
- if(questionTimerId)clearInterval(questionTimerId);
- examTimerId=null;questionTimerId=null;
-}
-function startExamTimer(){
- updateTimerDisplay();
- examTimerId=setInterval(()=>{
- examRemaining--;updateTimerDisplay();
- if(examRemaining<=0){clearTimers();alert(tr("timeUp"));finishQuiz();}
- },1000);
-}
-function startQuestionTimer(){
- if(questionTimerId)clearInterval(questionTimerId);
- questionRemaining=questionSeconds;
- if(!questionSeconds){updateTimerDisplay();return}
- updateTimerDisplay();
- questionTimerId=setInterval(()=>{
- questionRemaining--;updateTimerDisplay();
- if(questionRemaining<=0){
- clearInterval(questionTimerId);questionTimerId=null;
- if(mode==="practice"){
- alert(tr("perQuestionUp"));
- if(index<questions.length-1){index++;renderQuestion()}else{reviewOnly=true;renderQuestion()}
- }else{
- if(index<questions.length-1){index++;renderQuestion()}else{reviewOnly=true;renderQuestion()}
- }
- }
- },1000);
-}
-function updateTimerDisplay(){
- let parts=[];
- if(mode==="exam"){
- let m=Math.floor(examRemaining/60),s=examRemaining%60;
- parts.push("⏳ "+m+":"+String(s).padStart(2,"0"));
- }
- if(questionSeconds>0&&!submitted&&!reviewOnly){
- parts.push("⏱ "+questionRemaining+"s");
- }
- document.getElementById("timerDisplay").textContent=parts.join(" | ");
-}
+function updateTimer(){if(submitted)return;elapsedSeconds=Math.floor((Date.now()-startedAt)/1000);$("timer").textContent=formatTime(elapsedSeconds)}
+function formatTime(sec){return String(Math.floor(sec/60)).padStart(2,"0")+":"+String(sec%60).padStart(2,"0")}
 function renderQuestion(){
- if(submitted)return;
- if(questionTimerId){clearInterval(questionTimerId);questionTimerId=null}
- const item=questions[index];
- document.getElementById("questionCount").textContent=tr("question")+" "+(index+1)+" "+tr("of")+" "+questions.length;
- document.getElementById("scoreLive").textContent=tr("answered")+": "+Object.keys(answers).length+"/"+questions.length;
- document.getElementById("questionText").textContent=qtext(item.q);
- document.getElementById("progressBar").style.width=((index+1)/questions.length*100)+"%";
- const box=document.getElementById("options");box.innerHTML="";
- item.o.forEach((opt,i)=>{
- const b=document.createElement("button");b.className="option";
- b.textContent=String.fromCharCode(65+i)+". "+qtext(opt);
- if(answers[index]===i)b.classList.add("selected");
- if(reviewOnly){
- b.disabled=true;
- if(i===item.a)b.classList.add("correct");
- else if(answers[index]===i)b.classList.add("wrong");
- }
- b.onclick=()=>selectAnswer(i);box.appendChild(b);
+ if(!quizQuestions.length)return;const item=quizQuestions[currentIndex];const mode=$("modeSelect").value;
+ $("questionCounter").textContent=t("question")+" "+(currentIndex+1)+" / "+quizQuestions.length;
+ $("scoreLive").textContent=t("answered")+": "+answers.filter(a=>a!==null).length;
+ $("progressBar").style.width=((currentIndex+1)/quizQuestions.length*100)+"%";
+ $("categoryPill").textContent=String(item.category).replaceAll("_"," ");
+ $("questionText").textContent=item.q;
+ $("options").innerHTML="";
+ item.o.forEach((option,index)=>{
+  const label=document.createElement("label");label.className="option"+(answers[currentIndex]===index?" selected":"");
+  const radio=document.createElement("input");radio.type="radio";radio.name="answer";radio.checked=answers[currentIndex]===index;radio.disabled=submitted||reviewMode;
+  radio.addEventListener("change",()=>chooseAnswer(index));
+  const letter=document.createElement("span");letter.className="option-letter";letter.textContent=String.fromCharCode(65+index)+")";
+  const text=document.createElement("span");text.textContent=option;
+  label.append(radio,letter,text);$("options").appendChild(label);
  });
- const exp=document.getElementById("explanation");
- exp.classList.toggle("hidden",!reviewOnly);
- exp.textContent=reviewOnly?(tr("explanation")+": "+qtext(item.e)):"";
- document.getElementById("backButton").disabled=index===0;
- document.getElementById("nextButton").textContent=index===questions.length-1?tr("review"):tr("next");
- document.getElementById("markButton").textContent=marked[index]?tr("unmark"):tr("mark");
- document.getElementById("markButton").disabled=reviewOnly;
- document.getElementById("submitButton").disabled=reviewOnly;
- renderNavigator();updateTimerDisplay();
- if(!reviewOnly&&questionSeconds>0)startQuestionTimer();
+ $("reviewBtn").textContent=reviewFlags[currentIndex]?t("reviewedBtn"):t("reviewBtn");
+ $("prevBtn").disabled=currentIndex===0;$("nextBtn").disabled=currentIndex===quizQuestions.length-1;
+ $("submitBtn").classList.toggle("hidden",submitted||reviewMode);
+ renderFeedback();renderNavigator();
 }
-function selectAnswer(i){
- if(reviewOnly||submitted)return;
- answers[index]=i;renderQuestion();
+function chooseAnswer(index){if(submitted||reviewMode)return;answers[currentIndex]=index;renderQuestion()}
+function renderFeedback(){
+ const box=$("feedback"),item=quizQuestions[currentIndex];box.className="feedback hidden";box.innerHTML="";
+ const show= submitted || ($("modeSelect").value==="practice"&&answers[currentIndex]!==null);
+ if(!show)return;
+ const isCorrect=answers[currentIndex]===item.a;box.className="feedback "+(isCorrect?"correct":"incorrect");
+ const title=document.createElement("strong");title.textContent=(isCorrect?t("correct"):t("incorrect"))+" "+t("answer")+": "+String.fromCharCode(65+item.a);
+ const exp=document.createElement("p");exp.style.margin="7px 0 0";exp.textContent=t("explanation")+": "+(item.e||"—");box.append(title,exp);
 }
-function goBack(){if(index>0){index--;renderQuestion()}}
-function goNext(){
- if(index<questions.length-1){index++;renderQuestion()}
- else if(!reviewOnly){reviewAnswers()}
- else{finishQuiz()}
-}
-function toggleMark(){
- if(reviewOnly)return;
- marked[index]=!marked[index];renderQuestion();
-}
+function moveQuestion(delta){if(submitted&&!reviewMode)return;currentIndex=Math.max(0,Math.min(quizQuestions.length-1,currentIndex+delta));renderQuestion()}
+function toggleReview(){if(submitted||reviewMode)return;reviewFlags[currentIndex]=!reviewFlags[currentIndex];renderQuestion()}
 function renderNavigator(){
- const nav=document.getElementById("navigator");nav.innerHTML="";
- questions.forEach((q,i)=>{
- const b=document.createElement("button");b.className="nav-number";
- if(i===index)b.classList.add("current");
- if(answers[i]!==undefined)b.classList.add("answered");
- if(marked[i])b.classList.add("marked");
- b.textContent=i+1;b.setAttribute("aria-label",tr("question")+" "+(i+1));
- b.onclick=()=>{index=i;renderQuestion()};nav.appendChild(b);
- });
+ const nav=$("navigator");nav.innerHTML="";
+ quizQuestions.forEach((_,i)=>{const b=document.createElement("button");b.className="navq"+(i===currentIndex?" current":"")+(answers[i]!==null?" answered":"")+(reviewFlags[i]?" review":"");b.textContent=i+1;b.title=(answers[i]!==null?"Answered":"Not answered")+(reviewFlags[i]?" • Marked for review":"");b.disabled=false;b.onclick=()=>{currentIndex=i;renderQuestion()};nav.appendChild(b)});
+}
+function submitQuiz(){
+ if(submitted)return;const unanswered=answers.filter(a=>a===null).length;
+ if(unanswered&&!confirm("You have "+unanswered+" unanswered question(s). Submit anyway?"))return;
+ submitted=true;clearInterval(timerInterval);elapsedSeconds=Math.floor((Date.now()-startedAt)/1000);$("timer").textContent=formatTime(elapsedSeconds);
+ const score=quizQuestions.reduce((n,q,i)=>n+(answers[i]===q.a?1:0),0),percent=Math.round(score/quizQuestions.length*100);
+ $("quizCard").classList.add("hidden");$("resultCard").classList.remove("hidden");$("resultMessage").textContent="You completed "+quizQuestions.length+" question(s).";
+ $("scoreStat").textContent=score+"/"+quizQuestions.length;$("percentStat").textContent=percent+"%";$("timeStat").textContent=formatTime(elapsedSeconds);
+ $("answerReview").classList.add("hidden");$("answerReview").innerHTML="";
 }
 function reviewAnswers(){
- reviewOnly=true;
- if(questionTimerId){clearInterval(questionTimerId);questionTimerId=null}
- renderQuestion();
- document.getElementById("reviewButton").textContent=tr("submit");
- document.getElementById("reviewButton").onclick=()=>submitQuiz(false);
- document.getElementById("submitButton").disabled=false;
- document.getElementById("submitButton").textContent=tr("submit");
- document.getElementById("nextButton").textContent=tr("next");
+ reviewMode=true;currentIndex=0;$("resultCard").classList.add("hidden");$("quizCard").classList.remove("hidden");$("submitBtn").classList.add("hidden");$("reviewBtn").disabled=true;
+ $("prevBtn").disabled=false;$("nextBtn").disabled=false;renderQuestion();
 }
-function submitQuiz(auto){
- if(submitted)return;
- if(!auto&&!confirm(tr("confirmSubmit")))return;
- finishQuiz();
-}
-function finishQuiz(){
- clearTimers();submitted=true;reviewOnly=true;
- document.getElementById("quiz").classList.add("hidden");
- document.getElementById("results").classList.remove("hidden");
- renderResults();window.scrollTo(0,0);
-}
-function renderResults(){
- let score=0;
- questions.forEach((q,i)=>{if(answers[i]===q.a)score++});
- document.getElementById("resultTitle").textContent=tr("resultTitle");
- document.getElementById("finalScore").textContent=tr("score")+": "+score+" / "+questions.length+" ("+Math.round(score/questions.length*100)+"%)";
- document.getElementById("resultMessage").textContent=tr("resultMsg")+" "+tr("answered")+": "+Object.keys(answers).length+"/"+questions.length;
- const review=document.getElementById("answerReview");review.innerHTML="";
- questions.forEach((q,i)=>{
- const card=document.createElement("div");card.className="card";
- const title=document.createElement("h3");title.textContent=(i+1)+". "+qtext(q.q);card.appendChild(title);
- const your=document.createElement("p");
- your.textContent=tr("yourAnswer")+": "+(answers[i]===undefined?tr("noAnswer"):String.fromCharCode(65+answers[i])+". "+qtext(q.o[answers[i]]));
- card.appendChild(your);
- const correct=document.createElement("p");correct.textContent=tr("correctAnswer")+": "+String.fromCharCode(65+q.a)+". "+qtext(q.o[q.a]);card.appendChild(correct);
- const status=document.createElement("strong");status.textContent=answers[i]===q.a?tr("correct"):answers[i]===undefined?tr("unanswered"):tr("incorrect");
- status.style.color=answers[i]===q.a?"#16804a":"#b42318";card.appendChild(status);
- const explain=document.createElement("p");explain.textContent=tr("explanation")+": "+qtext(q.e);card.appendChild(explain);
- if(marked[i]){const m=document.createElement("p");m.textContent="🔖 "+tr("marked");card.appendChild(m)}
- review.appendChild(card);
- });
-}
-function backHome(){
- clearTimers();submitted=false;reviewOnly=false;
- document.getElementById("results").classList.add("hidden");
- document.getElementById("quiz").classList.add("hidden");
- document.getElementById("home").classList.remove("hidden");
- document.getElementById("reviewButton").onclick=reviewAnswers;
- document.getElementById("reviewButton").textContent=tr("review");
- document.getElementById("submitButton").textContent=tr("submit");
- window.scrollTo(0,0);
-}
-changeLanguage(lang);
+function restartQuiz(){backToSetup()}
+function backToSetup(){clearInterval(timerInterval);submitted=false;reviewMode=false;$("quizCard").classList.add("hidden");$("resultCard").classList.add("hidden");$("setupCard").classList.remove("hidden");$("reviewBtn").disabled=false}
+$("year").textContent=new Date().getFullYear();
+changeLanguage();
 </script>
 </body>
 </html>
