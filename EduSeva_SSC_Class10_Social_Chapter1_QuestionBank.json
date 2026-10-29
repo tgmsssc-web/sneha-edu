@@ -1,0 +1,4125 @@
+{
+  "metadata": {
+    "title": "EduSeva – SSC Class 10 Social Studies",
+    "chapter": "India – Relief Features",
+    "chapter_number": 1,
+    "class": 10,
+    "subject": "Social Studies",
+    "default_language": "en",
+    "curriculum_alignment": "Telangana SCERT-oriented",
+    "total_questions_in_source": 216,
+    "valid_mcqs_exported": 216,
+    "notes": [
+      "Converted from the project's own EduSeva question-bank document.",
+      "The source document labels some questions as PYQ/PYQ-derived and others as textbook, Abhyasa Deepika, exam-pattern, or model questions.",
+      "Explanations are blank because the source document provides an answer key but not individual explanations; add and verify explanations before publishing.",
+      "Review the question wording and answer key before public release."
+    ]
+  },
+  "questions": [
+    {
+      "id": "TG10-SS-CH01-001",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 1,
+      "question": "Which longitude is used as the Standard Meridian of India?",
+      "options": {
+        "A": "82°30′ E",
+        "B": "82°30′ W",
+        "C": "23°30′ E",
+        "D": "68°7′ E"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-002",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 2,
+      "question": "Indian Standard Time is based on which longitude?",
+      "options": {
+        "A": "82°30′ E",
+        "B": "75° E",
+        "C": "90° E",
+        "D": "0°"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-003",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 3,
+      "question": "India lies mainly in which hemisphere?",
+      "options": {
+        "A": "Southern",
+        "B": "Northern",
+        "C": "Western",
+        "D": "Polar"
+      },
+      "correct_answer": "B",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-004",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 4,
+      "question": "The ancient southern landmass from which Peninsular India originated is associated with",
+      "options": {
+        "A": "Gondwana",
+        "B": "Laurasia",
+        "C": "Tethys",
+        "D": "Angara only"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-005",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 5,
+      "question": "The Himalayas are mainly what type of mountains?",
+      "options": {
+        "A": "Block mountains",
+        "B": "Young fold mountains",
+        "C": "Volcanic mountains",
+        "D": "Residual mountains"
+      },
+      "correct_answer": "B",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-006",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 6,
+      "question": "Himadri is another name for",
+      "options": {
+        "A": "Greater Himalayas",
+        "B": "Lesser Himalayas",
+        "C": "Shivaliks",
+        "D": "Purvanchal"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-007",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 7,
+      "question": "Which is the southernmost range of the Himalayas?",
+      "options": {
+        "A": "Himadri",
+        "B": "Himachal",
+        "C": "Shivalik",
+        "D": "Karakoram"
+      },
+      "correct_answer": "C",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-008",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 8,
+      "question": "The Lesser Himalayas are also called",
+      "options": {
+        "A": "Himachal",
+        "B": "Himadri",
+        "C": "Shivalik",
+        "D": "Trans-Himalaya"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-009",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 9,
+      "question": "Shimla, Mussoorie and Nainital are associated mainly with",
+      "options": {
+        "A": "Greater Himalayas",
+        "B": "Lesser Himalayas",
+        "C": "Shivaliks",
+        "D": "Aravallis"
+      },
+      "correct_answer": "B",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-010",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 10,
+      "question": "The Outer Himalayas are known as",
+      "options": {
+        "A": "Shivaliks",
+        "B": "Himadri",
+        "C": "Himachal",
+        "D": "Purvanchal"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-011",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 11,
+      "question": "The Indo-Gangetic Plains lie mainly between",
+      "options": {
+        "A": "Himalayas and Peninsular Plateau",
+        "B": "Western and Eastern Ghats",
+        "C": "Aravallis and Thar",
+        "D": "Coast and islands"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-012",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 12,
+      "question": "The Northern Plains were largely formed by",
+      "options": {
+        "A": "River deposits",
+        "B": "Volcanic lava",
+        "C": "Wind erosion",
+        "D": "Glacial ice only"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-013",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 13,
+      "question": "Which set contains the three major river systems associated with the Northern Plains?",
+      "options": {
+        "A": "Indus, Ganga, Brahmaputra",
+        "B": "Narmada, Tapi, Mahi",
+        "C": "Godavari, Krishna, Cauvery",
+        "D": "Luni, Sabarmati, Mahi"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-014",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 14,
+      "question": "The high population density of the Northern Plains is strongly related to",
+      "options": {
+        "A": "Fertile alluvial soil and level land",
+        "B": "Very steep slopes",
+        "C": "Sparse water",
+        "D": "Desert climate"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-015",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 15,
+      "question": "Bhabar is found mainly",
+      "options": {
+        "A": "Along the Himalayan foothills",
+        "B": "In the coastal delta",
+        "C": "In the Thar Desert",
+        "D": "On islands"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-016",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 16,
+      "question": "The marshy belt south of the Bhabar is called",
+      "options": {
+        "A": "Terai",
+        "B": "Bhangar",
+        "C": "Khadar",
+        "D": "Doab"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-017",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 17,
+      "question": "A valley lying between Himalayan ranges is called a",
+      "options": {
+        "A": "Dun",
+        "B": "Doab",
+        "C": "Delta",
+        "D": "Estuary"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-018",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 18,
+      "question": "Dehradun is an example of a",
+      "options": {
+        "A": "Dun",
+        "B": "Doab",
+        "C": "Delta",
+        "D": "Coastal plain"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-019",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 19,
+      "question": "The Peninsular Plateau is mainly composed of",
+      "options": {
+        "A": "Ancient crystalline rocks",
+        "B": "Recent alluvium",
+        "C": "Loose sand",
+        "D": "Coral deposits"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-020",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 20,
+      "question": "The Peninsular Plateau is one of India's",
+      "options": {
+        "A": "Oldest landforms",
+        "B": "Youngest landforms",
+        "C": "Recent coastal deposits",
+        "D": "River islands"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-021",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 21,
+      "question": "The Deccan Plateau generally slopes towards the",
+      "options": {
+        "A": "East",
+        "B": "West",
+        "C": "North only",
+        "D": "South-west only"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-022",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 22,
+      "question": "Which pair contains major west-flowing peninsular rivers?",
+      "options": {
+        "A": "Narmada and Tapi",
+        "B": "Godavari and Krishna",
+        "C": "Mahanadi and Cauvery",
+        "D": "Ganga and Yamuna"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-023",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 23,
+      "question": "Godavari and Krishna generally flow towards the",
+      "options": {
+        "A": "Bay of Bengal",
+        "B": "Arabian Sea",
+        "C": "Indian Ocean westward",
+        "D": "Rann of Kutch"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-024",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 24,
+      "question": "The Western Ghats form the western edge of the",
+      "options": {
+        "A": "Peninsular Plateau",
+        "B": "Northern Plains",
+        "C": "Himalayas",
+        "D": "Thar Desert"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-025",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 25,
+      "question": "Compared with the Eastern Ghats, the Western Ghats are generally",
+      "options": {
+        "A": "Higher and more continuous",
+        "B": "Lower and more continuous",
+        "C": "Lower and more broken",
+        "D": "Younger fold mountains"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-026",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 26,
+      "question": "The Eastern Ghats are generally",
+      "options": {
+        "A": "Discontinuous",
+        "B": "Continuous from Gujarat to Kerala",
+        "C": "Volcanic islands",
+        "D": "Part of the Himalayas"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-027",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 27,
+      "question": "Large river deltas are more characteristic of the",
+      "options": {
+        "A": "Eastern coast",
+        "B": "Western coast",
+        "C": "Lakshadweep",
+        "D": "Thar Desert"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-028",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 28,
+      "question": "The Eastern Coastal Plain is generally",
+      "options": {
+        "A": "Wider than the Western Coastal Plain",
+        "B": "Narrower than the Western coast",
+        "C": "A Himalayan valley",
+        "D": "A desert belt"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-029",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 29,
+      "question": "The Arabian Sea lies to the ____ of India.",
+      "options": {
+        "A": "West",
+        "B": "East",
+        "C": "North",
+        "D": "South-east"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-030",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 30,
+      "question": "The Bay of Bengal lies to the ____ of India.",
+      "options": {
+        "A": "East",
+        "B": "West",
+        "C": "North",
+        "D": "South-west"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-031",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 31,
+      "question": "Lakshadweep islands are located in the",
+      "options": {
+        "A": "Arabian Sea",
+        "B": "Bay of Bengal",
+        "C": "Red Sea",
+        "D": "Mediterranean Sea"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-032",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 32,
+      "question": "Andaman and Nicobar Islands are located in the",
+      "options": {
+        "A": "Bay of Bengal",
+        "B": "Arabian Sea",
+        "C": "Caspian Sea",
+        "D": "Red Sea"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-033",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 33,
+      "question": "Lakshadweep islands are mainly of",
+      "options": {
+        "A": "Coral origin",
+        "B": "Volcanic origin",
+        "C": "Glacial origin",
+        "D": "Alluvial origin"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-034",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 34,
+      "question": "Andaman and Nicobar Islands are associated with the",
+      "options": {
+        "A": "Bay of Bengal",
+        "B": "Arabian Sea",
+        "C": "Rann of Kutch",
+        "D": "Gulf of Khambhat"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-035",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 35,
+      "question": "The Thar Desert is mainly located in",
+      "options": {
+        "A": "Rajasthan",
+        "B": "Assam",
+        "C": "Kerala",
+        "D": "Odisha"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-036",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 36,
+      "question": "The Thar Desert lies largely on the leeward side of the",
+      "options": {
+        "A": "Aravallis",
+        "B": "Western Ghats",
+        "C": "Himalayas",
+        "D": "Eastern Ghats"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-037",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 37,
+      "question": "Which river flows through the Thar Desert region?",
+      "options": {
+        "A": "Luni",
+        "B": "Ganga",
+        "C": "Brahmaputra",
+        "D": "Godavari"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-038",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 38,
+      "question": "The Western Coastal Plain lies between",
+      "options": {
+        "A": "Western Ghats and Arabian Sea",
+        "B": "Eastern Ghats and Bay of Bengal",
+        "C": "Himalayas and plains",
+        "D": "Aravallis and Himalayas"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-039",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 39,
+      "question": "The Eastern Coastal Plain lies between",
+      "options": {
+        "A": "Eastern Ghats and Bay of Bengal",
+        "B": "Western Ghats and Arabian Sea",
+        "C": "Himalayas and plains",
+        "D": "Aravallis and desert"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-040",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 40,
+      "question": "The Konkan coast is mainly associated with",
+      "options": {
+        "A": "Maharashtra and Goa",
+        "B": "Kerala",
+        "C": "Odisha",
+        "D": "Tamil Nadu"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-041",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 41,
+      "question": "The Canara coast is associated mainly with",
+      "options": {
+        "A": "Karnataka",
+        "B": "Kerala",
+        "C": "Odisha",
+        "D": "Tamil Nadu"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-042",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 42,
+      "question": "The Malabar coast is mainly associated with",
+      "options": {
+        "A": "Kerala",
+        "B": "Maharashtra",
+        "C": "Odisha",
+        "D": "Gujarat"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-043",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 43,
+      "question": "The Coromandel coast is mainly associated with",
+      "options": {
+        "A": "Tamil Nadu",
+        "B": "Kerala",
+        "C": "Gujarat",
+        "D": "Goa"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-044",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 44,
+      "question": "The Circar coast is associated mainly with",
+      "options": {
+        "A": "Andhra Pradesh",
+        "B": "Kerala",
+        "C": "Maharashtra",
+        "D": "Gujarat"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-045",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 45,
+      "question": "The Utkal coast is associated with",
+      "options": {
+        "A": "Odisha",
+        "B": "Tamil Nadu",
+        "C": "Karnataka",
+        "D": "Goa"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-046",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 46,
+      "question": "Chilka Lake is located in",
+      "options": {
+        "A": "Odisha",
+        "B": "Kerala",
+        "C": "Tamil Nadu",
+        "D": "Gujarat"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-047",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 47,
+      "question": "The southernmost tip of the Indian mainland is",
+      "options": {
+        "A": "Kanyakumari",
+        "B": "Indira Point",
+        "C": "Rameswaram",
+        "D": "Kochi"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-048",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 48,
+      "question": "Indira Point is located in",
+      "options": {
+        "A": "Great Nicobar",
+        "B": "Lakshadweep",
+        "C": "Little Andaman",
+        "D": "Diu"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-049",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 49,
+      "question": "The major relief divisions include mountains, plains, plateaus, deserts, coasts and",
+      "options": {
+        "A": "Islands",
+        "B": "Glaciers only",
+        "C": "Volcanoes only",
+        "D": "Tundra"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-050",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 50,
+      "question": "Relief features influence climate, agriculture, transport and",
+      "options": {
+        "A": "Human settlements",
+        "B": "Only language",
+        "C": "Only elections",
+        "D": "Only trade laws"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-051",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 51,
+      "question": "The three parallel Himalayan ranges are",
+      "options": {
+        "A": "Himadri, Himachal, Shivalik",
+        "B": "Aravalli, Vindhya, Satpura",
+        "C": "Nilgiri, Anaimalai, Cardamom",
+        "D": "Eastern, Western, Aravalli"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-052",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 52,
+      "question": "The highest and most continuous Himalayan range is",
+      "options": {
+        "A": "Himadri",
+        "B": "Himachal",
+        "C": "Shivalik",
+        "D": "Purvanchal"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-053",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 53,
+      "question": "Glaciers are particularly important in the",
+      "options": {
+        "A": "Greater Himalayas",
+        "B": "Shivaliks",
+        "C": "Eastern Ghats",
+        "D": "Aravallis"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-054",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 54,
+      "question": "The Himalayan rivers are generally perennial because they are fed by",
+      "options": {
+        "A": "Snow/glaciers and rainfall",
+        "B": "Only desert springs",
+        "C": "Only tides",
+        "D": "Only groundwater"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-055",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 55,
+      "question": "A fertile tract between two rivers is called a",
+      "options": {
+        "A": "Doab",
+        "B": "Dun",
+        "C": "Bhabar",
+        "D": "Terai"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-056",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 56,
+      "question": "The Bhabar belt is characterized by",
+      "options": {
+        "A": "Porous gravel and pebble deposits",
+        "B": "Marshy swamps",
+        "C": "Deltaic clay",
+        "D": "Coral reefs"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-057",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 57,
+      "question": "The Terai is characterized by",
+      "options": {
+        "A": "Marshy and swampy conditions",
+        "B": "Dry sand dunes only",
+        "C": "Bare rock",
+        "D": "Coral islands"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-058",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 58,
+      "question": "The Chotanagpur Plateau is noted for",
+      "options": {
+        "A": "Mineral resources",
+        "B": "Coral reefs",
+        "C": "Tea plantations only",
+        "D": "Desert dunes"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-059",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 59,
+      "question": "Anaimudi/Anamudi is noted as the highest peak of",
+      "options": {
+        "A": "South India",
+        "B": "North India",
+        "C": "Eastern Himalayas",
+        "D": "Thar Desert"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-060",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 60,
+      "question": "The Nilgiris are part of the",
+      "options": {
+        "A": "Western Ghats system",
+        "B": "Himalayas",
+        "C": "Aravallis",
+        "D": "Purvanchal"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-061",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 61,
+      "question": "The Eastern Ghats are frequently cut across by",
+      "options": {
+        "A": "Peninsular rivers",
+        "B": "Glaciers",
+        "C": "Sea ice",
+        "D": "Desert winds only"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-062",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 62,
+      "question": "Narmada flows into the",
+      "options": {
+        "A": "Arabian Sea",
+        "B": "Bay of Bengal",
+        "C": "Indian Ocean eastward",
+        "D": "Chilka Lake"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-063",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 63,
+      "question": "Tapi flows into the",
+      "options": {
+        "A": "Arabian Sea",
+        "B": "Bay of Bengal",
+        "C": "Lake Chilka",
+        "D": "Ganga"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-064",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 64,
+      "question": "Godavari flows mainly into the",
+      "options": {
+        "A": "Bay of Bengal",
+        "B": "Arabian Sea",
+        "C": "Rann of Kutch",
+        "D": "Indus"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-065",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 65,
+      "question": "Krishna flows mainly into the",
+      "options": {
+        "A": "Bay of Bengal",
+        "B": "Arabian Sea",
+        "C": "Caspian Sea",
+        "D": "Rann of Kutch"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-066",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 66,
+      "question": "The Peninsular Plateau is generally",
+      "options": {
+        "A": "Broad and shallowly dissected by valleys",
+        "B": "A young fold mountain belt",
+        "C": "A marshland",
+        "D": "A delta"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-067",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 67,
+      "question": "The Northern Plains are especially suitable for agriculture because of",
+      "options": {
+        "A": "Fertile alluvial soils and water availability",
+        "B": "Very thin soils",
+        "C": "Extreme slopes",
+        "D": "Lack of rivers"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-068",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 68,
+      "question": "The Himalayas act as a climatic barrier against",
+      "options": {
+        "A": "Cold Central Asian winds",
+        "B": "Tropical sea breezes only",
+        "C": "Ocean tides",
+        "D": "Desert sand from Africa"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-069",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 69,
+      "question": "The Himalayas help generate and regulate",
+      "options": {
+        "A": "Monsoon rainfall",
+        "B": "Earthquakes only",
+        "C": "Tides",
+        "D": "Ocean salinity"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-070",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 70,
+      "question": "The Himalayas are located mainly along India's",
+      "options": {
+        "A": "Northern boundary",
+        "B": "Southern coast",
+        "C": "Western coast only",
+        "D": "Eastern islands"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-071",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 71,
+      "question": "Purvanchal refers to hill ranges in",
+      "options": {
+        "A": "North-eastern India",
+        "B": "Western Rajasthan",
+        "C": "Southern Tamil Nadu",
+        "D": "Gujarat coast"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-072",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 72,
+      "question": "The north-to-south sequence is broadly",
+      "options": {
+        "A": "Himalayas → Northern Plains → Peninsular Plateau",
+        "B": "Plateau → Himalayas → Plains",
+        "C": "Plains → Himalayas → Islands",
+        "D": "Desert → Himalayas → Coast"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-073",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 73,
+      "question": "The Deccan Plateau is part of the",
+      "options": {
+        "A": "Peninsular Plateau",
+        "B": "Northern Plains",
+        "C": "Himalayas",
+        "D": "Coastal Plain"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-074",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 74,
+      "question": "The Northern Plains are mainly a",
+      "options": {
+        "A": "Plain",
+        "B": "Plateau",
+        "C": "Mountain range",
+        "D": "Desert"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-075",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 75,
+      "question": "The Himalayas are a",
+      "options": {
+        "A": "Mountain system",
+        "B": "Plain",
+        "C": "Plateau",
+        "D": "Delta"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-076",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 76,
+      "question": "Lakshadweep and Andaman-Nicobar are India's major",
+      "options": {
+        "A": "Island groups",
+        "B": "Mountain groups",
+        "C": "Desert groups",
+        "D": "River basins"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-077",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 77,
+      "question": "Relief diversity contributes to India's varied",
+      "options": {
+        "A": "Physical environments and human activities",
+        "B": "Only political boundaries",
+        "C": "Only languages",
+        "D": "Only currencies"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-078",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 78,
+      "question": "Which is NOT a major physiographic division of India?",
+      "options": {
+        "A": "Arctic Plains",
+        "B": "Himalayas",
+        "C": "Peninsular Plateau",
+        "D": "Coastal Plains"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-079",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 79,
+      "question": "The Western Ghats run roughly parallel to the",
+      "options": {
+        "A": "Western coast",
+        "B": "Eastern coast only",
+        "C": "Himalayas",
+        "D": "Thar Desert"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-080",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 80,
+      "question": "The Eastern coast is broader partly because it has",
+      "options": {
+        "A": "Large river deltas",
+        "B": "High young mountains",
+        "C": "No rivers",
+        "D": "Glaciers"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-081",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 81,
+      "question": "The direction of Deccan Plateau slope is reflected by rivers such as",
+      "options": {
+        "A": "Godavari and Krishna",
+        "B": "Narmada and Tapi",
+        "C": "Indus and Jhelum",
+        "D": "Luni and Mahi"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-082",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 82,
+      "question": "Narmada flows through a",
+      "options": {
+        "A": "Rift valley",
+        "B": "Delta",
+        "C": "Dun",
+        "D": "Coral reef"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-083",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 83,
+      "question": "Peninsular India's mineral wealth is linked strongly to",
+      "options": {
+        "A": "Ancient rocks",
+        "B": "Recent alluvium only",
+        "C": "Coral deposits",
+        "D": "Sea sand"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-084",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 84,
+      "question": "The relief of a region can affect the pattern of",
+      "options": {
+        "A": "Settlements and transport",
+        "B": "Only rainfall measurement",
+        "C": "Only languages",
+        "D": "Only currency"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-085",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 85,
+      "question": "A major reason for fertile Northern Plains is",
+      "options": {
+        "A": "Alluvial deposition by rivers",
+        "B": "Volcanic ash everywhere",
+        "C": "Coral growth",
+        "D": "Wind erosion"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-086",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 86,
+      "question": "The islands in the Arabian Sea off Kerala are",
+      "options": {
+        "A": "Lakshadweep",
+        "B": "Andaman-Nicobar",
+        "C": "Nicobar",
+        "D": "Diu group"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-087",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 87,
+      "question": "Barren Island is associated with",
+      "options": {
+        "A": "Volcanic activity",
+        "B": "Coral atolls",
+        "C": "River deposition",
+        "D": "Glacial erosion"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-088",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 88,
+      "question": "Narkondam is associated with",
+      "options": {
+        "A": "Volcanic island origin",
+        "B": "Alluvial delta",
+        "C": "Coral atoll only",
+        "D": "Desert landform"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-089",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 89,
+      "question": "The Indian peninsula is surrounded by water on",
+      "options": {
+        "A": "Three sides",
+        "B": "One side",
+        "C": "Two sides",
+        "D": "All four sides"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-090",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 90,
+      "question": "India is called a subcontinent partly because of its",
+      "options": {
+        "A": "Large size and geographical diversity",
+        "B": "Small area",
+        "C": "Uniform climate",
+        "D": "Absence of mountains"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-091",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 91,
+      "question": "Greenwich longitude is",
+      "options": {
+        "A": "0°",
+        "B": "82°30′ E",
+        "C": "23°30′ N",
+        "D": "90° E"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-092",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 92,
+      "question": "India's mainland extends approximately from 8°4′ N to",
+      "options": {
+        "A": "37°6′ N",
+        "B": "47°6′ N",
+        "C": "18°4′ N",
+        "D": "68°7′ N"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-093",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 93,
+      "question": "India's mainland extends approximately from 68°7′ E to",
+      "options": {
+        "A": "97°25′ E",
+        "B": "107°25′ E",
+        "C": "82°30′ W",
+        "D": "37°6′ E"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-094",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 94,
+      "question": "IST is approximately",
+      "options": {
+        "A": "5½ hours ahead of GMT",
+        "B": "5½ hours behind GMT",
+        "C": "12 hours behind GMT",
+        "D": "1 hour ahead"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-095",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 95,
+      "question": "The highest Himalayan range contains many",
+      "options": {
+        "A": "High peaks and glaciers",
+        "B": "Coral reefs",
+        "C": "Sand dunes",
+        "D": "Deltas"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-096",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 96,
+      "question": "The Lesser Himalayas contain valleys such as",
+      "options": {
+        "A": "Kashmir, Kangra and Kulu",
+        "B": "Thar and Luni",
+        "C": "Chilika and Kolleru",
+        "D": "Konkan and Malabar"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-097",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 97,
+      "question": "The outer Himalayan belt includes the",
+      "options": {
+        "A": "Shivaliks",
+        "B": "Himadri",
+        "C": "Nilgiris",
+        "D": "Aravallis"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-098",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 98,
+      "question": "The Indo-Gangetic-Brahmaputra plains are built largely by",
+      "options": {
+        "A": "Alluvium",
+        "B": "Lava flows",
+        "C": "Coral",
+        "D": "Wind-blown sand only"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-099",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 99,
+      "question": "Which pair is correctly matched?",
+      "options": {
+        "A": "Chotanagpur—minerals",
+        "B": "Lakshadweep—young fold mountains",
+        "C": "Thar—perennial rivers",
+        "D": "Himadri—coral reefs"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-100",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 100,
+      "question": "Which physical feature is a plain?",
+      "options": {
+        "A": "Indo-Gangetic Plain",
+        "B": "Deccan Plateau",
+        "C": "Himalayas",
+        "D": "Western Ghats"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived"
+    },
+    {
+      "id": "TG10-SS-CH01-101",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 101,
+      "question": "In Asia, India is situated mainly towards the",
+      "options": {
+        "A": "South",
+        "B": "North",
+        "C": "West",
+        "D": "East"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "abhyasa_deepika_based"
+    },
+    {
+      "id": "TG10-SS-CH01-102",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 102,
+      "question": "Famous valleys and hill stations are mainly found in the",
+      "options": {
+        "A": "Lesser Himalayas",
+        "B": "Greater Himalayas",
+        "C": "Shivaliks",
+        "D": "Purvanchal"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "abhyasa_deepika_based"
+    },
+    {
+      "id": "TG10-SS-CH01-103",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 103,
+      "question": "Which is a perennial river in the Northern Plains?",
+      "options": {
+        "A": "Ganga",
+        "B": "Luni",
+        "C": "Sabarmati",
+        "D": "Mahi"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "abhyasa_deepika_based"
+    },
+    {
+      "id": "TG10-SS-CH01-104",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 104,
+      "question": "The Outer Himalayas in Assam are known as the",
+      "options": {
+        "A": "Patkai Hills",
+        "B": "Khasi Hills",
+        "C": "Nilgiris",
+        "D": "Aravallis"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "abhyasa_deepika_based"
+    },
+    {
+      "id": "TG10-SS-CH01-105",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 105,
+      "question": "The marshy and swampy belt of the Northern Plains is the",
+      "options": {
+        "A": "Terai",
+        "B": "Bhabar",
+        "C": "Khadar",
+        "D": "Bhangar"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "abhyasa_deepika_based"
+    },
+    {
+      "id": "TG10-SS-CH01-106",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 106,
+      "question": "Which plateau is especially rich in mineral resources?",
+      "options": {
+        "A": "Chotanagpur",
+        "B": "Malwa",
+        "C": "Deccan",
+        "D": "Bundelkhand"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "abhyasa_deepika_based"
+    },
+    {
+      "id": "TG10-SS-CH01-107",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 107,
+      "question": "The highest peak of South India, as stated in the study material, is",
+      "options": {
+        "A": "Anaimudi",
+        "B": "Doddabetta",
+        "C": "Everest",
+        "D": "Nanda Devi"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "abhyasa_deepika_based"
+    },
+    {
+      "id": "TG10-SS-CH01-108",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 108,
+      "question": "The Canara coast is mainly in",
+      "options": {
+        "A": "Karnataka",
+        "B": "Kerala",
+        "C": "Andhra Pradesh",
+        "D": "Maharashtra"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "abhyasa_deepika_based"
+    },
+    {
+      "id": "TG10-SS-CH01-109",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 109,
+      "question": "The southernmost tip of the Indian mainland is",
+      "options": {
+        "A": "Kanyakumari",
+        "B": "Indira Point",
+        "C": "Diu",
+        "D": "Kochi"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "abhyasa_deepika_based"
+    },
+    {
+      "id": "TG10-SS-CH01-110",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 110,
+      "question": "India is located in the",
+      "options": {
+        "A": "Tropical Zone",
+        "B": "Polar Zone",
+        "C": "Sub-polar Zone",
+        "D": "Temperate Zone"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "abhyasa_deepika_based"
+    },
+    {
+      "id": "TG10-SS-CH01-111",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 111,
+      "question": "The easternmost longitude of India is",
+      "options": {
+        "A": "97°25′ E",
+        "B": "68°7′ E",
+        "C": "82°30′ E",
+        "D": "77°6′ E"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "abhyasa_deepika_based"
+    },
+    {
+      "id": "TG10-SS-CH01-112",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 112,
+      "question": "A landmass surrounded by water on three sides is called a",
+      "options": {
+        "A": "Peninsula",
+        "B": "Plateau",
+        "C": "Delta",
+        "D": "Island"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "abhyasa_deepika_based"
+    },
+    {
+      "id": "TG10-SS-CH01-113",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 113,
+      "question": "Which island group is mainly of coral origin?",
+      "options": {
+        "A": "Lakshadweep",
+        "B": "Andaman-Nicobar",
+        "C": "Barren Island",
+        "D": "Narkondam"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "abhyasa_deepika_based"
+    },
+    {
+      "id": "TG10-SS-CH01-114",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 114,
+      "question": "Which region is located on the leeward side of the Aravallis?",
+      "options": {
+        "A": "Thar Desert",
+        "B": "Chotanagpur Plateau",
+        "C": "Malwa Plateau",
+        "D": "Konkan Coast"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "abhyasa_deepika_based"
+    },
+    {
+      "id": "TG10-SS-CH01-115",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 115,
+      "question": "Which is the largest peninsular river?",
+      "options": {
+        "A": "Godavari",
+        "B": "Krishna",
+        "C": "Tungabhadra",
+        "D": "Cauvery"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "abhyasa_deepika_based"
+    },
+    {
+      "id": "TG10-SS-CH01-116",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 116,
+      "question": "The Indian Standard Time is ahead of Greenwich Mean Time by about",
+      "options": {
+        "A": "5½ hours",
+        "B": "2½ hours",
+        "C": "7½ hours",
+        "D": "12 hours"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "abhyasa_deepika_based"
+    },
+    {
+      "id": "TG10-SS-CH01-117",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 117,
+      "question": "A glacier-bearing Himalayan range is",
+      "options": {
+        "A": "Himadri",
+        "B": "Shivalik",
+        "C": "Purvanchal",
+        "D": "Aravalli"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-118",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 118,
+      "question": "The northern edge of the Deccan Plateau is associated with the",
+      "options": {
+        "A": "Satpura range",
+        "B": "Nilgiris",
+        "C": "Himalayas",
+        "D": "Western Ghats"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-119",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 119,
+      "question": "Udagamandalam is popularly known as",
+      "options": {
+        "A": "Ooty",
+        "B": "Kodaikanal",
+        "C": "Gulmarg",
+        "D": "Nainital"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-120",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 120,
+      "question": "The Coromandel Coast is mainly in",
+      "options": {
+        "A": "Tamil Nadu",
+        "B": "Kerala",
+        "C": "Karnataka",
+        "D": "Maharashtra"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-121",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 121,
+      "question": "The coastal region touching Goa is the",
+      "options": {
+        "A": "Konkan",
+        "B": "Canara",
+        "C": "Utkal",
+        "D": "Malabar"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-122",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 122,
+      "question": "Which is NOT a Purvanchal hill?",
+      "options": {
+        "A": "Annamalai Hills",
+        "B": "Naga Hills",
+        "C": "Patkai Hills",
+        "D": "Mizo Hills"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-123",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 123,
+      "question": "Which is a peninsular river?",
+      "options": {
+        "A": "Godavari",
+        "B": "Ganga",
+        "C": "Indus",
+        "D": "Brahmaputra"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-124",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 124,
+      "question": "Western Rajasthan has mainly an",
+      "options": {
+        "A": "Arid climate",
+        "B": "Mediterranean climate",
+        "C": "Polar climate",
+        "D": "Equatorial climate"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-125",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 125,
+      "question": "The eastern part of the Indo-Gangetic Plain is associated especially with the",
+      "options": {
+        "A": "Brahmaputra",
+        "B": "Indus",
+        "C": "Narmada",
+        "D": "Tapi"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-126",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 126,
+      "question": "The Indian Standard Meridian is",
+      "options": {
+        "A": "82°30′ E",
+        "B": "82°30′ W",
+        "C": "23°30′ E",
+        "D": "68°7′ E"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-127",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 127,
+      "question": "The Malabar Coast is mainly in",
+      "options": {
+        "A": "Kerala",
+        "B": "Karnataka",
+        "C": "Tamil Nadu",
+        "D": "Andhra Pradesh"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-128",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 128,
+      "question": "Himadri is known as the",
+      "options": {
+        "A": "Greater Himalayas",
+        "B": "Lesser Himalayas",
+        "C": "Shivaliks",
+        "D": "Outer Himalayas"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-129",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 129,
+      "question": "The Mahabharat range is associated with the",
+      "options": {
+        "A": "Lesser Himalayas",
+        "B": "Greater Himalayas",
+        "C": "Shivaliks",
+        "D": "Aravallis"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-130",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 130,
+      "question": "A distinctive feature of the Peninsular Plateau is its",
+      "options": {
+        "A": "Ancient hard rock structure",
+        "B": "Recent alluvial deposits",
+        "C": "Coral formation",
+        "D": "Glacial origin"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-131",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 131,
+      "question": "The correct coast-state pair is",
+      "options": {
+        "A": "Coromandel—Tamil Nadu",
+        "B": "Malabar—Maharashtra",
+        "C": "Circar—Kerala",
+        "D": "Konkan—Andhra Pradesh"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-132",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 132,
+      "question": "Gravel and pebble deposits at the Himalayan foothills form the",
+      "options": {
+        "A": "Bhabar",
+        "B": "Terai",
+        "C": "Delta",
+        "D": "Khadar"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-133",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 133,
+      "question": "Ooty is situated in the",
+      "options": {
+        "A": "Nilgiri Hills",
+        "B": "Aravalli Hills",
+        "C": "Mahadev Hills",
+        "D": "Annamalai Hills"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-134",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 134,
+      "question": "Shimla, Nainital and Mussoorie are associated with the",
+      "options": {
+        "A": "Lesser Himalayas",
+        "B": "Greater Himalayas",
+        "C": "Shivaliks",
+        "D": "Nilgiris"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-135",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 135,
+      "question": "The desert on the leeward side of the Aravallis is the",
+      "options": {
+        "A": "Thar",
+        "B": "Sahara",
+        "C": "Atacama",
+        "D": "Gobi"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-136",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 136,
+      "question": "The Tropic of Cancer does NOT pass through",
+      "options": {
+        "A": "Odisha",
+        "B": "Rajasthan",
+        "C": "Chhattisgarh",
+        "D": "Tripura"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-137",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 137,
+      "question": "Which sequence is west to east?",
+      "options": {
+        "A": "Dwarka–Bhopal–Kolkata–Itanagar",
+        "B": "Kolkata–Bhopal–Dwarka–Itanagar",
+        "C": "Itanagar–Kolkata–Bhopal–Dwarka",
+        "D": "Bhopal–Dwarka–Kolkata–Itanagar"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-138",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 138,
+      "question": "A correct feature of the Deccan Plateau is that it is a",
+      "options": {
+        "A": "Rolling plateau",
+        "B": "Flat coastal plain",
+        "C": "Young fold mountain",
+        "D": "Marshland"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-139",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 139,
+      "question": "The correct east-to-west order is",
+      "options": {
+        "A": "Bay of Bengal–Eastern Ghats–Deccan Plateau–Western Ghats",
+        "B": "Western Ghats–Deccan–Eastern Ghats–Bay of Bengal",
+        "C": "Deccan–Bay of Bengal–Eastern Ghats–Western Ghats",
+        "D": "Bay of Bengal–Western Ghats–Deccan–Eastern Ghats"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-140",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 140,
+      "question": "A country that does not share a land boundary with India is",
+      "options": {
+        "A": "Tajikistan",
+        "B": "Nepal",
+        "C": "Bhutan",
+        "D": "Bangladesh"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-141",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 141,
+      "question": "The Duns lie between the",
+      "options": {
+        "A": "Lesser Himalayas and Shivaliks",
+        "B": "Himadri and Himachal",
+        "C": "Aravallis and Vindhyas",
+        "D": "Western and Eastern Ghats"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-142",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 142,
+      "question": "Kavaratti belongs to",
+      "options": {
+        "A": "Lakshadweep",
+        "B": "Andaman-Nicobar",
+        "C": "Puducherry",
+        "D": "Daman and Diu"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-143",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 143,
+      "question": "The interaction and deposition by Himalayan rivers formed the",
+      "options": {
+        "A": "Northern Plain",
+        "B": "Deccan Plateau",
+        "C": "West Coastal Plain",
+        "D": "East Coastal Plain"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-144",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 144,
+      "question": "The river associated with the Thar Desert is",
+      "options": {
+        "A": "Luni",
+        "B": "Yamuna",
+        "C": "Tapti",
+        "D": "Godavari"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-145",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 145,
+      "question": "The reason India is called a peninsula is that it has water on",
+      "options": {
+        "A": "Three sides",
+        "B": "One side",
+        "C": "Two sides",
+        "D": "All four sides"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-146",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 146,
+      "question": "The Nilgiris connect with the Western Ghats near",
+      "options": {
+        "A": "Gudalur",
+        "B": "Kanyakumari",
+        "C": "Kochi",
+        "D": "Diu"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-147",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 147,
+      "question": "Indira Point is in",
+      "options": {
+        "A": "Great Nicobar",
+        "B": "Little Andaman",
+        "C": "Lakshadweep",
+        "D": "Diu"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-148",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 148,
+      "question": "The coast of Odisha is known as the",
+      "options": {
+        "A": "Utkal Coast",
+        "B": "Malabar Coast",
+        "C": "Coromandel Coast",
+        "D": "Konkan Coast"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-149",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 149,
+      "question": "Chilika Lake is in",
+      "options": {
+        "A": "Odisha",
+        "B": "Kerala",
+        "C": "Tamil Nadu",
+        "D": "Gujarat"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-150",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 150,
+      "question": "The internal drainage river is",
+      "options": {
+        "A": "Luni",
+        "B": "Narmada",
+        "C": "Ganga",
+        "D": "Tapi"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-151",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 151,
+      "question": "The highest peak of the Eastern Ghats is commonly identified as",
+      "options": {
+        "A": "Arma Konda",
+        "B": "Anaimudi",
+        "C": "Doddabetta",
+        "D": "Guru Shikhar"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-152",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 152,
+      "question": "The portion south of the Greater Himalayas is the",
+      "options": {
+        "A": "Lesser Himalayas",
+        "B": "Shivaliks",
+        "C": "Trans-Himalayas",
+        "D": "Purvanchal"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-153",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 153,
+      "question": "The western coastal region in Karnataka is the",
+      "options": {
+        "A": "Canara Coast",
+        "B": "Utkal Coast",
+        "C": "Coromandel Coast",
+        "D": "Circar Coast"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-154",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 154,
+      "question": "The north boundary of the Deccan Plateau is associated with the",
+      "options": {
+        "A": "Satpura Mountains",
+        "B": "Nilgiris",
+        "C": "Eastern Ghats",
+        "D": "Himalayas"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-155",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 155,
+      "question": "The first sunrise in India is associated with",
+      "options": {
+        "A": "Arunachal Pradesh",
+        "B": "Gujarat",
+        "C": "Tripura",
+        "D": "Assam"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-156",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 156,
+      "question": "Sutlej is a tributary of the",
+      "options": {
+        "A": "Indus",
+        "B": "Ganga",
+        "C": "Mahi",
+        "D": "Yamuna"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-157",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 157,
+      "question": "Mussoorie is in",
+      "options": {
+        "A": "Uttarakhand",
+        "B": "Himachal Pradesh",
+        "C": "Uttar Pradesh",
+        "D": "Jammu and Kashmir"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-158",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 158,
+      "question": "The western sea coast among these is",
+      "options": {
+        "A": "Canara",
+        "B": "Coromandel",
+        "C": "Utkal",
+        "D": "Circar"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-159",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 159,
+      "question": "The eastern part of Indo-Gangetic Plain is associated mainly with",
+      "options": {
+        "A": "Brahmaputra",
+        "B": "Indus",
+        "C": "Narmada",
+        "D": "Yamuna"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-160",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 160,
+      "question": "Which is a major mineral-rich plateau?",
+      "options": {
+        "A": "Chotanagpur",
+        "B": "Coastal Andhra",
+        "C": "Terai",
+        "D": "Konkan"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-161",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 161,
+      "question": "Which Himalayan range is called the Outer Himalayas?",
+      "options": {
+        "A": "Shivaliks",
+        "B": "Himadri",
+        "C": "Himachal",
+        "D": "Purvanchal"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-162",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 162,
+      "question": "Which coast is associated with Kerala?",
+      "options": {
+        "A": "Malabar",
+        "B": "Konkan",
+        "C": "Utkal",
+        "D": "Coromandel"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-163",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 163,
+      "question": "Which river is west-flowing?",
+      "options": {
+        "A": "Narmada",
+        "B": "Godavari",
+        "C": "Krishna",
+        "D": "Cauvery"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-164",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 164,
+      "question": "Which island group is in the Arabian Sea?",
+      "options": {
+        "A": "Lakshadweep",
+        "B": "Andaman-Nicobar",
+        "C": "Great Nicobar",
+        "D": "Barren Island"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-165",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 165,
+      "question": "Which island group is in the Bay of Bengal?",
+      "options": {
+        "A": "Andaman-Nicobar",
+        "B": "Lakshadweep",
+        "C": "Diu",
+        "D": "Daman"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-166",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 166,
+      "question": "Which coast is broader?",
+      "options": {
+        "A": "Eastern Coast",
+        "B": "Western Coast",
+        "C": "Both equal",
+        "D": "Neither"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "pre_final_district_repeated_exam_pattern"
+    },
+    {
+      "id": "TG10-SS-CH01-167",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 167,
+      "question": "A peninsula is a landmass surrounded by water on",
+      "options": {
+        "A": "Three sides",
+        "B": "All sides",
+        "C": "Two sides",
+        "D": "One side"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "scert_textbook_exercise_based"
+    },
+    {
+      "id": "TG10-SS-CH01-168",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 168,
+      "question": "India is surrounded by the Indian Ocean in the",
+      "options": {
+        "A": "South",
+        "B": "North",
+        "C": "West",
+        "D": "North-east"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "scert_textbook_exercise_based"
+    },
+    {
+      "id": "TG10-SS-CH01-169",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 169,
+      "question": "India is separated from the Asian mainland in the north by the",
+      "options": {
+        "A": "Himalayas",
+        "B": "Eastern Ghats",
+        "C": "Aravallis",
+        "D": "Western Ghats"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "scert_textbook_exercise_based"
+    },
+    {
+      "id": "TG10-SS-CH01-170",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 170,
+      "question": "The Standard Meridian of India is",
+      "options": {
+        "A": "82°30′ E",
+        "B": "82°30′ W",
+        "C": "0°",
+        "D": "97°25′ E"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "scert_textbook_exercise_based"
+    },
+    {
+      "id": "TG10-SS-CH01-171",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 171,
+      "question": "The Peninsular Plateau moved north-eastward and collided with the",
+      "options": {
+        "A": "Eurasian Plate",
+        "B": "Pacific Plate",
+        "C": "African Plate",
+        "D": "Antarctic Plate"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "scert_textbook_exercise_based"
+    },
+    {
+      "id": "TG10-SS-CH01-172",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 172,
+      "question": "The compression caused by plate collision helped form the",
+      "options": {
+        "A": "Himalayas",
+        "B": "Thar Desert",
+        "C": "Lakshadweep",
+        "D": "Eastern Coast"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "scert_textbook_exercise_based"
+    },
+    {
+      "id": "TG10-SS-CH01-173",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 173,
+      "question": "The Himalayas form an arc approximately",
+      "options": {
+        "A": "2,400 km long",
+        "B": "500 km long",
+        "C": "100 km long",
+        "D": "5,000 km wide"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "scert_textbook_exercise_based"
+    },
+    {
+      "id": "TG10-SS-CH01-174",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 174,
+      "question": "The three parallel Himalayan ranges are",
+      "options": {
+        "A": "Himadri, Himachal, Shivalik",
+        "B": "Aravalli, Vindhya, Satpura",
+        "C": "Nilgiri, Anaimalai, Cardamom",
+        "D": "Konkan, Canara, Malabar"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "scert_textbook_exercise_based"
+    },
+    {
+      "id": "TG10-SS-CH01-175",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 175,
+      "question": "The Greater Himalayas have many",
+      "options": {
+        "A": "Glaciers",
+        "B": "Coral reefs",
+        "C": "Deltas",
+        "D": "Sand dunes"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "scert_textbook_exercise_based"
+    },
+    {
+      "id": "TG10-SS-CH01-176",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 176,
+      "question": "The Lesser Himalayas include valleys such as",
+      "options": {
+        "A": "Kashmir, Kangra and Kulu",
+        "B": "Luni and Sambhar",
+        "C": "Konkan and Malabar",
+        "D": "Chilika and Pulicat"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "scert_textbook_exercise_based"
+    },
+    {
+      "id": "TG10-SS-CH01-177",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 177,
+      "question": "Duns are associated with the",
+      "options": {
+        "A": "Shivalik region",
+        "B": "Thar Desert",
+        "C": "Eastern Coast",
+        "D": "Lakshadweep"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "scert_textbook_exercise_based"
+    },
+    {
+      "id": "TG10-SS-CH01-178",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 178,
+      "question": "The Northern Plains are formed mainly by",
+      "options": {
+        "A": "Indus, Ganga and Brahmaputra systems",
+        "B": "Narmada and Tapi only",
+        "C": "Godavari and Krishna only",
+        "D": "Luni and Sabarmati"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "scert_textbook_exercise_based"
+    },
+    {
+      "id": "TG10-SS-CH01-179",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 179,
+      "question": "The Bhabar is noted for",
+      "options": {
+        "A": "Porous pebble and gravel deposits",
+        "B": "Swampy marshes",
+        "C": "Black cotton soil",
+        "D": "Coral sand"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "scert_textbook_exercise_based"
+    },
+    {
+      "id": "TG10-SS-CH01-180",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 180,
+      "question": "The Terai is noted for",
+      "options": {
+        "A": "Marshy conditions and forests",
+        "B": "Dry dunes",
+        "C": "Hard crystalline rock",
+        "D": "Coral reefs"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "scert_textbook_exercise_based"
+    },
+    {
+      "id": "TG10-SS-CH01-181",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 181,
+      "question": "The Peninsular Plateau is composed mainly of",
+      "options": {
+        "A": "Ancient crystalline rocks",
+        "B": "Young alluvium",
+        "C": "Coral deposits",
+        "D": "Recent marine clay"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "scert_textbook_exercise_based"
+    },
+    {
+      "id": "TG10-SS-CH01-182",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 182,
+      "question": "The Chotanagpur Plateau is famous for",
+      "options": {
+        "A": "Mineral resources",
+        "B": "Tea gardens only",
+        "C": "Coral reefs",
+        "D": "Deltas"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "scert_textbook_exercise_based"
+    },
+    {
+      "id": "TG10-SS-CH01-183",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 183,
+      "question": "The Western Ghats are",
+      "options": {
+        "A": "Higher and more continuous than Eastern Ghats",
+        "B": "Lower and more continuous",
+        "C": "Younger than Himalayas",
+        "D": "A desert range"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "scert_textbook_exercise_based"
+    },
+    {
+      "id": "TG10-SS-CH01-184",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 184,
+      "question": "The highest peak of the Nilgiris is",
+      "options": {
+        "A": "Doddabetta",
+        "B": "Anaimudi",
+        "C": "Everest",
+        "D": "Nanda Devi"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "scert_textbook_exercise_based"
+    },
+    {
+      "id": "TG10-SS-CH01-185",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 185,
+      "question": "Anaimudi is in the",
+      "options": {
+        "A": "Annamalai Hills",
+        "B": "Nilgiris",
+        "C": "Aravallis",
+        "D": "Shivaliks"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "scert_textbook_exercise_based"
+    },
+    {
+      "id": "TG10-SS-CH01-186",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 186,
+      "question": "The Thar Desert covers much of",
+      "options": {
+        "A": "Western Rajasthan",
+        "B": "Eastern Assam",
+        "C": "Kerala",
+        "D": "Odisha"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "scert_textbook_exercise_based"
+    },
+    {
+      "id": "TG10-SS-CH01-187",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 187,
+      "question": "The western coast is narrower and more broken than the",
+      "options": {
+        "A": "Eastern coast",
+        "B": "Himalayas",
+        "C": "Northern Plains",
+        "D": "Thar Desert"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "scert_textbook_exercise_based"
+    },
+    {
+      "id": "TG10-SS-CH01-188",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 188,
+      "question": "The eastern coast has major lakes such as",
+      "options": {
+        "A": "Chilika, Kolleru and Pulicat",
+        "B": "Dal, Wular and Sambhar",
+        "C": "Loktak, Dal and Wular",
+        "D": "Sambhar, Dal and Chilika only"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "scert_textbook_exercise_based"
+    },
+    {
+      "id": "TG10-SS-CH01-189",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 189,
+      "question": "Lakshadweep islands are mainly",
+      "options": {
+        "A": "Coral islands",
+        "B": "Volcanic mountains",
+        "C": "River islands",
+        "D": "Delta islands"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "scert_textbook_exercise_based"
+    },
+    {
+      "id": "TG10-SS-CH01-190",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 190,
+      "question": "Barren Island is a",
+      "options": {
+        "A": "Volcanic island",
+        "B": "Coral island",
+        "C": "River island",
+        "D": "Delta island"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "scert_textbook_exercise_based"
+    },
+    {
+      "id": "TG10-SS-CH01-191",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 191,
+      "question": "Indira Point is in the",
+      "options": {
+        "A": "Nicobar Islands",
+        "B": "Lakshadweep",
+        "C": "Daman",
+        "D": "Diu"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "scert_textbook_exercise_based"
+    },
+    {
+      "id": "TG10-SS-CH01-192",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 192,
+      "question": "Which pair is correctly matched?",
+      "options": {
+        "A": "Himadri—Greater Himalayas",
+        "B": "Terai—desert",
+        "C": "Lakshadweep—Bay of Bengal",
+        "D": "Thar—Kerala"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "eduseva_model_mcq"
+    },
+    {
+      "id": "TG10-SS-CH01-193",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 193,
+      "question": "Which pair is incorrectly matched?",
+      "options": {
+        "A": "Canara—Kerala",
+        "B": "Malabar—Kerala",
+        "C": "Konkan—Maharashtra",
+        "D": "Coromandel—Tamil Nadu"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "eduseva_model_mcq"
+    },
+    {
+      "id": "TG10-SS-CH01-194",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 194,
+      "question": "Which sequence is correct from north to south?",
+      "options": {
+        "A": "Himalayas–Northern Plains–Peninsular Plateau",
+        "B": "Plateau–Plains–Himalayas",
+        "C": "Coast–Himalayas–Plains",
+        "D": "Desert–Himalayas–Plateau"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "eduseva_model_mcq"
+    },
+    {
+      "id": "TG10-SS-CH01-195",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 195,
+      "question": "Which sequence is correct from west to east across the peninsula?",
+      "options": {
+        "A": "Western Ghats–Deccan Plateau–Eastern Ghats",
+        "B": "Eastern Ghats–Deccan–Western Ghats",
+        "C": "Deccan–Western Ghats–Eastern Ghats",
+        "D": "Bay of Bengal–Western Ghats–Deccan"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "eduseva_model_mcq"
+    },
+    {
+      "id": "TG10-SS-CH01-196",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 196,
+      "question": "Which feature is associated with river deposition?",
+      "options": {
+        "A": "Alluvial plains",
+        "B": "Himalayan peaks",
+        "C": "Coral islands",
+        "D": "Aravalli rocks"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "eduseva_model_mcq"
+    },
+    {
+      "id": "TG10-SS-CH01-197",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 197,
+      "question": "Which feature is most closely related to mineral wealth?",
+      "options": {
+        "A": "Peninsular Plateau",
+        "B": "Northern Plains",
+        "C": "Terai",
+        "D": "Coastal lagoons"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "eduseva_model_mcq"
+    },
+    {
+      "id": "TG10-SS-CH01-198",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 198,
+      "question": "Which region has the greatest concentration of major hill stations?",
+      "options": {
+        "A": "Lesser Himalayas",
+        "B": "Thar Desert",
+        "C": "Eastern Coast",
+        "D": "Lakshadweep"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "eduseva_model_mcq"
+    },
+    {
+      "id": "TG10-SS-CH01-199",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 199,
+      "question": "Which river pair flows westward?",
+      "options": {
+        "A": "Narmada–Tapi",
+        "B": "Godavari–Krishna",
+        "C": "Mahanadi–Cauvery",
+        "D": "Ganga–Yamuna"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "eduseva_model_mcq"
+    },
+    {
+      "id": "TG10-SS-CH01-200",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 200,
+      "question": "Which river pair generally forms east-coast deltas?",
+      "options": {
+        "A": "Godavari–Krishna",
+        "B": "Narmada–Tapi",
+        "C": "Luni–Mahi",
+        "D": "Sabarmati–Luni"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "eduseva_model_mcq"
+    },
+    {
+      "id": "TG10-SS-CH01-201",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 201,
+      "question": "Which feature is associated with the Himalayan foothills?",
+      "options": {
+        "A": "Bhabar",
+        "B": "Chilika",
+        "C": "Konkan",
+        "D": "Malabar"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "eduseva_model_mcq"
+    },
+    {
+      "id": "TG10-SS-CH01-202",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 202,
+      "question": "Which statement best explains high population in Northern Plains?",
+      "options": {
+        "A": "Fertile soil, water and level terrain",
+        "B": "Steep slopes and cold climate",
+        "C": "Desert conditions",
+        "D": "Coral soils"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "eduseva_model_mcq"
+    },
+    {
+      "id": "TG10-SS-CH01-203",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 203,
+      "question": "Which relief feature is oldest among these?",
+      "options": {
+        "A": "Peninsular Plateau",
+        "B": "Northern Plain",
+        "C": "Terai",
+        "D": "Coastal delta"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "eduseva_model_mcq"
+    },
+    {
+      "id": "TG10-SS-CH01-204",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 204,
+      "question": "Which coast has more prominent deltas?",
+      "options": {
+        "A": "Eastern Coast",
+        "B": "Western Coast",
+        "C": "Both have no deltas",
+        "D": "Lakshadweep coast"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "eduseva_model_mcq"
+    },
+    {
+      "id": "TG10-SS-CH01-205",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 205,
+      "question": "Which island group is coral in origin?",
+      "options": {
+        "A": "Lakshadweep",
+        "B": "Andaman-Nicobar",
+        "C": "Barren Island",
+        "D": "Narkondam"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "eduseva_model_mcq"
+    },
+    {
+      "id": "TG10-SS-CH01-206",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 206,
+      "question": "Which is a volcanic island?",
+      "options": {
+        "A": "Barren Island",
+        "B": "Lakshadweep",
+        "C": "Kavaratti",
+        "D": "Minicoy"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "eduseva_model_mcq"
+    },
+    {
+      "id": "TG10-SS-CH01-207",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 207,
+      "question": "Which is the correct mainland/island southernmost distinction?",
+      "options": {
+        "A": "Kanyakumari—mainland; Indira Point—islands",
+        "B": "Indira Point—mainland; Kanyakumari—island",
+        "C": "Both are islands",
+        "D": "Both are mainland points"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "eduseva_model_mcq"
+    },
+    {
+      "id": "TG10-SS-CH01-208",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 208,
+      "question": "Which range is a young fold mountain system?",
+      "options": {
+        "A": "Himalayas",
+        "B": "Aravallis",
+        "C": "Eastern Ghats",
+        "D": "Western Ghats"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "eduseva_model_mcq"
+    },
+    {
+      "id": "TG10-SS-CH01-209",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 209,
+      "question": "Which relief division is best known for broad fertile plains?",
+      "options": {
+        "A": "Indo-Gangetic Plain",
+        "B": "Peninsular Plateau",
+        "C": "Thar Desert",
+        "D": "Western Ghats"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "eduseva_model_mcq"
+    },
+    {
+      "id": "TG10-SS-CH01-210",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 210,
+      "question": "Which feature is characteristic of the Terai?",
+      "options": {
+        "A": "Marshy and swampy belt",
+        "B": "Dry gravel belt only",
+        "C": "Coral reef",
+        "D": "Rocky plateau"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "eduseva_model_mcq"
+    },
+    {
+      "id": "TG10-SS-CH01-211",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 211,
+      "question": "Which feature is characteristic of Bhabar?",
+      "options": {
+        "A": "Pebble and gravel belt",
+        "B": "Swampy forest belt",
+        "C": "Deltaic lagoon",
+        "D": "Sand dune field"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "eduseva_model_mcq"
+    },
+    {
+      "id": "TG10-SS-CH01-212",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 212,
+      "question": "Which statement about Western Ghats is correct?",
+      "options": {
+        "A": "They are higher and more continuous than Eastern Ghats",
+        "B": "They are lower than Eastern Ghats everywhere",
+        "C": "They form the Himalayas",
+        "D": "They lie east of Bay of Bengal"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "eduseva_model_mcq"
+    },
+    {
+      "id": "TG10-SS-CH01-213",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 213,
+      "question": "Which statement about Eastern Ghats is correct?",
+      "options": {
+        "A": "They are discontinuous and cut by rivers",
+        "B": "They are the highest Himalayan range",
+        "C": "They form the Thar Desert",
+        "D": "They are coral islands"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "eduseva_model_mcq"
+    },
+    {
+      "id": "TG10-SS-CH01-214",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 214,
+      "question": "Which factor makes India's relief highly diverse?",
+      "options": {
+        "A": "Variation in geology, elevation and drainage",
+        "B": "Uniform rock everywhere",
+        "C": "Only latitude",
+        "D": "Only political boundaries"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "eduseva_model_mcq"
+    },
+    {
+      "id": "TG10-SS-CH01-215",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 215,
+      "question": "Which feature is a coastal lagoon/lake?",
+      "options": {
+        "A": "Chilika",
+        "B": "Dehradun",
+        "C": "Bhabar",
+        "D": "Dun"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "eduseva_model_mcq"
+    },
+    {
+      "id": "TG10-SS-CH01-216",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 216,
+      "question": "Which of the following best summarizes the chapter?",
+      "options": {
+        "A": "Relief influences climate, rivers, agriculture, transport and settlement",
+        "B": "Relief has no effect on human life",
+        "C": "Only mountains matter",
+        "D": "Only coasts matter"
+      },
+      "correct_answer": "A",
+      "explanation": "",
+      "source_category": "eduseva_model_mcq"
+    }
+  ]
+}
