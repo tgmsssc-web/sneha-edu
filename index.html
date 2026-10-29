@@ -3,352 +3,441 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sneha Edu | Multilingual Learning</title>
-
+<title>Sneha Edu | Smart Learning</title>
 <style>
 *{box-sizing:border-box}
 body{margin:0;font-family:Arial,sans-serif;background:#f3f7ff;color:#183153;line-height:1.6}
-header{background:#0756a5;color:white;text-align:center;padding:24px 15px}
-header h1{margin:0 0 8px;font-size:30px}
-header p{margin:0;font-size:15px}
-nav{background:#063d78;padding:10px;text-align:center}
-nav a{color:white;text-decoration:none;margin:7px;display:inline-block}
-.container{max-width:1000px;margin:auto;padding:18px}
-.language-box{background:white;padding:16px;border-radius:12px;margin:15px 0;text-align:center;box-shadow:0 2px 8px #dce5f2}
-.language-box label{font-weight:bold;display:block;margin-bottom:8px}
-select{padding:12px;width:100%;max-width:350px;border:1px solid #ccd6e5;border-radius:8px;background:white;font-size:16px}
-.hero{background:white;border-radius:16px;padding:25px 18px;text-align:center;box-shadow:0 3px 12px #dce5f2}
-.hero h2{color:#0756a5}
-button,.btn{background:#0756a5;color:white;border:0;border-radius:8px;padding:12px 18px;cursor:pointer;font-size:15px;text-decoration:none;display:inline-block;margin:4px}
-button:disabled{opacity:.65;cursor:not-allowed}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:14px;margin-top:20px}
-.card{background:white;padding:18px 12px;border-radius:12px;text-align:center;box-shadow:0 2px 8px #dce5f2}
-.card h3{color:#0756a5}
-section{margin:25px 0}
-#quiz{background:white;padding:18px;border-radius:12px}
-.option{display:block;width:100%;margin:10px 0;text-align:left;background:#edf4ff;color:#183153;border:1px solid #ccd6e5}
-.option:hover{background:#d8e9ff}
-#result{font-weight:bold;white-space:pre-line}
-.small{font-size:13px;color:#62748a}
-footer{background:#063d78;color:white;text-align:center;padding:18px;margin-top:30px}
+header{background:#0756a5;color:white;text-align:center;padding:22px 12px}
+header h1{margin:0;font-size:28px}
+header p{margin:5px 0}
+.container{max-width:950px;margin:auto;padding:16px}
+.card{background:white;border-radius:14px;padding:18px;margin:15px 0;box-shadow:0 3px 12px #00000012}
+h2,h3{color:#0756a5;margin-top:0}
+button,.btn{border:0;border-radius:8px;padding:11px 15px;background:#0756a5;color:white;font-size:15px;cursor:pointer;margin:4px}
+button:disabled{opacity:.45;cursor:not-allowed}
+.secondary{background:#52657a}
+.green{background:#16804a}
+.orange{background:#b96a00}
+.red{background:#b42318}
+select,input{padding:11px;border:1px solid #ccd6e5;border-radius:8px;font-size:16px;max-width:100%}
+select{width:100%}
+label{display:block;font-weight:bold;margin:8px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(125px,1fr));gap:10px}
+.class-btn{background:#e7f0ff;color:#0756a5;border:1px solid #c4d9fa;font-weight:bold}
+.class-btn.active{background:#0756a5;color:white}
+.option{display:block;width:100%;text-align:left;background:#fff;color:#183153;border:1px solid #cbd5e1;margin:9px 0;padding:13px}
+.option.selected{background:#e5efff;border:2px solid #0756a5}
+.option.correct{background:#dcfce7;border:2px solid #16804a}
+.option.wrong{background:#fee2e2;border:2px solid #b42318}
+.small{font-size:13px;color:#60748a}
+.row{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+.spread{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.timer{font-size:20px;font-weight:bold;color:#b42318}
+.progress{height:9px;background:#e2e8f0;border-radius:8px;overflow:hidden;margin:10px 0}
+.progress div{height:100%;background:#16804a;width:0}
+.nav-number{min-width:42px;background:#e2e8f0;color:#183153}
+.nav-number.current{background:#0756a5;color:white}
+.nav-number.answered{background:#16804a;color:white}
+.nav-number.marked{background:#b96a00;color:white}
+.hidden{display:none!important}
+footer{text-align:center;padding:20px;color:#60748a}
 [dir="rtl"]{text-align:right}
 [dir="rtl"] .option{text-align:right}
 @media(max-width:480px){
- header h1{font-size:26px}
- .container{padding:12px}
- .hero{padding:20px 12px}
- #quiz{padding:14px}
+ header h1{font-size:23px}
+ .container{padding:10px}
+ .card{padding:14px}
+ button,.btn{font-size:14px;padding:10px}
 }
 </style>
 </head>
-
 <body>
 <header>
-<h1>🎓 Sneha Edu</h1>
-<p id="tagline">Smart Learning for a Better Future</p>
+  <h1>📚 Sneha Edu</h1>
+  <p id="tagline">Smart Learning for a Better Future</p>
 </header>
 
 <main class="container">
+  <section class="card">
+    <label id="languageLabel" for="language">Choose Language</label>
+    <select id="language" onchange="changeLanguage(this.value)">
+      <option value="en">English</option>
+      <option value="te">తెలుగు</option>
+      <option value="ur">اردو</option>
+    </select>
+    <p class="small" id="languageHint">You can change the language at any time.</p>
+  </section>
 
-<div class="language-box">
-<label id="languageLabel" for="languageSelect">🌐 Choose Your Language / భాషను ఎంచుకోండి</label>
-<select id="languageSelect" onchange="changeLanguage(this.value)">
-<option value="en">English</option>
-<option value="te">తెలుగు</option>
-<option value="ur">اردو</option>
-</select>
-<p class="small" id="languageHint">You can change the language at any time.</p>
-</div>
+  <section id="home" class="card">
+    <h2 id="welcomeTitle">Learn • Practice • Succeed</h2>
+    <p id="welcomeText">Prepare for examinations with practice questions.</p>
+    <h3 id="chooseClass">Choose Your Class</h3>
+    <div class="grid" id="classButtons">
+      <button class="class-btn active" onclick="chooseClass(6)">Class 6</button>
+      <button class="class-btn" onclick="chooseClass(7)">Class 7</button>
+      <button class="class-btn" onclick="chooseClass(8)">Class 8</button>
+      <button class="class-btn" onclick="chooseClass(9)">Class 9</button>
+      <button class="class-btn" onclick="chooseClass(10)">Class 10</button>
+    </div>
+    <h3 id="modeTitle" style="margin-top:20px">Choose Quiz Mode</h3>
+    <label id="modeLabel" for="mode">Mode</label>
+    <select id="mode">
+      <option value="practice">Practice Mode</option>
+      <option value="exam">Exam Mode</option>
+    </select>
+    <label id="questionTimerLabel" for="questionTimer">Per-question timer</label>
+    <select id="questionTimer">
+      <option value="off">Off</option>
+      <option value="30">30 seconds</option>
+      <option value="45">45 seconds</option>
+      <option value="60">60 seconds</option>
+    </select>
+    <label id="examTimerLabel" for="examMinutes">Total exam timer</label>
+    <select id="examMinutes">
+      <option value="30">30 minutes</option>
+      <option value="20">20 minutes</option>
+      <option value="45">45 minutes</option>
+      <option value="60">60 minutes</option>
+    </select>
+    <button class="green" id="startButton" onclick="startQuiz()">Start Quiz</button>
+    <p class="small" id="demoNotice">Demo questions only. More subject-wise questions will be added.</p>
+  </section>
 
-<nav>
-<a href="#home" id="navHome">Home</a>
-<a href="#classes" id="navClasses">Classes</a>
-<a href="#practice" id="navPractice">MCQ Practice</a>
-<a href="#premium" id="navPremium">Premium</a>
-</nav>
+  <section id="quiz" class="card hidden">
+    <div class="spread">
+      <strong id="quizHeading">Quiz</strong>
+      <span class="timer" id="timerDisplay"></span>
+    </div>
+    <div class="progress"><div id="progressBar"></div></div>
+    <div class="spread">
+      <span id="questionCount"></span>
+      <span id="scoreLive"></span>
+    </div>
+    <h3 id="questionText"></h3>
+    <div id="options"></div>
+    <p id="explanation" class="hidden"></p>
 
-<section class="hero" id="home">
-<h2 id="heroTitle">Learn • Practice • Succeed</h2>
-<p id="heroText">Prepare for examinations with practice questions.</p>
-<a class="btn" href="#classes" id="startLearning">Start Learning</a>
-</section>
+    <div class="row">
+      <button class="secondary" id="backButton" onclick="goBack()">⬅ Back</button>
+      <button id="nextButton" onclick="goNext()">Next ➡</button>
+      <button class="orange" id="markButton" onclick="toggleMark()">🔖 Mark for Review</button>
+    </div>
 
-<section id="classes">
-<h2 id="classTitle">📚 Select Your Class</h2>
-<div class="grid">
-<div class="card">
-<h3 id="class6Title">Class 6</h3>
-<p id="practice6">Practice MCQs</p>
-<button onclick="chooseClass(6)" id="select6">Select</button>
-</div>
-<div class="card">
-<h3 id="class7Title">Class 7</h3>
-<p id="practice7">Practice MCQs</p>
-<button onclick="chooseClass(7)" id="select7">Select</button>
-</div>
-<div class="card">
-<h3 id="class8Title">Class 8</h3>
-<p id="practice8">Practice MCQs</p>
-<button onclick="chooseClass(8)" id="select8">Select</button>
-</div>
-<div class="card">
-<h3 id="class9Title">Class 9</h3>
-<p id="practice9">Practice MCQs</p>
-<button onclick="chooseClass(9)" id="select9">Select</button>
-</div>
-<div class="card">
-<h3 id="class10Title">Class 10</h3>
-<p id="practice10">Practice MCQs</p>
-<button onclick="chooseClass(10)" id="select10">Select</button>
-</div>
-</div>
-<p id="selectedClass" aria-live="polite">Please select a class to begin.</p>
-</section>
+    <h3 id="navigatorTitle" style="margin-top:20px">Question Navigator</h3>
+    <div id="navigator" class="grid"></div>
+    <p class="small" id="navigatorHint">Green = answered; orange = marked for review; blue = current question.</p>
+    <button class="green" id="reviewButton" onclick="reviewAnswers()">Review Answers</button>
+    <button class="red" id="submitButton" onclick="submitQuiz(false)">Submit Test</button>
+  </section>
 
-<section id="practice">
-<h2 id="practiceTitle">📝 MCQ Practice</h2>
-<div id="quiz">
-<p id="quizIntro">Select a class, then start a sample quiz.</p>
-<button onclick="startQuiz()" id="startQuizBtn">Start Sample Quiz</button>
-<div id="questionArea" aria-live="polite"></div>
-<p id="result" aria-live="polite"></p>
-</div>
-<p class="small" id="sampleNote">These are sample questions. Chapter-wise question banks will be added in a later stage.</p>
-</section>
+  <section id="results" class="card hidden">
+    <h2 id="resultTitle">Your Results</h2>
+    <h3 id="finalScore"></h3>
+    <p id="resultMessage"></p>
+    <div id="answerReview"></div>
+    <button class="green" id="restartButton" onclick="backHome()">Try Again</button>
+  </section>
 
-<section id="premium">
-<h2 id="premiumTitle">🔒 Premium Learning</h2>
-<div class="card">
-<h3 id="premiumHeading">Unlock More Practice</h3>
-<p id="premiumText">Access additional chapters and practice questions through a subscription.</p>
-<p class="small" id="paymentNote">Online payments are not enabled yet.</p>
-</div>
-</section>
-
+  <section class="card">
+    <h2 id="premiumTitle">⭐ Premium Learning</h2>
+    <p id="premiumText">Premium lessons and additional question banks will be available in a future update.</p>
+    <p class="small" id="premiumNote">Online payments are not enabled in this demo.</p>
+  </section>
 </main>
 
-<footer>
-<p id="footerText">© 2026 Sneha Edu | Smart Learning for a Better Future</p>
-</footer>
+<footer>© Sneha Edu | Learn Today, Lead Tomorrow</footer>
 
 <script>
-let chosenClass=0;
-let current=0;
-let score=0;
-let answered=false;
-let lang=localStorage.getItem("snehaLanguage") || "en";
-
-const translations={
+const words={
 en:{
-tagline:"Smart Learning for a Better Future",
-languageLabel:"🌐 Choose Your Language",
-languageHint:"You can change the language at any time.",
-navHome:"Home",navClasses:"Classes",navPractice:"MCQ Practice",navPremium:"Premium",
-heroTitle:"Learn • Practice • Succeed",
-heroText:"Prepare for examinations with practice questions.",
-startLearning:"Start Learning",
-classTitle:"📚 Select Your Class",
-practice:"Practice MCQs",select:"Select",
-pleaseSelect:"Please select a class to begin.",
-selected:"Selected: Class ",
-practiceTitle:"📝 MCQ Practice",
-quizIntro:"Select a class, then start a sample quiz.",
-startQuiz:"Start Sample Quiz",
-sampleNote:"These are sample questions. Chapter-wise question banks will be added in a later stage.",
-premiumTitle:"🔒 Premium Learning",
-premiumHeading:"Unlock More Practice",
-premiumText:"Access additional chapters and practice questions through a subscription.",
-paymentNote:"Online payments are not enabled yet.",
-footerText:"© 2026 Sneha Edu | Smart Learning for a Better Future",
-question:"Question",of:"of",completed:"Quiz Completed!",
-yourScore:"Your score: ",tryAgain:"Try Again",
-correct:"✅ Correct! ",incorrect:"❌ Incorrect. ",
-questions:[
-{q:"Which is the largest planet in our Solar System?",a:["Earth","Mars","Jupiter","Venus"],correct:2,exp:"Jupiter is the largest planet in our Solar System."},
-{q:"What is 12 × 8?",a:["84","96","108","88"],correct:1,exp:"12 × 8 = 96."},
-{q:"When did the Constitution of India come into effect?",a:["15 August 1947","26 January 1950","26 November 1949","2 October 1950"],correct:1,exp:"The Constitution of India came into effect on 26 January 1950."}
-]
+tagline:"Smart Learning for a Better Future",languageLabel:"Choose Language",languageHint:"You can change the language at any time.",
+welcomeTitle:"Learn • Practice • Succeed",welcomeText:"Prepare for examinations with practice questions.",
+chooseClass:"Choose Your Class",modeTitle:"Choose Quiz Mode",modeLabel:"Mode",
+practice:"Practice Mode",exam:"Exam Mode",questionTimerLabel:"Per-question timer",
+off:"Off",seconds30:"30 seconds",seconds45:"45 seconds",seconds60:"60 seconds",
+examTimerLabel:"Total exam timer",minutes20:"20 minutes",minutes30:"30 minutes",minutes45:"45 minutes",minutes60:"60 minutes",
+start:"Start Quiz",demoNotice:"Demo questions only. More subject-wise questions will be added.",
+quiz:"Quiz",back:"⬅ Back",next:"Next ➡",mark:"🔖 Mark for Review",unmark:"✓ Remove Review Mark",
+navigatorTitle:"Question Navigator",navigatorHint:"Green = answered; orange = marked for review; blue = current question.",
+review:"Review Answers",submit:"Submit Test",resultTitle:"Your Results",restart:"Try Again",
+premiumTitle:"⭐ Premium Learning",premiumText:"Premium lessons and additional question banks will be available in a future update.",
+premiumNote:"Online payments are not enabled in this demo.",question:"Question",of:"of",answered:"Answered",score:"Score",
+chooseAnswer:"Choose an answer.",confirmSubmit:"Submit the test now?",timeUp:"Time is up! Your test will be submitted.",
+perQuestionUp:"Time for this question is up.",correct:"Correct",incorrect:"Incorrect",unanswered:"Not answered",
+yourAnswer:"Your answer",correctAnswer:"Correct answer",explanation:"Explanation",resultMsg:"You have completed the quiz.",
+noAnswer:"No answer selected",marked:"Marked for review",reviewMode:"Review your answers, then submit when ready.",
+restartMsg:"Choose a class and start another quiz."
 },
 te:{
-tagline:"మెరుగైన భవిష్యత్తు కోసం స్మార్ట్ లెర్నింగ్",
-languageLabel:"🌐 మీ భాషను ఎంచుకోండి",
-languageHint:"మీరు ఎప్పుడైనా భాషను మార్చుకోవచ్చు.",
-navHome:"హోమ్",navClasses:"తరగతులు",navPractice:"MCQ ప్రాక్టీస్",navPremium:"ప్రీమియం",
-heroTitle:"నేర్చుకోండి • సాధన చేయండి • విజయం సాధించండి",
-heroText:"అభ్యాస ప్రశ్నలతో పోటీ పరీక్షలకు సిద్ధం కండి.",
-startLearning:"చదువు ప్రారంభించండి",
-classTitle:"📚 మీ తరగతిని ఎంచుకోండి",
-practice:"MCQ ప్రశ్నల సాధన",select:"ఎంచుకోండి",
-pleaseSelect:"ప్రారంభించడానికి మీ తరగతిని ఎంచుకోండి.",
-selected:"ఎంచుకున్న తరగతి: ",
-practiceTitle:"📝 MCQ ప్రశ్నల సాధన",
-quizIntro:"ముందుగా తరగతిని ఎంచుకుని నమూనా క్విజ్ ప్రారంభించండి.",
-startQuiz:"నమూనా క్విజ్ ప్రారంభించండి",
-sampleNote:"ఇవి నమూనా ప్రశ్నలు మాత్రమే. అధ్యాయం వారీ ప్రశ్నాబ్యాంక్‌ను తదుపరి దశలో జోడిస్తాం.",
-premiumTitle:"🔒 ప్రీమియం అభ్యాసం",
-premiumHeading:"మరిన్ని ప్రశ్నలను పొందండి",
-premiumText:"సబ్‌స్క్రిప్షన్ ద్వారా అదనపు అధ్యాయాలు, అభ్యాస ప్రశ్నలను పొందవచ్చు.",
-paymentNote:"ఆన్‌లైన్ చెల్లింపులు ఇంకా ప్రారంభించలేదు.",
-footerText:"© 2026 Sneha Edu | మెరుగైన భవిష్యత్తు కోసం స్మార్ట్ లెర్నింగ్",
-question:"ప్రశ్న",of:"లో",completed:"క్విజ్ పూర్తయింది!",
-yourScore:"మీ స్కోరు: ",tryAgain:"మళ్లీ ప్రయత్నించండి",
-correct:"✅ సరైన సమాధానం! ",incorrect:"❌ తప్పు సమాధానం. ",
-questions:[
-{q:"మన సౌర కుటుంబంలో అతిపెద్ద గ్రహం ఏది?",a:["భూమి","అంగారకుడు","బృహస్పతి","శుక్రుడు"],correct:2,exp:"బృహస్పతి మన సౌర కుటుంబంలో అతిపెద్ద గ్రహం."},
-{q:"12 × 8 ఎంత?",a:["84","96","108","88"],correct:1,exp:"12 × 8 = 96."},
-{q:"భారత రాజ్యాంగం ఎప్పుడు అమలులోకి వచ్చింది?",a:["15 ఆగస్టు 1947","26 జనవరి 1950","26 నవంబర్ 1949","2 అక్టోబర్ 1950"],correct:1,exp:"భారత రాజ్యాంగం 1950 జనవరి 26న అమలులోకి వచ్చింది."}
-]
+tagline:"మెరుగైన భవిష్యత్తు కోసం స్మార్ట్ లెర్నింగ్",languageLabel:"భాషను ఎంచుకోండి",languageHint:"మీరు ఎప్పుడైనా భాషను మార్చుకోవచ్చు.",
+welcomeTitle:"నేర్చుకోండి • సాధన చేయండి • విజయం సాధించండి",welcomeText:"ప్రాక్టీస్ ప్రశ్నలతో పరీక్షలకు సిద్ధం కండి.",
+chooseClass:"మీ తరగతిని ఎంచుకోండి",modeTitle:"క్విజ్ విధానాన్ని ఎంచుకోండి",modeLabel:"విధానం",
+practice:"ప్రాక్టీస్ మోడ్",exam:"పరీక్ష మోడ్",questionTimerLabel:"ప్రతి ప్రశ్నకు టైమర్",
+off:"ఆఫ్",seconds30:"30 సెకన్లు",seconds45:"45 సెకన్లు",seconds60:"60 సెకన్లు",
+examTimerLabel:"మొత్తం పరీక్ష సమయం",minutes20:"20 నిమిషాలు",minutes30:"30 నిమిషాలు",minutes45:"45 నిమిషాలు",minutes60:"60 నిమిషాలు",
+start:"క్విజ్ ప్రారంభించండి",demoNotice:"ఇవి నమూనా ప్రశ్నలు మాత్రమే. మరిన్ని సబ్జెక్టు ప్రశ్నలు త్వరలో జోడిస్తాం.",
+quiz:"క్విజ్",back:"⬅ వెనుకకు",next:"తదుపరి ➡",mark:"🔖 సమీక్షకు గుర్తించండి",unmark:"✓ సమీక్ష గుర్తును తొలగించండి",
+navigatorTitle:"ప్రశ్నల జాబితా",navigatorHint:"ఆకుపచ్చ = సమాధానం ఇచ్చారు; నారింజ = సమీక్షకు గుర్తించారు; నీలం = ప్రస్తుత ప్రశ్న.",
+review:"సమాధానాలను సమీక్షించండి",submit:"పరీక్షను సమర్పించండి",resultTitle:"మీ ఫలితాలు",restart:"మళ్లీ ప్రయత్నించండి",
+premiumTitle:"⭐ ప్రీమియం లెర్నింగ్",premiumText:"ప్రీమియం పాఠాలు, అదనపు ప్రశ్నల బ్యాంక్‌ను భవిష్యత్తులో అందిస్తాం.",
+premiumNote:"ఈ డెమోలో ఆన్‌లైన్ చెల్లింపులు ప్రారంభించలేదు.",question:"ప్రశ్న",of:"లో",answered:"సమాధానాలు",score:"స్కోరు",
+chooseAnswer:"ఒక సమాధానాన్ని ఎంచుకోండి.",confirmSubmit:"ఇప్పుడే పరీక్షను సమర్పించాలా?",timeUp:"సమయం ముగిసింది! మీ పరీక్ష సమర్పించబడుతుంది.",
+perQuestionUp:"ఈ ప్రశ్నకు సమయం ముగిసింది.",correct:"సరైనది",incorrect:"తప్పు",unanswered:"సమాధానం ఇవ్వలేదు",
+yourAnswer:"మీ సమాధానం",correctAnswer:"సరైన సమాధానం",explanation:"వివరణ",resultMsg:"మీరు క్విజ్ పూర్తి చేశారు.",
+noAnswer:"సమాధానం ఎంచుకోలేదు",marked:"సమీక్షకు గుర్తించారు",reviewMode:"సమాధానాలను పరిశీలించి, సిద్ధమైనప్పుడు సమర్పించండి.",
+restartMsg:"తరగతిని ఎంచుకుని మరో క్విజ్ ప్రారంభించండి."
 },
 ur:{
-tagline:"بہتر مستقبل کے لیے جدید تعلیم",
-languageLabel:"🌐 اپنی زبان منتخب کریں",
-languageHint:"آپ کسی بھی وقت زبان تبدیل کر سکتے ہیں۔",
-navHome:"ہوم",navClasses:"جماعتیں",navPractice:"MCQ مشق",navPremium:"پریمیم",
-heroTitle:"سیکھیں • مشق کریں • کامیاب ہوں",
-heroText:"مشق کے سوالات کے ذریعے امتحانات کی تیاری کریں۔",
-startLearning:"سیکھنا شروع کریں",
-classTitle:"📚 اپنی جماعت منتخب کریں",
-practice:"MCQ مشق",select:"منتخب کریں",
-pleaseSelect:"شروع کرنے کے لیے اپنی جماعت منتخب کریں۔",
-selected:"منتخب جماعت: ",
-practiceTitle:"📝 MCQ مشق",
-quizIntro:"پہلے جماعت منتخب کریں، پھر نمونہ کوئز شروع کریں۔",
-startQuiz:"نمونہ کوئز شروع کریں",
-sampleNote:"یہ صرف نمونہ سوالات ہیں۔ باب وار سوالات بعد کے مرحلے میں شامل کیے جائیں گے۔",
-premiumTitle:"🔒 پریمیم تعلیم",
-premiumHeading:"مزید مشق حاصل کریں",
-premiumText:"سبسکرپشن کے ذریعے اضافی ابواب اور مشقی سوالات حاصل کریں۔",
-paymentNote:"آن لائن ادائیگی ابھی فعال نہیں ہے۔",
-footerText:"© 2026 Sneha Edu | بہتر مستقبل کے لیے جدید تعلیم",
-question:"سوال",of:"میں سے",completed:"کوئز مکمل ہوگیا!",
-yourScore:"آپ کا اسکور: ",tryAgain:"دوبارہ کوشش کریں",
-correct:"✅ درست جواب! ",incorrect:"❌ غلط جواب۔ ",
-questions:[
-{q:"ہمارے نظامِ شمسی کا سب سے بڑا سیارہ کون سا ہے؟",a:["زمین","مریخ","مشتری","زہرہ"],correct:2,exp:"مشتری ہمارے نظامِ شمسی کا سب سے بڑا سیارہ ہے۔"},
-{q:"12 × 8 کتنے ہوتے ہیں؟",a:["84","96","108","88"],correct:1,exp:"12 × 8 = 96۔"},
-{q:"بھارت کا آئین کب نافذ ہوا؟",a:["15 اگست 1947","26 جنوری 1950","26 نومبر 1949","2 اکتوبر 1950"],correct:1,exp:"بھارت کا آئین 26 جنوری 1950 کو نافذ ہوا۔"}
-]
+tagline:"بہتر مستقبل کے لیے اسمارٹ تعلیم",languageLabel:"زبان منتخب کریں",languageHint:"آپ کسی بھی وقت زبان تبدیل کر سکتے ہیں۔",
+welcomeTitle:"سیکھیں • مشق کریں • کامیاب ہوں",welcomeText:"مشق کے سوالات کے ساتھ امتحانات کی تیاری کریں۔",
+chooseClass:"اپنی جماعت منتخب کریں",modeTitle:"کوئز کا طریقہ منتخب کریں",modeLabel:"طریقہ",
+practice:"مشق کا طریقہ",exam:"امتحان کا طریقہ",questionTimerLabel:"ہر سوال کا ٹائمر",
+off:"بند",seconds30:"30 سیکنڈ",seconds45:"45 سیکنڈ",seconds60:"60 سیکنڈ",
+examTimerLabel:"امتحان کا کل وقت",minutes20:"20 منٹ",minutes30:"30 منٹ",minutes45:"45 منٹ",minutes60:"60 منٹ",
+start:"کوئز شروع کریں",demoNotice:"یہ صرف نمونہ سوالات ہیں۔ مزید مضامین کے سوالات شامل کیے جائیں گے۔",
+quiz:"کوئز",back:"⬅ واپس",next:"اگلا ➡",mark:"🔖 نظرثانی کے لیے نشان لگائیں",unmark:"✓ نشان ہٹائیں",
+navigatorTitle:"سوالات کی فہرست",navigatorHint:"سبز = جواب دیا؛ نارنجی = نظرثانی؛ نیلا = موجودہ سوال۔",
+review:"جوابات کا جائزہ",submit:"امتحان جمع کریں",resultTitle:"آپ کے نتائج",restart:"دوبارہ کوشش کریں",
+premiumTitle:"⭐ پریمیم تعلیم",premiumText:"پریمیم اسباق اور اضافی سوالات مستقبل میں دستیاب ہوں گے۔",
+premiumNote:"اس ڈیمو میں آن لائن ادائیگی فعال نہیں ہے۔",question:"سوال",of:"میں سے",answered:"جواب دیے",score:"اسکور",
+chooseAnswer:"ایک جواب منتخب کریں۔",confirmSubmit:"کیا ابھی امتحان جمع کرنا ہے؟",timeUp:"وقت ختم! آپ کا امتحان جمع کیا جائے گا۔",
+perQuestionUp:"اس سوال کا وقت ختم ہو گیا۔",correct:"درست",incorrect:"غلط",unanswered:"جواب نہیں دیا",
+yourAnswer:"آپ کا جواب",correctAnswer:"درست جواب",explanation:"وضاحت",resultMsg:"آپ نے کوئز مکمل کر لیا ہے۔",
+noAnswer:"کوئی جواب منتخب نہیں",marked:"نظرثانی کے لیے نشان زد",reviewMode:"جوابات دیکھیں اور تیار ہونے پر جمع کریں۔",
+restartMsg:"دوسرا کوئز شروع کرنے کے لیے جماعت منتخب کریں۔"
 }
 };
 
-function t(){return translations[lang] || translations.en;}
-
-function applyLanguage(){
-const x=t();
-document.documentElement.lang=lang;
-document.documentElement.dir=lang==="ur"?"rtl":"ltr";
-document.getElementById("languageSelect").value=lang;
-
-const ids={
-tagline:"tagline",languageLabel:"languageLabel",languageHint:"languageHint",
-navHome:"navHome",navClasses:"navClasses",navPractice:"navPractice",navPremium:"navPremium",
-heroTitle:"heroTitle",heroText:"heroText",startLearning:"startLearning",
-classTitle:"classTitle",practiceTitle:"practiceTitle",quizIntro:"quizIntro",
-startQuiz:"startQuizBtn",sampleNote:"sampleNote",premiumTitle:"premiumTitle",
-premiumHeading:"premiumHeading",premiumText:"premiumText",paymentNote:"paymentNote",
-footerText:"footerText"
-};
-
-Object.keys(ids).forEach(k=>{
-document.getElementById(ids[k]).textContent=x[k];
-});
-
-for(let n=6;n<=10;n++){
-document.getElementById("practice"+n).textContent=x.practice;
-document.getElementById("select"+n).textContent=x.select;
+const questions=[
+{
+q:{en:"Which is the largest planet in our Solar System?",te:"మన సౌర కుటుంబంలో అతిపెద్ద గ్రహం ఏది?",ur:"ہمارے نظام شمسی کا سب سے بڑا سیارہ کون سا ہے؟"},
+o:[{en:"Earth",te:"భూమి",ur:"زمین"},{en:"Jupiter",te:"గురుడు",ur:"مشتری"},{en:"Mars",te:"అంగారకుడు",ur:"مریخ"},{en:"Venus",te:"శుక్రుడు",ur:"زہرہ"}],
+a:1,e:{en:"Jupiter is the largest planet in the Solar System.",te:"సౌర కుటుంబంలో గురుడు అతిపెద్ద గ్రహం.",ur:"مشتری نظام شمسی کا سب سے بڑا سیارہ ہے۔"}
+},
+{
+q:{en:"What is 12 × 8?",te:"12 × 8 ఎంత?",ur:"12 × 8 کتنا ہے؟"},
+o:[{en:"84",te:"84",ur:"84"},{en:"92",te:"92",ur:"92"},{en:"96",te:"96",ur:"96"},{en:"108",te:"108",ur:"108"}],
+a:2,e:{en:"12 multiplied by 8 equals 96.",te:"12ను 8తో గుణిస్తే 96 వస్తుంది.",ur:"12 کو 8 سے ضرب دینے پر 96 حاصل ہوتا ہے۔"}
+},
+{
+q:{en:"When did the Constitution of India come into effect?",te:"భారత రాజ్యాంగం ఎప్పుడు అమల్లోకి వచ్చింది?",ur:"بھارت کا آئین کب نافذ ہوا؟"},
+o:[{en:"15 August 1947",te:"15 ఆగస్టు 1947",ur:"15 اگست 1947"},{en:"26 January 1950",te:"26 జనవరి 1950",ur:"26 جنوری 1950"},{en:"26 November 1949",te:"26 నవంబర్ 1949",ur:"26 نومبر 1949"},{en:"2 October 1950",te:"2 అక్టోబర్ 1950",ur:"2 اکتوبر 1950"}],
+a:1,e:{en:"The Constitution came into effect on 26 January 1950.",te:"భారత రాజ్యాంగం 26 జనవరి 1950న అమల్లోకి వచ్చింది.",ur:"بھارت کا آئین 26 جنوری 1950 کو نافذ ہوا۔"}
 }
+];
 
-if(chosenClass===0){
-document.getElementById("selectedClass").textContent=x.pleaseSelect;
-}else{
-document.getElementById("selectedClass").textContent=x.selected+chosenClass;
-}
+let lang=localStorage.getItem("snehaLang")||"en";
+let chosenClass=6,index=0,answers={},marked={},reviewOnly=false,submitted=false;
+let questionSeconds=0,questionRemaining=0,examRemaining=0,examTimerId=null,questionTimerId=null;
+let mode="practice";
 
-if(current>0 || answered || document.getElementById("questionArea").innerHTML!==""){
-showQuestion();
-}
-}
-
+function tr(key){return (words[lang]&&words[lang][key])||words.en[key]||key}
+function qtext(item){return item[lang]||item.en}
 function changeLanguage(value){
-lang=value;
-localStorage.setItem("snehaLanguage",lang);
-applyLanguage();
+ lang=value;localStorage.setItem("snehaLang",lang);
+ document.documentElement.lang=lang;document.documentElement.dir=lang==="ur"?"rtl":"ltr";
+ applyLanguage();
+ if(!document.getElementById("quiz").classList.contains("hidden")&&!submitted)renderQuestion();
+ if(submitted)renderResults();
 }
-
+function applyLanguage(){
+ const ids={
+ tagline:"tagline",languageLabel:"languageLabel",languageHint:"languageHint",
+ welcomeTitle:"welcomeTitle",welcomeText:"welcomeText",chooseClass:"chooseClass",
+ modeTitle:"modeTitle",modeLabel:"modeLabel",questionTimerLabel:"questionTimerLabel",
+ examTimerLabel:"examTimerLabel",startButton:"start",demoNotice:"demoNotice",
+ premiumTitle:"premiumTitle",premiumText:"premiumText",premiumNote:"premiumNote",
+ navigatorTitle:"navigatorTitle",navigatorHint:"navigatorHint",reviewButton:"review",
+ submitButton:"submit",resultTitle:"resultTitle",restartButton:"restart"
+ };
+ Object.keys(ids).forEach(id=>{let el=document.getElementById(id);if(el)el.textContent=tr(ids[id])});
+ document.getElementById("language").value=lang;
+ document.querySelector('#mode option[value="practice"]').textContent=tr("practice");
+ document.querySelector('#mode option[value="exam"]').textContent=tr("exam");
+ const qt=document.getElementById("questionTimer");
+ qt.options[0].textContent=tr("off");qt.options[1].textContent=tr("seconds30");
+ qt.options[2].textContent=tr("seconds45");qt.options[3].textContent=tr("seconds60");
+ const et=document.getElementById("examMinutes");
+ et.options[0].textContent=tr("minutes30");et.options[1].textContent=tr("minutes20");
+ et.options[2].textContent=tr("minutes45");et.options[3].textContent=tr("minutes60");
+ updateClassButtons();
+}
 function chooseClass(n){
-chosenClass=n;
-document.getElementById("selectedClass").textContent=t().selected+n;
-document.getElementById("questionArea").innerHTML="";
-document.getElementById("result").textContent="";
-current=0;
-score=0;
-answered=false;
+ chosenClass=n;updateClassButtons();
 }
-
+function updateClassButtons(){
+ document.querySelectorAll(".class-btn").forEach((b,i)=>{
+ b.classList.toggle("active",i+6===chosenClass);
+ b.setAttribute("aria-pressed",i+6===chosenClass?"true":"false");
+ });
+}
 function startQuiz(){
-current=0;
-score=0;
-answered=false;
-document.getElementById("result").textContent="";
-showQuestion();
+ clearTimers();index=0;answers={};marked={};reviewOnly=false;submitted=false;
+ mode=document.getElementById("mode").value;
+ questionSeconds=mode==="practice"?Number(document.getElementById("questionTimer").value):0;
+ if(document.getElementById("questionTimer").value==="off")questionSeconds=0;
+ examRemaining=Number(document.getElementById("examMinutes").value)*60;
+ document.getElementById("home").classList.add("hidden");
+ document.getElementById("results").classList.add("hidden");
+ document.getElementById("quiz").classList.remove("hidden");
+ document.getElementById("quizHeading").textContent="Class "+chosenClass+" • "+tr(mode);
+ if(mode==="exam"){
+ questionSeconds=Number(document.getElementById("questionTimer").value)||0;
+ startExamTimer();
+ }
+ renderQuestion();
+ window.scrollTo(0,0);
 }
-
-function showQuestion(){
-const x=t();
-const area=document.getElementById("questionArea");
-
-if(current>=x.questions.length){
-area.innerHTML="<h3>"+x.completed+"</h3><p>"+x.yourScore+score+"/"+x.questions.length+"</p>";
-const btn=document.createElement("button");
-btn.textContent=x.tryAgain;
-btn.onclick=startQuiz;
-area.appendChild(btn);
-answered=true;
-return;
+function clearTimers(){
+ if(examTimerId)clearInterval(examTimerId);
+ if(questionTimerId)clearInterval(questionTimerId);
+ examTimerId=null;questionTimerId=null;
 }
-
-answered=false;
-const q=x.questions[current];
-area.innerHTML="";
-
-const title=document.createElement("h3");
-title.textContent=x.question+" "+(current+1)+" "+x.of+" "+x.questions.length;
-area.appendChild(title);
-
-const question=document.createElement("p");
-question.textContent=q.q;
-area.appendChild(question);
-
-q.a.forEach((option,i)=>{
-const btn=document.createElement("button");
-btn.className="option";
-btn.textContent=String.fromCharCode(65+i)+") "+option;
-btn.onclick=()=>answer(i);
-area.appendChild(btn);
-});
+function startExamTimer(){
+ updateTimerDisplay();
+ examTimerId=setInterval(()=>{
+ examRemaining--;updateTimerDisplay();
+ if(examRemaining<=0){clearTimers();alert(tr("timeUp"));finishQuiz();}
+ },1000);
 }
-
-function answer(i){
-if(answered)return;
-answered=true;
-
-const x=t();
-const q=x.questions[current];
-const correct=i===q.correct;
-if(correct)score++;
-
-document.getElementById("result").textContent=
-(correct?x.correct:x.incorrect)+q.exp;
-
-document.querySelectorAll("#questionArea .option").forEach(btn=>{
-btn.disabled=true;
-});
-
-current++;
-setTimeout(showQuestion,2200);
+function startQuestionTimer(){
+ if(questionTimerId)clearInterval(questionTimerId);
+ questionRemaining=questionSeconds;
+ if(!questionSeconds){updateTimerDisplay();return}
+ updateTimerDisplay();
+ questionTimerId=setInterval(()=>{
+ questionRemaining--;updateTimerDisplay();
+ if(questionRemaining<=0){
+ clearInterval(questionTimerId);questionTimerId=null;
+ if(mode==="practice"){
+ alert(tr("perQuestionUp"));
+ if(index<questions.length-1){index++;renderQuestion()}else{reviewOnly=true;renderQuestion()}
+ }else{
+ if(index<questions.length-1){index++;renderQuestion()}else{reviewOnly=true;renderQuestion()}
+ }
+ }
+ },1000);
 }
-
-applyLanguage();
+function updateTimerDisplay(){
+ let parts=[];
+ if(mode==="exam"){
+ let m=Math.floor(examRemaining/60),s=examRemaining%60;
+ parts.push("⏳ "+m+":"+String(s).padStart(2,"0"));
+ }
+ if(questionSeconds>0&&!submitted&&!reviewOnly){
+ parts.push("⏱ "+questionRemaining+"s");
+ }
+ document.getElementById("timerDisplay").textContent=parts.join(" | ");
+}
+function renderQuestion(){
+ if(submitted)return;
+ if(questionTimerId){clearInterval(questionTimerId);questionTimerId=null}
+ const item=questions[index];
+ document.getElementById("questionCount").textContent=tr("question")+" "+(index+1)+" "+tr("of")+" "+questions.length;
+ document.getElementById("scoreLive").textContent=tr("answered")+": "+Object.keys(answers).length+"/"+questions.length;
+ document.getElementById("questionText").textContent=qtext(item.q);
+ document.getElementById("progressBar").style.width=((index+1)/questions.length*100)+"%";
+ const box=document.getElementById("options");box.innerHTML="";
+ item.o.forEach((opt,i)=>{
+ const b=document.createElement("button");b.className="option";
+ b.textContent=String.fromCharCode(65+i)+". "+qtext(opt);
+ if(answers[index]===i)b.classList.add("selected");
+ if(reviewOnly){
+ b.disabled=true;
+ if(i===item.a)b.classList.add("correct");
+ else if(answers[index]===i)b.classList.add("wrong");
+ }
+ b.onclick=()=>selectAnswer(i);box.appendChild(b);
+ });
+ const exp=document.getElementById("explanation");
+ exp.classList.toggle("hidden",!reviewOnly);
+ exp.textContent=reviewOnly?(tr("explanation")+": "+qtext(item.e)):"";
+ document.getElementById("backButton").disabled=index===0;
+ document.getElementById("nextButton").textContent=index===questions.length-1?tr("review"):tr("next");
+ document.getElementById("markButton").textContent=marked[index]?tr("unmark"):tr("mark");
+ document.getElementById("markButton").disabled=reviewOnly;
+ document.getElementById("submitButton").disabled=reviewOnly;
+ renderNavigator();updateTimerDisplay();
+ if(!reviewOnly&&questionSeconds>0)startQuestionTimer();
+}
+function selectAnswer(i){
+ if(reviewOnly||submitted)return;
+ answers[index]=i;renderQuestion();
+}
+function goBack(){if(index>0){index--;renderQuestion()}}
+function goNext(){
+ if(index<questions.length-1){index++;renderQuestion()}
+ else if(!reviewOnly){reviewAnswers()}
+ else{finishQuiz()}
+}
+function toggleMark(){
+ if(reviewOnly)return;
+ marked[index]=!marked[index];renderQuestion();
+}
+function renderNavigator(){
+ const nav=document.getElementById("navigator");nav.innerHTML="";
+ questions.forEach((q,i)=>{
+ const b=document.createElement("button");b.className="nav-number";
+ if(i===index)b.classList.add("current");
+ if(answers[i]!==undefined)b.classList.add("answered");
+ if(marked[i])b.classList.add("marked");
+ b.textContent=i+1;b.setAttribute("aria-label",tr("question")+" "+(i+1));
+ b.onclick=()=>{index=i;renderQuestion()};nav.appendChild(b);
+ });
+}
+function reviewAnswers(){
+ reviewOnly=true;
+ if(questionTimerId){clearInterval(questionTimerId);questionTimerId=null}
+ renderQuestion();
+ document.getElementById("reviewButton").textContent=tr("submit");
+ document.getElementById("reviewButton").onclick=()=>submitQuiz(false);
+ document.getElementById("submitButton").disabled=false;
+ document.getElementById("submitButton").textContent=tr("submit");
+ document.getElementById("nextButton").textContent=tr("next");
+}
+function submitQuiz(auto){
+ if(submitted)return;
+ if(!auto&&!confirm(tr("confirmSubmit")))return;
+ finishQuiz();
+}
+function finishQuiz(){
+ clearTimers();submitted=true;reviewOnly=true;
+ document.getElementById("quiz").classList.add("hidden");
+ document.getElementById("results").classList.remove("hidden");
+ renderResults();window.scrollTo(0,0);
+}
+function renderResults(){
+ let score=0;
+ questions.forEach((q,i)=>{if(answers[i]===q.a)score++});
+ document.getElementById("resultTitle").textContent=tr("resultTitle");
+ document.getElementById("finalScore").textContent=tr("score")+": "+score+" / "+questions.length+" ("+Math.round(score/questions.length*100)+"%)";
+ document.getElementById("resultMessage").textContent=tr("resultMsg")+" "+tr("answered")+": "+Object.keys(answers).length+"/"+questions.length;
+ const review=document.getElementById("answerReview");review.innerHTML="";
+ questions.forEach((q,i)=>{
+ const card=document.createElement("div");card.className="card";
+ const title=document.createElement("h3");title.textContent=(i+1)+". "+qtext(q.q);card.appendChild(title);
+ const your=document.createElement("p");
+ your.textContent=tr("yourAnswer")+": "+(answers[i]===undefined?tr("noAnswer"):String.fromCharCode(65+answers[i])+". "+qtext(q.o[answers[i]]));
+ card.appendChild(your);
+ const correct=document.createElement("p");correct.textContent=tr("correctAnswer")+": "+String.fromCharCode(65+q.a)+". "+qtext(q.o[q.a]);card.appendChild(correct);
+ const status=document.createElement("strong");status.textContent=answers[i]===q.a?tr("correct"):answers[i]===undefined?tr("unanswered"):tr("incorrect");
+ status.style.color=answers[i]===q.a?"#16804a":"#b42318";card.appendChild(status);
+ const explain=document.createElement("p");explain.textContent=tr("explanation")+": "+qtext(q.e);card.appendChild(explain);
+ if(marked[i]){const m=document.createElement("p");m.textContent="🔖 "+tr("marked");card.appendChild(m)}
+ review.appendChild(card);
+ });
+}
+function backHome(){
+ clearTimers();submitted=false;reviewOnly=false;
+ document.getElementById("results").classList.add("hidden");
+ document.getElementById("quiz").classList.add("hidden");
+ document.getElementById("home").classList.remove("hidden");
+ document.getElementById("reviewButton").onclick=reviewAnswers;
+ document.getElementById("reviewButton").textContent=tr("review");
+ document.getElementById("submitButton").textContent=tr("submit");
+ window.scrollTo(0,0);
+}
+changeLanguage(lang);
 </script>
 </body>
 </html>
