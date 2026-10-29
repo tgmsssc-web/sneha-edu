@@ -1,0 +1,119 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sneha Edu | Competitive Exam Preparation</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#f3f7ff;color:#183153}
+header{background:#0756a5;color:white;text-align:center;padding:28px 15px}
+header h1{margin:0 0 8px;font-size:32px}
+header p{margin:0;font-size:15px}
+nav{background:#063d78;padding:12px;text-align:center}
+nav a{color:white;text-decoration:none;margin:8px;display:inline-block}
+.container{max-width:1000px;margin:auto;padding:20px}
+.hero{background:white;border-radius:16px;padding:28px 18px;text-align:center;box-shadow:0 3px 12px #dce5f2}
+.hero h2{color:#0756a5}
+button,.btn{background:#0756a5;color:white;border:0;border-radius:8px;padding:12px 18px;cursor:pointer;font-size:15px;text-decoration:none;display:inline-block}
+select{padding:12px;width:100%;max-width:350px;border:1px solid #ccd6e5;border-radius:8px;margin:8px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:14px;margin-top:20px}
+.card{background:white;padding:20px 12px;border-radius:12px;text-align:center;box-shadow:0 2px 8px #dce5f2}
+.card h3{color:#0756a5}
+section{margin:25px 0}
+#quiz{background:white;padding:20px;border-radius:12px}
+.option{display:block;width:100%;margin:10px 0;text-align:left;background:#edf4ff;color:#183153;border:1px solid #ccd6e5}
+.option:hover{background:#d8e9ff}
+footer{background:#063d78;color:white;text-align:center;padding:20px;margin-top:30px}
+.small{font-size:13px;color:#62748a}
+</style>
+</head>
+<body>
+<header>
+<h1>🎓 Sneha Edu</h1>
+<p>Smart Learning Platform for Competitive Examinations</p>
+</header>
+<nav>
+<a href="#home">Home</a>
+<a href="#classes">Classes</a>
+<a href="#practice">MCQ Practice</a>
+<a href="#premium">Premium</a>
+</nav>
+<main class="container">
+<section class="hero" id="home">
+<h2>Learn • Practice • Succeed</h2>
+<p>Prepare for competitive examinations with chapter-wise practice questions.</p>
+<a class="btn" href="#classes">Start Learning</a>
+</section>
+<section id="classes">
+<h2>📚 Select Your Class</h2>
+<div class="grid">
+<div class="card"><h3>Class 6</h3><p>Practice MCQs</p><button onclick="chooseClass(6)">Select</button></div>
+<div class="card"><h3>Class 7</h3><p>Practice MCQs</p><button onclick="chooseClass(7)">Select</button></div>
+<div class="card"><h3>Class 8</h3><p>Practice MCQs</p><button onclick="chooseClass(8)">Select</button></div>
+<div class="card"><h3>Class 9</h3><p>Practice MCQs</p><button onclick="chooseClass(9)">Select</button></div>
+<div class="card"><h3>Class 10</h3><p>Practice MCQs</p><button onclick="chooseClass(10)">Select</button></div>
+</div>
+<p id="selectedClass">Please select a class to begin.</p>
+</section>
+<section id="practice">
+<h2>📝 MCQ Practice</h2>
+<div id="quiz">
+<p>Select a class, then start a sample quiz.</p>
+<button onclick="startQuiz()">Start Sample Quiz</button>
+<div id="questionArea"></div>
+<p id="result"></p>
+</div>
+<p class="small">This is a sample quiz. A database connection will be added in the next stage.</p>
+</section>
+<section id="premium">
+<h2>🔒 Premium Learning</h2>
+<div class="card">
+<h3>Unlock More Practice</h3>
+<p>Access additional chapters and practice questions through a secure subscription.</p>
+<p class="small">Online payments will be enabled after the payment gateway is configured.</p>
+</div>
+</section>
+</main>
+<footer>
+<p>© 2026 Sneha Edu | Smart Learning for a Better Future</p>
+</footer>
+<script>
+let chosenClass=0;
+function chooseClass(n){
+chosenClass=n;
+document.getElementById('selectedClass').textContent='Selected: Class '+n;
+document.getElementById('questionArea').innerHTML='';
+document.getElementById('result').textContent='';
+}
+const questions=[
+{q:'Which is the largest planet in our Solar System?',a:['Earth','Mars','Jupiter','Venus'],correct:2,exp:'Jupiter is the largest planet in our Solar System.'},
+{q:'What is 12 × 8?',a:['84','96','108','88'],correct:1,exp:'12 × 8 = 96.'},
+{q:'When did the Constitution of India come into effect?',a:['15 August 1947','26 January 1950','26 November 1949','2 October 1950'],correct:1,exp:'The Constitution of India came into effect on 26 January 1950.'}
+];
+let current=0,score=0;
+function startQuiz(){
+current=0;score=0;
+document.getElementById('result').textContent='';
+showQuestion();
+}
+function showQuestion(){
+if(current>=questions.length){
+document.getElementById('questionArea').innerHTML='<h3>Quiz Completed!</h3><p>Your score: '+score+'/'+questions.length+'</p><button onclick="startQuiz()">Try Again</button>';
+return;
+}
+let q=questions[current];
+let html='<h3>Question '+(current+1)+' of '+questions.length+'</h3><p>'+q.q+'</p>';
+q.a.forEach((a,i)=>{html+='<button class="option" onclick="answer('+i+')">'+String.fromCharCode(65+i)+') '+a+'</button>';});
+document.getElementById('questionArea').innerHTML=html;
+}
+function answer(i){
+let q=questions[current];
+let correct=i===q.correct;
+if(correct)score++;
+document.getElementById('result').textContent=(correct?'✅ Correct! ':'❌ Incorrect. ')+q.exp;
+current++;
+setTimeout(showQuestion,1800);
+}
+</script>
+</body>
+</html>
