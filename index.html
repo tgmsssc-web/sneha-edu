@@ -2,196 +2,268 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#123a72">
-<title>Sneha Edu | Smart Learning & Quiz</title>
+<title>Sneha Edu | Class 10 Social Studies Quiz</title>
 <style>
-:root{--navy:#123a72;--blue:#2563eb;--sky:#eaf2ff;--green:#16834a;--red:#c62828;--ink:#172033;--muted:#64748b;--line:#dbe4f0;--paper:#fff;--bg:#f3f6fb;--gold:#f4b400}
+:root{--blue:#123a72;--blue2:#2563eb;--bg:#f3f6fb;--card:#fff;--ink:#172033;--muted:#64748b;--line:#dbe3ee;--green:#166534;--red:#b91c1c;--gold:#fff1bf}
 *{box-sizing:border-box}
-body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5}
-header{background:linear-gradient(125deg,#102b54,#2563eb);color:#fff;padding:22px 16px 26px}
-.headwrap{max-width:1050px;margin:auto;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
-.brand{display:flex;align-items:center;gap:12px}.logo{width:48px;height:48px;border-radius:15px;background:#fff;color:var(--navy);display:grid;place-items:center;font-size:24px;font-weight:900;box-shadow:0 6px 18px #001b4533}
-h1{font-size:clamp(23px,4vw,32px);margin:0;line-height:1.15}header p{margin:6px 0 0;color:#e5edff}
-select,button,input{font:inherit}select{padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:#fff;color:var(--ink);max-width:100%}
-main{max-width:1050px;margin:22px auto;padding:0 14px 36px}
-.card{background:var(--paper);border:1px solid var(--line);border-radius:17px;padding:18px;box-shadow:0 5px 18px #0f2f5b0a;margin-bottom:16px}
-h2{font-size:21px;margin:0 0 8px}h3{margin:0 0 8px;font-size:17px}
-.muted{color:var(--muted)}.small{font-size:13px}.controls{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:16px}
-.field label{display:block;font-weight:700;font-size:13px;margin:0 0 5px}
-.btn{border:0;border-radius:11px;padding:11px 16px;font-weight:750;cursor:pointer;transition:.15s}
-.btn:disabled{opacity:.45;cursor:not-allowed}.primary{background:var(--blue);color:white}.secondary{background:var(--sky);color:var(--navy)}.outline{background:#fff;border:1px solid var(--line);color:var(--ink)}.success{background:var(--green);color:#fff}.danger{background:var(--red);color:#fff}.gold{background:#fff3cc;color:#714c00}
-.actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:15px}
-.statusrow{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:12px}
-.pill{display:inline-flex;align-items:center;gap:6px;border-radius:99px;background:#edf3ff;color:#17417b;padding:6px 10px;font-weight:750;font-size:13px}
-.progress{height:8px;background:#e5eaf2;border-radius:99px;overflow:hidden;margin:12px 0 18px}.progress>div{height:100%;width:0;background:linear-gradient(90deg,#2563eb,#14b8a6);transition:width .2s}
-.question-text{font-size:clamp(18px,3vw,22px);font-weight:750;margin:14px 0 16px}
-.options{display:grid;gap:10px}.option{display:flex;align-items:flex-start;gap:10px;border:1.5px solid var(--line);border-radius:12px;padding:13px;cursor:pointer;background:#fff}.option:hover{border-color:#8ab0f8;background:#f8fbff}.option.selected{border-color:var(--blue);background:#edf4ff}.option input{margin-top:5px;accent-color:var(--blue)}.option-letter{font-weight:850;color:var(--navy);min-width:24px}
-.feedback{padding:13px;border-radius:12px;margin-top:14px}.correct{background:#e8f7ee;border:1px solid #b9e5c9;color:#14532d}.incorrect{background:#fff0f0;border:1px solid #f3c2c2;color:#8b1e1e}
-.navigator{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));gap:7px;margin-top:12px}.navq{border:1px solid var(--line);background:#fff;border-radius:8px;padding:8px 0;font-weight:750;cursor:pointer}.navq.current{outline:2px solid var(--blue);border-color:var(--blue)}.navq.answered{background:#dff5e7;border-color:#9edbb4}.navq.review{background:#fff0c2;border-color:#e9c85b}
-.summary-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.stat{padding:14px;border-radius:12px;background:#f5f8ff;text-align:center}.stat strong{font-size:25px;display:block;color:var(--navy)}
-.hidden{display:none!important}.notice{padding:12px 14px;border-radius:11px;background:#fff7df;border:1px solid #f2d889;color:#684c00;margin-top:12px}
-footer{text-align:center;padding:20px;color:var(--muted);font-size:13px}
-@media(max-width:700px){.controls{grid-template-columns:repeat(2,minmax(0,1fr))}.navigator{grid-template-columns:repeat(6,minmax(0,1fr))}.card{padding:15px}.headwrap{align-items:flex-start}.headwrap>select{width:100%}}
-@media(max-width:420px){.controls{grid-template-columns:1fr}.navigator{grid-template-columns:repeat(5,minmax(0,1fr))}.actions .btn{flex:1 1 42%}}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--ink)}
+header{background:linear-gradient(125deg,var(--blue),var(--blue2));color:#fff;padding:22px 16px 26px}
+.headwrap{max-width:1050px;margin:auto;display:flex;align-items:center;gap:12px}
+.logo{width:56px;height:56px;border-radius:15px;background:#fff;color:var(--blue);display:grid;place-items:center;font-size:30px;font-weight:800;flex-shrink:0}
+h1{font-size:clamp(23px,4vw,32px);margin:0}
+header p{margin:4px 0 0;color:#e5edff}
+main{max-width:850px;margin:22px auto;padding:0 14px 32px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:clamp(18px,4vw,28px);box-shadow:0 5px 18px #0f2f5e0d}
+.badge{display:inline-flex;align-items:center;gap:7px;background:#edf3ff;color:#24456f;border-radius:999px;padding:9px 14px;font-weight:700;margin:0 7px 10px 0}
+.muted{color:var(--muted)}
+.controls{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:18px 0}
+.field label{display:block;font-weight:700;font-size:13px;margin-bottom:6px}
+select,input{width:100%;padding:12px;border:1px solid var(--line);border-radius:12px;background:#fff;color:var(--ink);font:inherit}
+button{border:0;border-radius:12px;padding:12px 16px;font:inherit;font-weight:750;cursor:pointer;transition:filter .15s,transform .05s}
+button:active{transform:translateY(1px)}
+button:disabled{opacity:.45;cursor:not-allowed}
+.primary{background:var(--blue2);color:#fff}
+.secondary{background:#eaf0f8;color:#1f3557}
+.outline{background:#fff;border:1px solid var(--line);color:#1f3557}
+.gold{background:var(--gold);color:#765300}
+.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+.notice{background:#eef6ff;border:1px solid #cfe2ff;color:#24456f;border-radius:12px;padding:12px;margin:14px 0}
+.hidden{display:none!important}
+.statusrow{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin:8px 0}
+.progress{height:10px;border-radius:99px;background:#e5eaf2;overflow:hidden;margin:14px 0 20px}
+.progress div{height:100%;width:0;background:linear-gradient(90deg,#14b8a6,#2563eb);transition:width .2s}
+.question-text{font-size:clamp(20px,3.4vw,27px);line-height:1.4;font-weight:800;margin:18px 0}
+.option{display:flex;align-items:flex-start;gap:12px;border:1.5px solid var(--line);border-radius:16px;padding:14px;margin:10px 0;cursor:pointer;background:#fff}
+.option:hover{border-color:#9bb7e8}
+.option.selected{border-color:var(--blue2);background:#eff6ff}
+.option input{width:20px;height:20px;flex:0 0 20px;margin:2px 0 0;accent-color:var(--blue2)}
+.option-letter{font-weight:800;color:#24456f;min-width:25px}
+.feedback{padding:14px;border-radius:12px;margin-top:14px;line-height:1.5}
+.feedback.correct{background:#eaf8ef;border:1px solid #b8e4c5;color:#14532d}
+.feedback.incorrect{background:#fff0f0;border:1px solid #f3c2c2;color:#7f1d1d}
+.navigator{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));gap:7px;margin-top:12px}
+.navq{padding:9px 0;background:#eef2f7;color:#26364c}
+.navq.answered{background:#dcfce7;color:#166534}
+.navq.current{outline:3px solid #60a5fa}
+.navq.review{background:#fef3c7;color:#92400e}
+.summary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:18px}
+.stat{background:#f4f7fb;border-radius:14px;padding:14px;text-align:center}
+.stat strong{display:block;font-size:24px}
+footer{text-align:center;color:var(--muted);padding:22px 12px}
+@media(max-width:620px){.controls{grid-template-columns:1fr}.navigator{grid-template-columns:repeat(6,minmax(0,1fr))}.summary{grid-template-columns:1fr 1fr}.headwrap{align-items:flex-start}}
 </style>
 </head>
 <body>
 <header>
   <div class="headwrap">
-    <div class="brand"><div class="logo">S</div><div><h1>Sneha Edu</h1><p>Learn • Practice • Improve</p></div></div>
-    <select id="language" aria-label="Interface language" onchange="changeLanguage()">
-      <option value="en">English</option><option value="te">తెలుగు interface</option><option value="ur">اردو interface</option>
-    </select>
+    <div class="logo" aria-hidden="true">S</div>
+    <div><h1>Sneha Edu</h1><p>Learn · Practice · Improve</p></div>
   </div>
 </header>
 <main>
   <section class="card" id="setupCard">
-    <h2 id="welcomeTitle">Welcome to Sneha Edu Quiz</h2>
-    <p class="muted" id="welcomeText">Choose your class and quiz settings to begin. Your current question bank contains Class 10 Social Studies, Chapter 1: India – Relief Features.</p>
+    <h2>Welcome to Sneha Edu Quiz</h2>
+    <p class="muted">Choose your quiz settings to begin. This version uses English question-bank content; translation can be added separately later.</p>
     <div class="controls">
-      <div class="field"><label for="classSelect" id="classLabel">Class</label><select id="classSelect"><option value="6">Class 6</option><option value="7">Class 7</option><option value="8">Class 8</option><option value="9">Class 9</option><option value="10" selected>Class 10</option></select></div>
-      <div class="field"><label for="subjectSelect" id="subjectLabel">Subject</label><select id="subjectSelect"><option value="social">Social Studies</option></select></div>
-      <div class="field"><label for="modeSelect" id="modeLabel">Quiz mode</label><select id="modeSelect"><option value="practice">Practice (instant feedback)</option><option value="exam">Exam (feedback at end)</option></select></div>
-      <div class="field"><label for="countSelect" id="countLabel">Questions per round</label><select id="countSelect"><option value="10">10 questions</option><option value="20">20 questions</option><option value="all" selected>All available (50)</option></select></div>
+      <div class="field"><label for="classSelect">Class</label><select id="classSelect"><option value="10">Class 10</option></select></div>
+      <div class="field"><label for="subjectSelect">Subject</label><select id="subjectSelect"><option value="Social Studies">Social Studies</option></select></div>
+      <div class="field"><label for="countSelect">Questions per round</label><select id="countSelect"><option value="10">10 questions</option><option value="20">20 questions</option><option value="30">30 questions</option><option value="all">All available questions</option></select></div>
     </div>
-    <div class="notice" id="bankNotice">Available now: Class 10 • Social Studies • Chapter 1 • 50 MCQs. Question text currently available in English; translated question banks can be connected later.</div>
-    <div class="actions"><button class="btn primary" id="startBtn" onclick="startQuiz()">Start Quiz</button><button class="btn outline" onclick="showInstructions()">How to use</button></div>
-    <div id="instructions" class="notice hidden">Select an option for each question. Use Back/Next or the question navigator. Mark questions for review. In Practice mode, feedback appears after answering. In Exam mode, answers and explanations appear after submission.</div>
+    <div class="notice" id="bankNotice">Question bank: Class 10 · Social Studies · Chapter 1 — India: Relief Features.</div>
+    <div class="actions"><button class="primary" id="startBtn" type="button">Start Quiz</button></div>
+    <p id="loadMessage" class="muted" role="status"></p>
   </section>
 
   <section class="card hidden" id="quizCard">
     <div class="statusrow">
-      <span class="pill" id="chapterPill">Class 10 • Social Studies • Chapter 1</span>
-      <span class="pill">⏱ <span id="timerLabel">Time</span>: <strong id="timer">00:00</strong></span>
+      <span class="badge">Class 10 · Social Studies · Chapter 1</span>
+      <span class="badge">⏱ <span id="timer">00:00</span></span>
     </div>
-    <div class="statusrow small muted"><span id="questionCounter">Question 1 of 50</span><span id="scoreLive">Answered: 0</span></div>
+    <div class="statusrow"><span id="questionCounter" class="muted">Question 1 of 0</span><span id="scoreLive" class="muted">Answered: 0</span></div>
     <div class="progress"><div id="progressBar"></div></div>
-    <div class="statusrow"><span class="pill" id="categoryPill">High priority</span><button class="btn gold" id="reviewBtn" onclick="toggleReview()">☆ Mark for Review</button></div>
+    <div class="statusrow"><span class="badge" id="categoryPill">Practice MCQ</span><button class="gold" id="reviewBtn" type="button">☆ Mark for review</button></div>
     <div class="question-text" id="questionText">Loading question…</div>
-    <div class="options" id="options"></div>
+    <div id="options"></div>
     <div id="feedback" class="feedback hidden" aria-live="polite"></div>
     <div class="actions">
-      <button class="btn outline" id="prevBtn" onclick="moveQuestion(-1)">← Back</button>
-      <button class="btn secondary" id="nextBtn" onclick="moveQuestion(1)">Next →</button>
-      <button class="btn success" id="submitBtn" onclick="submitQuiz()">Submit Test</button>
+      <button class="outline" id="prevBtn" type="button">← Back</button>
+      <button class="secondary" id="nextBtn" type="button">Next →</button>
+      <button class="primary" id="submitBtn" type="button">Submit Quiz</button>
     </div>
-    <h3 style="margin-top:22px" id="navigatorTitle">Question Navigator</h3>
-    <p class="small muted" id="navigatorHelp">Green = answered • Yellow = marked for review • Blue outline = current question</p>
+    <h3 style="margin:24px 0 6px">Question Navigator</h3>
+    <p class="muted" style="font-size:13px;margin-top:0">Green = answered · Yellow = marked for review · Blue outline = current question</p>
     <div class="navigator" id="navigator"></div>
   </section>
 
   <section class="card hidden" id="resultCard">
-    <h2 id="resultTitle">Your Results</h2>
-    <p class="muted" id="resultMessage"></p>
-    <div class="summary-grid">
-      <div class="stat"><strong id="scoreStat">0/50</strong><span id="scoreText">Score</span></div>
-      <div class="stat"><strong id="percentStat">0%</strong><span id="percentText">Percentage</span></div>
-      <div class="stat"><strong id="timeStat">00:00</strong><span id="timeText">Time taken</span></div>
+    <h2>Your Results</h2>
+    <p id="resultMessage" class="muted"></p>
+    <div class="summary">
+      <div class="stat"><strong id="scoreStat">0/0</strong><span>Score</span></div>
+      <div class="stat"><strong id="percentStat">0%</strong><span>Percentage</span></div>
+      <div class="stat"><strong id="timeStat">00:00</strong><span>Time taken</span></div>
     </div>
-    <div class="actions"><button class="btn primary" onclick="reviewAnswers()" id="reviewAnswersBtn">Review Answers</button><button class="btn secondary" onclick="restartQuiz()" id="retryBtn">Try Again</button><button class="btn outline" onclick="backToSetup()" id="homeBtn">Back to Setup</button></div>
+    <div class="actions"><button class="primary" id="reviewAnswersBtn" type="button">Review Answers</button><button class="secondary" id="restartBtn" type="button">Restart Quiz</button></div>
     <div id="answerReview" class="hidden" style="margin-top:18px"></div>
   </section>
 </main>
-<footer>© <span id="year"></span> Sneha Edu • Educational practice platform</footer>
+<footer>© <span id="year"></span> Sneha Edu · Educational practice platform</footer>
 <script>
 "use strict";
-const questionBankUrl = "https://raw.githubusercontent.com/tgmsssc-web/sneha-edu/refs/heads/main/EduSeva_SSC_Class10_Social_Chapter1_QuestionBank_50.json";
-let allQuestions = [], quizQuestions = [], answers = [], reviewFlags = [], currentIndex = 0;
-let startedAt = 0, elapsedSeconds = 0, timerInterval = null, submitted = false, reviewMode = false;
-const $ = id => document.getElementById(id);
-const translations = {
- en:{welcomeTitle:"Welcome to Sneha Edu Quiz",welcomeText:"Choose your class and quiz settings to begin. Your current question bank contains Class 10 Social Studies, Chapter 1: India – Relief Features.",classLabel:"Class",subjectLabel:"Subject",modeLabel:"Quiz mode",countLabel:"Questions per round",startBtn:"Start Quiz",timerLabel:"Time",reviewBtn:"☆ Mark for Review",reviewedBtn:"★ Marked for Review",prevBtn:"← Back",nextBtn:"Next →",submitBtn:"Submit Test",navigatorTitle:"Question Navigator",navigatorHelp:"Green = answered • Yellow = marked for review • Blue outline = current question",reviewAnswersBtn:"Review Answers",retryBtn:"Try Again",homeBtn:"Back to Setup",scoreText:"Score",percentText:"Percentage",timeText:"Time taken",resultTitle:"Your Results",all:"All available (50)",practice:"Practice (instant feedback)",exam:"Exam (feedback at end)",answered:"Answered",question:"Question",correct:"Correct!",incorrect:"Not quite.",answer:"Correct answer",explanation:"Explanation",timeUp:"Time is up. Your quiz will be submitted.",loading:"Loading question bank…",loadError:"Could not load the question bank. Check your internet connection and confirm the JSON file name in GitHub.",onlyClass10:"Currently, only the Class 10 Social Studies Chapter 1 question bank is connected.",questions:"questions"},
- te:{welcomeTitle:"స్నేహ ఎడ్యూ క్విజ్‌కు స్వాగతం",welcomeText:"ప్రారంభించడానికి తరగతి, క్విజ్ సెట్టింగ్స్ ఎంచుకోండి. ప్రస్తుతం 10వ తరగతి సామాజిక శాస్త్రం, అధ్యాయం 1 ప్రశ్నల బ్యాంక్ అందుబాటులో ఉంది.",classLabel:"తరగతి",subjectLabel:"విషయం",modeLabel:"క్విజ్ విధానం",countLabel:"ప్రశ్నల సంఖ్య",startBtn:"క్విజ్ ప్రారంభించండి",timerLabel:"సమయం",reviewBtn:"☆ తర్వాత చూడాలి",reviewedBtn:"★ సమీక్షకు గుర్తించారు",prevBtn:"← వెనుకకు",nextBtn:"తర్వాత →",submitBtn:"పరీక్ష సమర్పించండి",navigatorTitle:"ప్రశ్నల జాబితా",navigatorHelp:"ఆకుపచ్చ = సమాధానం ఇచ్చారు • పసుపు = సమీక్ష • నీలి అంచు = ప్రస్తుత ప్రశ్న",reviewAnswersBtn:"సమాధానాలు చూడండి",retryBtn:"మళ్లీ ప్రయత్నించండి",homeBtn:"సెట్టింగ్స్‌కు తిరిగి",scoreText:"స్కోరు",percentText:"శాతం",timeText:"పట్టిన సమయం",resultTitle:"మీ ఫలితాలు",all:"అందుబాటులో ఉన్నవి (50)",practice:"ప్రాక్టీస్ (వెంటనే వివరణ)",exam:"పరీక్ష (చివరలో వివరణ)",answered:"సమాధానాలు",question:"ప్రశ్న",correct:"సరైన సమాధానం!",incorrect:"సమాధానం సరైనది కాదు.",answer:"సరైన సమాధానం",explanation:"వివరణ",timeUp:"సమయం ముగిసింది. పరీక్ష సమర్పించబడుతుంది.",loading:"ప్రశ్నల బ్యాంక్ లోడ్ అవుతోంది…",loadError:"ప్రశ్నల బ్యాంక్ లోడ్ కాలేదు. ఇంటర్నెట్, GitHub ఫైల్ పేరును తనిఖీ చేయండి.",onlyClass10:"ప్రస్తుతం 10వ తరగతి సామాజిక శాస్త్రం అధ్యాయం 1 మాత్రమే అందుబాటులో ఉంది.",questions:"ప్రశ్నలు"},
- ur:{welcomeTitle:"سنیہا ایڈو کوئز میں خوش آمدید",welcomeText:"شروع کرنے کے لیے جماعت اور کوئز کی ترتیبات منتخب کریں۔ فی الحال جماعت دہم سماجی علوم، باب 1 کا سوال بینک دستیاب ہے۔",classLabel:"جماعت",subjectLabel:"مضمون",modeLabel:"کوئز موڈ",countLabel:"سوالات کی تعداد",startBtn:"کوئز شروع کریں",timerLabel:"وقت",reviewBtn:"☆ نظرثانی کے لیے نشان",reviewedBtn:"★ نظرثانی کے لیے نشان زد",prevBtn:"← واپس",nextBtn:"اگلا →",submitBtn:"ٹیسٹ جمع کریں",navigatorTitle:"سوالات کی فہرست",navigatorHelp:"سبز = جواب دیا • پیلا = نظرثانی • نیلا کنارہ = موجودہ سوال",reviewAnswersBtn:"جوابات دیکھیں",retryBtn:"دوبارہ کوشش کریں",homeBtn:"ترتیبات پر واپس",scoreText:"اسکور",percentText:"فیصد",timeText:"صرف شدہ وقت",resultTitle:"آپ کے نتائج",all:"تمام دستیاب (50)",practice:"پریکٹس (فوری وضاحت)",exam:"امتحان (آخر میں وضاحت)",answered:"جواب دیے",question:"سوال",correct:"درست!",incorrect:"درست نہیں۔",answer:"درست جواب",explanation:"وضاحت",timeUp:"وقت ختم۔ ٹیسٹ جمع کیا جا رہا ہے۔",loading:"سوالات لوڈ ہو رہے ہیں…",loadError:"سوالات لوڈ نہیں ہو سکے۔ انٹرنیٹ اور GitHub فائل کا نام چیک کریں۔",onlyClass10:"فی الحال صرف جماعت دہم سماجی علوم باب 1 دستیاب ہے۔",questions:"سوالات"}
-};
-function t(key){return (translations[$("language").value]||translations.en)[key]||translations.en[key]||key}
-function changeLanguage(){
- const lang=$("language").value;document.documentElement.lang=lang;$("welcomeTitle").textContent=t("welcomeTitle");$("welcomeText").textContent=t("welcomeText");
- ["classLabel","subjectLabel","modeLabel","countLabel","startBtn","timerLabel","navigatorTitle","navigatorHelp","reviewAnswersBtn","retryBtn","homeBtn","scoreText","percentText","timeText","resultTitle"].forEach(id=>{if($(id))$(id).textContent=t(id)});
- $("reviewBtn").textContent=reviewFlags[currentIndex]?t("reviewedBtn"):t("reviewBtn");$("prevBtn").textContent=t("prevBtn");$("nextBtn").textContent=t("nextBtn");$("submitBtn").textContent=t("submitBtn");
- const mode=$("modeSelect");mode.options[0].text=t("practice");mode.options[1].text=t("exam");$("countSelect").options[2].text=t("all");
- if(!submitted && !$("quizCard").classList.contains("hidden"))renderQuestion();
+
+/*
+ * Single-language quiz loader.
+ * The source JSON may contain a "source" object for the English text and a
+ * "translations" object. This page intentionally reads only English content.
+ * Change QUESTION_BANK_URL only if the question-bank filename changes.
+ */
+const QUESTION_BANK_URL = "https://raw.githubusercontent.com/tgmsssc-web/sneha-edu/main/Sneha_Edu_Class10_Social_Chapter1_Trilingual_67_Compatible_DRAFT.json";
+
+const $ = (id) => document.getElementById(id);
+let allQuestions = [], quizQuestions = [], answers = [], reviewFlags = [];
+let currentIndex = 0, startedAt = 0, elapsedSeconds = 0, timerInterval = null;
+let submitted = false, reviewMode = false;
+
+function formatTime(seconds) {
+  return String(Math.floor(seconds / 60)).padStart(2, "0") + ":" + String(seconds % 60).padStart(2, "0");
 }
-function showInstructions(){$("instructions").classList.toggle("hidden")}
-async function loadQuestionBank(){
- const response=await fetch(questionBankUrl,{cache:"no-store"});if(!response.ok)throw new Error("HTTP "+response.status);
- const data=await response.json();const raw=Array.isArray(data)?data:data.questions;
- if(!Array.isArray(raw)||raw.length===0)throw new Error("No questions array");
- return raw.map((item,i)=>{
-   const options=item.options||item.o||{};
-   const answer=item.correct_answer??item.answer??item.a;
-   let correctIndex=typeof answer==="number"?answer:["A","B","C","D"].indexOf(String(answer).toUpperCase());
-   if(correctIndex<0||correctIndex>3)correctIndex=0;
-   const optionList=Array.isArray(options)?options:["A","B","C","D"].map(k=>options[k]??options[k.toLowerCase()]??"");
-   return {id:item.id||i+1,q:item.question||item.q||("Question "+(i+1)),o:optionList,a:correctIndex,e:item.explanation||item.e||"",category:item.source_category||item.category||"Practice",raw:item};
- });
+function getEnglishQuestion(item, index) {
+  // Prefer the English source object, then support simpler question-bank schemas.
+  const src = item.source || item;
+  const q = src.question || item.question || item.prompt;
+  const rawOptions = src.options || item.options || {};
+  let options;
+  if (Array.isArray(rawOptions)) {
+    options = rawOptions.slice(0, 4).map((o) => typeof o === "string" ? o : (o.text || o.label || ""));
+  } else {
+    options = ["A", "B", "C", "D"].map((key) => rawOptions[key] ?? rawOptions[key.toLowerCase()] ?? "");
+  }
+  const answerRaw = item.answer_key ?? item.correct_answer ?? src.answer_key ?? src.correct_answer;
+  let answerIndex = -1;
+  if (typeof answerRaw === "number") answerIndex = answerRaw;
+  else if (typeof answerRaw === "string") answerIndex = ["A", "B", "C", "D"].indexOf(answerRaw.trim().toUpperCase());
+  if (answerIndex < 0 || answerIndex > 3) answerIndex = 0;
+  return {
+    id: item.id || `q-${index + 1}`,
+    question: q || `Question ${index + 1}`,
+    options,
+    answerIndex,
+    explanation: src.explanation || item.explanation || "",
+    category: item.topic || item.category || "Practice MCQ"
+  };
 }
-async function startQuiz(){
- if($("classSelect").value!=="10"){alert(t("onlyClass10"));return}
- $("startBtn").disabled=true;$("startBtn").textContent=t("loading");
- try{allQuestions=await loadQuestionBank()}catch(e){console.error(e);alert(t("loadError"));$("startBtn").disabled=false;$("startBtn").textContent=t("startBtn");return}
- let count=$("countSelect").value==="all"?allQuestions.length:Math.min(Number($("countSelect").value),allQuestions.length);
- quizQuestions=allQuestions.slice(0,count);answers=Array(quizQuestions.length).fill(null);reviewFlags=Array(quizQuestions.length).fill(false);currentIndex=0;submitted=false;reviewMode=false;elapsedSeconds=0;startedAt=Date.now();
- $("setupCard").classList.add("hidden");$("resultCard").classList.add("hidden");$("quizCard").classList.remove("hidden");
- clearInterval(timerInterval);timerInterval=setInterval(updateTimer,1000);updateTimer();renderQuestion();
- $("startBtn").disabled=false;$("startBtn").textContent=t("startBtn");
+async function loadQuestionBank() {
+  const response = await fetch(QUESTION_BANK_URL, { cache: "no-store" });
+  if (!response.ok) throw new Error(`Question bank request failed (HTTP ${response.status}).`);
+  const data = await response.json();
+  const raw = Array.isArray(data) ? data : data.questions;
+  if (!Array.isArray(raw) || raw.length === 0) throw new Error("No questions were found in the JSON file.");
+  const parsed = raw.map(getEnglishQuestion);
+  return parsed.filter(q => q.question && q.options.length === 4 && q.options.every(o => String(o).trim() !== ""));
 }
-function updateTimer(){if(submitted)return;elapsedSeconds=Math.floor((Date.now()-startedAt)/1000);$("timer").textContent=formatTime(elapsedSeconds)}
-function formatTime(sec){return String(Math.floor(sec/60)).padStart(2,"0")+":"+String(sec%60).padStart(2,"0")}
-function renderQuestion(){
- if(!quizQuestions.length)return;const item=quizQuestions[currentIndex];const mode=$("modeSelect").value;
- $("questionCounter").textContent=t("question")+" "+(currentIndex+1)+" / "+quizQuestions.length;
- $("scoreLive").textContent=t("answered")+": "+answers.filter(a=>a!==null).length;
- $("progressBar").style.width=((currentIndex+1)/quizQuestions.length*100)+"%";
- $("categoryPill").textContent=String(item.category).replaceAll("_"," ");
- $("questionText").textContent=item.q;
- $("options").innerHTML="";
- item.o.forEach((option,index)=>{
-  const label=document.createElement("label");label.className="option"+(answers[currentIndex]===index?" selected":"");
-  const radio=document.createElement("input");radio.type="radio";radio.name="answer";radio.checked=answers[currentIndex]===index;radio.disabled=submitted||reviewMode;
-  radio.addEventListener("change",()=>chooseAnswer(index));
-  const letter=document.createElement("span");letter.className="option-letter";letter.textContent=String.fromCharCode(65+index)+")";
-  const text=document.createElement("span");text.textContent=option;
-  label.append(radio,letter,text);$("options").appendChild(label);
- });
- $("reviewBtn").textContent=reviewFlags[currentIndex]?t("reviewedBtn"):t("reviewBtn");
- $("prevBtn").disabled=currentIndex===0;$("nextBtn").disabled=currentIndex===quizQuestions.length-1;
- $("submitBtn").classList.toggle("hidden",submitted||reviewMode);
- renderFeedback();renderNavigator();
+function updateTimer() {
+  if (submitted) return;
+  elapsedSeconds = Math.floor((Date.now() - startedAt) / 1000);
+  $("timer").textContent = formatTime(elapsedSeconds);
 }
-function chooseAnswer(index){if(submitted||reviewMode)return;answers[currentIndex]=index;renderQuestion()}
-function renderFeedback(){
- const box=$("feedback"),item=quizQuestions[currentIndex];box.className="feedback hidden";box.innerHTML="";
- const show= submitted || ($("modeSelect").value==="practice"&&answers[currentIndex]!==null);
- if(!show)return;
- const isCorrect=answers[currentIndex]===item.a;box.className="feedback "+(isCorrect?"correct":"incorrect");
- const title=document.createElement("strong");title.textContent=(isCorrect?t("correct"):t("incorrect"))+" "+t("answer")+": "+String.fromCharCode(65+item.a);
- const exp=document.createElement("p");exp.style.margin="7px 0 0";exp.textContent=t("explanation")+": "+(item.e||"—");box.append(title,exp);
+function renderQuestion() {
+  if (!quizQuestions.length) return;
+  const q = quizQuestions[currentIndex];
+  $("questionCounter").textContent = `Question ${currentIndex + 1} of ${quizQuestions.length}`;
+  $("scoreLive").textContent = `Answered: ${answers.filter(a => a !== null).length}`;
+  $("progressBar").style.width = `${((currentIndex + 1) / quizQuestions.length) * 100}%`;
+  $("categoryPill").textContent = q.category;
+  $("questionText").textContent = q.question;
+  $("options").innerHTML = "";
+  q.options.forEach((option, index) => {
+    const label = document.createElement("label");
+    label.className = "option" + (answers[currentIndex] === index ? " selected" : "");
+    const radio = document.createElement("input");
+    radio.type = "radio"; radio.name = "answer"; radio.checked = answers[currentIndex] === index;
+    radio.disabled = submitted || reviewMode;
+    radio.addEventListener("change", () => { answers[currentIndex] = index; renderQuestion(); });
+    const letter = document.createElement("span"); letter.className = "option-letter"; letter.textContent = `${String.fromCharCode(65 + index)})`;
+    const text = document.createElement("span"); text.textContent = option;
+    label.append(radio, letter, text); $("options").appendChild(label);
+  });
+  $("prevBtn").disabled = currentIndex === 0;
+  $("nextBtn").disabled = currentIndex === quizQuestions.length - 1;
+  $("submitBtn").classList.toggle("hidden", submitted || reviewMode);
+  $("reviewBtn").textContent = reviewFlags[currentIndex] ? "★ Marked for review" : "☆ Mark for review";
+  $("feedback").classList.add("hidden");
+  if (submitted || reviewMode) {
+    const correct = answers[currentIndex] === q.answerIndex;
+    $("feedback").className = "feedback " + (correct ? "correct" : "incorrect");
+    $("feedback").textContent = `${correct ? "Correct." : `Incorrect. Correct answer: ${String.fromCharCode(65 + q.answerIndex)}. ${q.options[q.answerIndex]}.`} ${q.explanation}`;
+    $("feedback").classList.remove("hidden");
+  }
+  renderNavigator();
 }
-function moveQuestion(delta){if(submitted&&!reviewMode)return;currentIndex=Math.max(0,Math.min(quizQuestions.length-1,currentIndex+delta));renderQuestion()}
-function toggleReview(){if(submitted||reviewMode)return;reviewFlags[currentIndex]=!reviewFlags[currentIndex];renderQuestion()}
-function renderNavigator(){
- const nav=$("navigator");nav.innerHTML="";
- quizQuestions.forEach((_,i)=>{const b=document.createElement("button");b.className="navq"+(i===currentIndex?" current":"")+(answers[i]!==null?" answered":"")+(reviewFlags[i]?" review":"");b.textContent=i+1;b.title=(answers[i]!==null?"Answered":"Not answered")+(reviewFlags[i]?" • Marked for review":"");b.disabled=false;b.onclick=()=>{currentIndex=i;renderQuestion()};nav.appendChild(b)});
+function renderNavigator() {
+  const nav = $("navigator"); nav.innerHTML = "";
+  quizQuestions.forEach((q, i) => {
+    const b = document.createElement("button"); b.type = "button"; b.className = "navq";
+    b.textContent = String(i + 1);
+    if (answers[i] !== null) b.classList.add("answered");
+    if (reviewFlags[i]) b.classList.add("review");
+    if (i === currentIndex) b.classList.add("current");
+    b.addEventListener("click", () => { currentIndex = i; renderQuestion(); });
+    nav.appendChild(b);
+  });
 }
-function submitQuiz(){
- if(submitted)return;const unanswered=answers.filter(a=>a===null).length;
- if(unanswered&&!confirm("You have "+unanswered+" unanswered question(s). Submit anyway?"))return;
- submitted=true;clearInterval(timerInterval);elapsedSeconds=Math.floor((Date.now()-startedAt)/1000);$("timer").textContent=formatTime(elapsedSeconds);
- const score=quizQuestions.reduce((n,q,i)=>n+(answers[i]===q.a?1:0),0),percent=Math.round(score/quizQuestions.length*100);
- $("quizCard").classList.add("hidden");$("resultCard").classList.remove("hidden");$("resultMessage").textContent="You completed "+quizQuestions.length+" question(s).";
- $("scoreStat").textContent=score+"/"+quizQuestions.length;$("percentStat").textContent=percent+"%";$("timeStat").textContent=formatTime(elapsedSeconds);
- $("answerReview").classList.add("hidden");$("answerReview").innerHTML="";
+async function startQuiz() {
+  $("startBtn").disabled = true; $("loadMessage").textContent = "Loading question bank…";
+  try {
+    allQuestions = await loadQuestionBank();
+    if (!allQuestions.length) throw new Error("The question bank has no usable English MCQs.");
+    const countValue = $("countSelect").value;
+    const count = countValue === "all" ? allQuestions.length : Math.min(Number(countValue), allQuestions.length);
+    quizQuestions = allQuestions.slice(0, count);
+    answers = Array(quizQuestions.length).fill(null);
+    reviewFlags = Array(quizQuestions.length).fill(false);
+    currentIndex = 0; submitted = false; reviewMode = false; elapsedSeconds = 0;
+    $("timer").textContent = "00:00"; startedAt = Date.now();
+    clearInterval(timerInterval); timerInterval = setInterval(updateTimer, 1000);
+    $("setupCard").classList.add("hidden"); $("resultCard").classList.add("hidden"); $("quizCard").classList.remove("hidden");
+    $("loadMessage").textContent = ""; renderQuestion();
+  } catch (err) {
+    $("loadMessage").textContent = `Could not load the MCQs: ${err.message} Check that the JSON filename and public repository path are correct.`;
+  } finally { $("startBtn").disabled = false; }
 }
-function reviewAnswers(){
- reviewMode=true;currentIndex=0;$("resultCard").classList.add("hidden");$("quizCard").classList.remove("hidden");$("submitBtn").classList.add("hidden");$("reviewBtn").disabled=true;
- $("prevBtn").disabled=false;$("nextBtn").disabled=false;renderQuestion();
+function submitQuiz() {
+  const unanswered = answers.filter(a => a === null).length;
+  if (unanswered && !confirm(`You have ${unanswered} unanswered question(s). Submit anyway?`)) return;
+  updateTimer(); submitted = true; clearInterval(timerInterval);
+  const score = quizQuestions.reduce((total, q, i) => total + (answers[i] === q.answerIndex ? 1 : 0), 0);
+  const percent = Math.round(score / quizQuestions.length * 100);
+  $("scoreStat").textContent = `${score}/${quizQuestions.length}`;
+  $("percentStat").textContent = `${percent}%`;
+  $("timeStat").textContent = formatTime(elapsedSeconds);
+  $("resultMessage").textContent = percent >= 80 ? "Excellent work! Keep practising." : percent >= 50 ? "Good effort. Review the explanations and try again." : "Keep learning. Review the answers and practise again.";
+  $("quizCard").classList.add("hidden"); $("resultCard").classList.remove("hidden");
+  $("answerReview").classList.add("hidden"); $("reviewAnswersBtn").textContent = "Review Answers";
 }
-function restartQuiz(){backToSetup()}
-function backToSetup(){clearInterval(timerInterval);submitted=false;reviewMode=false;$("quizCard").classList.add("hidden");$("resultCard").classList.add("hidden");$("setupCard").classList.remove("hidden");$("reviewBtn").disabled=false}
-$("year").textContent=new Date().getFullYear();
-changeLanguage();
+function reviewAnswers() {
+  reviewMode = true; currentIndex = 0;
+  $("resultCard").classList.add("hidden"); $("quizCard").classList.remove("hidden");
+  $("submitBtn").classList.add("hidden"); $("reviewBtn").disabled = true;
+  renderQuestion();
+}
+function restartQuiz() {
+  clearInterval(timerInterval); submitted = false; reviewMode = false; currentIndex = 0;
+  $("reviewBtn").disabled = false; $("answerReview").classList.add("hidden");
+  $("quizCard").classList.add("hidden"); $("resultCard").classList.add("hidden"); $("setupCard").classList.remove("hidden");
+}
+$("startBtn").addEventListener("click", startQuiz);
+$("prevBtn").addEventListener("click", () => { if (currentIndex > 0) { currentIndex--; renderQuestion(); } });
+$("nextBtn").addEventListener("click", () => { if (currentIndex < quizQuestions.length - 1) { currentIndex++; renderQuestion(); } });
+$("submitBtn").addEventListener("click", submitQuiz);
+$("reviewBtn").addEventListener("click", () => { reviewFlags[currentIndex] = !reviewFlags[currentIndex]; renderQuestion(); });
+$("reviewAnswersBtn").addEventListener("click", reviewAnswers);
+$("restartBtn").addEventListener("click", restartQuiz);
+$("year").textContent = new Date().getFullYear();
 </script>
 </body>
 </html>
