@@ -1,0 +1,2561 @@
+{
+  "title": "Sneha Edu - Class 10 Social Studies Chapter 1: India – Relief Features",
+  "class": 10,
+  "subject": "Social Studies",
+  "chapter": "India – Relief Features",
+  "language": "en,te,ur",
+  "total_questions": 50,
+  "notes": "Selected high-priority and expected practice MCQs. They are not all verified verbatim past SSC public examination questions. Telugu and Urdu translations are provided for questions, options, and explanations; English is the source version.",
+  "questions": [
+    {
+      "id": "TG10-SS-CH01-001",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 1,
+      "question": "Which longitude is used as the Standard Meridian of India?",
+      "options": {
+        "A": "82°30′ E",
+        "B": "82°30′ W",
+        "C": "23°30′ E",
+        "D": "68°7′ E"
+      },
+      "correct_answer": "A",
+      "explanation": "Indian Standard Time is based on 82°30′ E longitude.",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived",
+      "translations": {
+        "te": {
+          "question": "భారతదేశ ప్రామాణిక రేఖాంశంగా ఏ రేఖాంశాన్ని ఉపయోగిస్తారు?",
+          "options": {
+            "A": "82°30′ తూర్పు",
+            "B": "82°30′ పడమర",
+            "C": "23°30′ తూర్పు",
+            "D": "68°7′ తూర్పు"
+          },
+          "explanation": "భారత ప్రామాణిక కాలం 82°30′ తూర్పు రేఖాంశంపై ఆధారపడి ఉంటుంది."
+        },
+        "ur": {
+          "question": "بھارت کے معیاری طول البلد کے طور پر کون سا طول البلد استعمال ہوتا ہے؟",
+          "options": {
+            "A": "82°30′ مشرق",
+            "B": "82°30′ مغرب",
+            "C": "23°30′ مشرق",
+            "D": "68°7′ مشرق"
+          },
+          "explanation": "بھارتی معیاری وقت 82°30′ مشرقی طول البلد پر مبنی ہے۔"
+        },
+        "en": {
+          "question": "Which longitude is used as the Standard Meridian of India?",
+          "options": {
+            "A": "82°30′ E",
+            "B": "82°30′ W",
+            "C": "23°30′ E",
+            "D": "68°7′ E"
+          },
+          "explanation": "Indian Standard Time is based on 82°30′ E longitude."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-002",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 2,
+      "question": "Indian Standard Time is ahead of Greenwich Mean Time by how much?",
+      "options": {
+        "A": "4 hours",
+        "B": "5 hours 30 minutes",
+        "C": "6 hours",
+        "D": "5 hours"
+      },
+      "correct_answer": "B",
+      "explanation": "India's standard time is UTC/GMT +5 hours 30 minutes.",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived",
+      "translations": {
+        "te": {
+          "question": "గ్రీనిచ్ కాలంతో పోలిస్తే భారత ప్రామాణిక కాలం ఎంత ముందుంది?",
+          "options": {
+            "A": "4 గంటలు",
+            "B": "5 గంటల 30 నిమిషాలు",
+            "C": "6 గంటలు",
+            "D": "5 గంటలు"
+          },
+          "explanation": "భారత ప్రామాణిక కాలం GMT కంటే 5 గంటల 30 నిమిషాలు ముందుంటుంది."
+        },
+        "ur": {
+          "question": "گرینچ وقت کے مقابلے میں بھارتی معیاری وقت کتنا آگے ہے؟",
+          "options": {
+            "A": "4 گھنٹے",
+            "B": "5 گھنٹے 30 منٹ",
+            "C": "6 گھنٹے",
+            "D": "5 گھنٹے"
+          },
+          "explanation": "بھارتی معیاری وقت GMT سے 5 گھنٹے 30 منٹ آگے ہے۔"
+        },
+        "en": {
+          "question": "Indian Standard Time is ahead of Greenwich Mean Time by how much?",
+          "options": {
+            "A": "4 hours",
+            "B": "5 hours 30 minutes",
+            "C": "6 hours",
+            "D": "5 hours"
+          },
+          "explanation": "India's standard time is UTC/GMT +5 hours 30 minutes."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-003",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 3,
+      "question": "India lies mainly in which hemisphere?",
+      "options": {
+        "A": "Southern",
+        "B": "Northern",
+        "C": "Western",
+        "D": "Polar"
+      },
+      "correct_answer": "B",
+      "explanation": "India lies north of the Equator, in the Northern Hemisphere.",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived",
+      "translations": {
+        "te": {
+          "question": "భారతదేశం ప్రధానంగా ఏ అర్ధగోళంలో ఉంది?",
+          "options": {
+            "A": "దక్షిణ అర్ధగోళం",
+            "B": "ఉత్తర అర్ధగోళం",
+            "C": "పశ్చిమ అర్ధగోళం",
+            "D": "ధ్రువ ప్రాంతం"
+          },
+          "explanation": "భారతదేశం భూమధ్యరేఖకు ఉత్తరాన ఉన్నందున ఉత్తర అర్ధగోళంలో ఉంది."
+        },
+        "ur": {
+          "question": "بھارت زیادہ تر کس نصف کرے میں واقع ہے؟",
+          "options": {
+            "A": "جنوبی نصف کرہ",
+            "B": "شمالی نصف کرہ",
+            "C": "مغربی نصف کرہ",
+            "D": "قطبی خطہ"
+          },
+          "explanation": "بھارت خطِ استوا کے شمال میں واقع ہے، اس لیے شمالی نصف کرے میں ہے۔"
+        },
+        "en": {
+          "question": "India lies mainly in which hemisphere?",
+          "options": {
+            "A": "Southern",
+            "B": "Northern",
+            "C": "Western",
+            "D": "Polar"
+          },
+          "explanation": "India lies north of the Equator, in the Northern Hemisphere."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-004",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 4,
+      "question": "Which is the oldest landmass of India?",
+      "options": {
+        "A": "Himalayas",
+        "B": "Northern Plains",
+        "C": "Peninsular Plateau",
+        "D": "Coastal Plains"
+      },
+      "correct_answer": "C",
+      "explanation": "The Peninsular Plateau is an ancient, stable landmass.",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived",
+      "translations": {
+        "te": {
+          "question": "భారతదేశంలోని అత్యంత ప్రాచీన భూభాగం ఏది?",
+          "options": {
+            "A": "హిమాలయాలు",
+            "B": "ఉత్తర మైదానాలు",
+            "C": "ద్వీపకల్ప పీఠభూమి",
+            "D": "తీర మైదానాలు"
+          },
+          "explanation": "ద్వీపకల్ప పీఠభూమి భారతదేశంలోని ప్రాచీన స్థిర భూభాగం."
+        },
+        "ur": {
+          "question": "بھارت کا سب سے قدیم زمینی حصہ کون سا ہے؟",
+          "options": {
+            "A": "ہمالیہ",
+            "B": "شمالی میدان",
+            "C": "جزیرہ نما سطح مرتفع",
+            "D": "ساحلی میدان"
+          },
+          "explanation": "جزیرہ نما سطح مرتفع بھارت کا قدیم اور مستحکم زمینی حصہ ہے۔"
+        },
+        "en": {
+          "question": "Which is the oldest landmass of India?",
+          "options": {
+            "A": "Himalayas",
+            "B": "Northern Plains",
+            "C": "Peninsular Plateau",
+            "D": "Coastal Plains"
+          },
+          "explanation": "The Peninsular Plateau is an ancient, stable landmass."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-005",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 5,
+      "question": "The Himalayas are mainly which type of mountains?",
+      "options": {
+        "A": "Block mountains",
+        "B": "Young fold mountains",
+        "C": "Volcanic mountains",
+        "D": "Residual mountains"
+      },
+      "correct_answer": "B",
+      "explanation": "The Himalayas formed due to the collision of the Indian and Eurasian plates.",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived",
+      "translations": {
+        "te": {
+          "question": "హిమాలయాలు ప్రధానంగా ఏ రకమైన పర్వతాలు?",
+          "options": {
+            "A": "ఖండ పర్వతాలు",
+            "B": "నూతన ముడత పర్వతాలు",
+            "C": "అగ్నిపర్వతాలు",
+            "D": "శిథిల పర్వతాలు"
+          },
+          "explanation": "భూఫలకాల ఢీకొనడం వల్ల ఏర్పడిన నూతన ముడత పర్వతాలు హిమాలయాలు."
+        },
+        "ur": {
+          "question": "ہمالیہ بنیادی طور پر کس قسم کے پہاڑ ہیں؟",
+          "options": {
+            "A": "بلاک پہاڑ",
+            "B": "نوجوان تہہ دار پہاڑ",
+            "C": "آتش فشانی پہاڑ",
+            "D": "باقی ماندہ پہاڑ"
+          },
+          "explanation": "ارضی تختیوں کے ٹکراؤ سے ہمالیہ نوجوان تہہ دار پہاڑ بنے۔"
+        },
+        "en": {
+          "question": "The Himalayas are mainly which type of mountains?",
+          "options": {
+            "A": "Block mountains",
+            "B": "Young fold mountains",
+            "C": "Volcanic mountains",
+            "D": "Residual mountains"
+          },
+          "explanation": "The Himalayas formed due to the collision of the Indian and Eurasian plates."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-006",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 6,
+      "question": "Himadri is another name for which Himalayan range?",
+      "options": {
+        "A": "Greater Himalayas",
+        "B": "Lesser Himalayas",
+        "C": "Outer Himalayas",
+        "D": "Purvanchal"
+      },
+      "correct_answer": "A",
+      "explanation": "Himadri is the highest and most continuous Himalayan range.",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived",
+      "translations": {
+        "te": {
+          "question": "హిమాద్రి అనే మరో పేరు ఏ హిమాలయ శ్రేణికి ఉంది?",
+          "options": {
+            "A": "మహా హిమాలయాలు",
+            "B": "మధ్య హిమాలయాలు",
+            "C": "శివాలిక్‌లు",
+            "D": "పూర్వాంచల్"
+          },
+          "explanation": "హిమాద్రిని మహా హిమాలయాలు లేదా గ్రేటర్ హిమాలయాలు అంటారు."
+        },
+        "ur": {
+          "question": "ہما دری کس ہمالیائی سلسلے کا دوسرا نام ہے؟",
+          "options": {
+            "A": "عظیم ہمالیہ",
+            "B": "درمیانی ہمالیہ",
+            "C": "شیوالک",
+            "D": "پوروانچل"
+          },
+          "explanation": "ہما دری کو عظیم ہمالیہ بھی کہا جاتا ہے۔"
+        },
+        "en": {
+          "question": "Himadri is another name for which Himalayan range?",
+          "options": {
+            "A": "Greater Himalayas",
+            "B": "Lesser Himalayas",
+            "C": "Outer Himalayas",
+            "D": "Purvanchal"
+          },
+          "explanation": "Himadri is the highest and most continuous Himalayan range."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-007",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 7,
+      "question": "Which is the southernmost Himalayan range?",
+      "options": {
+        "A": "Himadri",
+        "B": "Himachal",
+        "C": "Shiwalik",
+        "D": "Karakoram"
+      },
+      "correct_answer": "C",
+      "explanation": "The Shiwalik range forms the outermost and southernmost Himalayan belt.",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived",
+      "translations": {
+        "te": {
+          "question": "హిమాలయాల్లో దక్షిణాన ఉన్న శ్రేణి ఏది?",
+          "options": {
+            "A": "హిమాద్రి",
+            "B": "హిమాచల్",
+            "C": "శివాలిక్‌లు",
+            "D": "కారాకోరం"
+          },
+          "explanation": "శివాలిక్‌లు హిమాలయాల బయటి, దక్షిణ అంచున ఉన్న శ్రేణి."
+        },
+        "ur": {
+          "question": "ہمالیہ کا سب سے جنوبی سلسلہ کون سا ہے؟",
+          "options": {
+            "A": "ہما دری",
+            "B": "ہماچل",
+            "C": "شیوالک",
+            "D": "قراقرم"
+          },
+          "explanation": "شیوالک ہمالیہ کا بیرونی اور جنوبی سلسلہ ہے۔"
+        },
+        "en": {
+          "question": "Which is the southernmost Himalayan range?",
+          "options": {
+            "A": "Himadri",
+            "B": "Himachal",
+            "C": "Shiwalik",
+            "D": "Karakoram"
+          },
+          "explanation": "The Shiwalik range forms the outermost and southernmost Himalayan belt."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-008",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 8,
+      "question": "The Lesser Himalayas are also known as:",
+      "options": {
+        "A": "Himachal",
+        "B": "Himadri",
+        "C": "Shiwalik",
+        "D": "Purvanchal"
+      },
+      "correct_answer": "A",
+      "explanation": "The middle or Lesser Himalayas are called Himachal.",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived",
+      "translations": {
+        "te": {
+          "question": "మధ్య హిమాలయాలను మరే పేరుతో పిలుస్తారు?",
+          "options": {
+            "A": "హిమాచల్",
+            "B": "హిమాద్రి",
+            "C": "శివాలిక్‌లు",
+            "D": "పూర్వాంచల్"
+          },
+          "explanation": "మధ్య హిమాలయాలను హిమాచల్ అని కూడా అంటారు."
+        },
+        "ur": {
+          "question": "درمیانی ہمالیہ کو اور کس نام سے جانا جاتا ہے؟",
+          "options": {
+            "A": "ہماچل",
+            "B": "ہما دری",
+            "C": "شیوالک",
+            "D": "پوروانچل"
+          },
+          "explanation": "درمیانی ہمالیہ کو ہماچل بھی کہا جاتا ہے۔"
+        },
+        "en": {
+          "question": "The Lesser Himalayas are also known as:",
+          "options": {
+            "A": "Himachal",
+            "B": "Himadri",
+            "C": "Shiwalik",
+            "D": "Purvanchal"
+          },
+          "explanation": "The middle or Lesser Himalayas are called Himachal."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-009",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 9,
+      "question": "The Outer Himalayas are known as:",
+      "options": {
+        "A": "Shiwalik",
+        "B": "Himadri",
+        "C": "Himachal",
+        "D": "Aravalli"
+      },
+      "correct_answer": "A",
+      "explanation": "Shiwalik is the name of the Outer Himalayas.",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived",
+      "translations": {
+        "te": {
+          "question": "బాహ్య హిమాలయాలను ఏమంటారు?",
+          "options": {
+            "A": "శివాలిక్‌లు",
+            "B": "హిమాద్రి",
+            "C": "హిమాచల్",
+            "D": "అరవళ్లు"
+          },
+          "explanation": "బాహ్య హిమాలయాలే శివాలిక్ శ్రేణి."
+        },
+        "ur": {
+          "question": "بیرونی ہمالیہ کو کیا کہتے ہیں؟",
+          "options": {
+            "A": "شیوالک",
+            "B": "ہما دری",
+            "C": "ہماچل",
+            "D": "اراولی"
+          },
+          "explanation": "بیرونی ہمالیہ کو شیوالک سلسلہ کہا جاتا ہے۔"
+        },
+        "en": {
+          "question": "The Outer Himalayas are known as:",
+          "options": {
+            "A": "Shiwalik",
+            "B": "Himadri",
+            "C": "Himachal",
+            "D": "Aravalli"
+          },
+          "explanation": "Shiwalik is the name of the Outer Himalayas."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-010",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 10,
+      "question": "The valleys between the Lesser Himalayas and Shiwaliks are called:",
+      "options": {
+        "A": "Deltas",
+        "B": "Duns",
+        "C": "Doabs",
+        "D": "Deltas"
+      },
+      "correct_answer": "B",
+      "explanation": "Longitudinal valleys such as Dehradun are called duns.",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived",
+      "translations": {
+        "te": {
+          "question": "మధ్య హిమాలయాలు, శివాలిక్‌ల మధ్యనున్న లోయలను ఏమంటారు?",
+          "options": {
+            "A": "డెల్టాలు",
+            "B": "డూన్‌లు",
+            "C": "దోయాబ్‌లు",
+            "D": "ఎడారి లోయలు"
+          },
+          "explanation": "మధ్య హిమాలయాలు, శివాలిక్‌ల మధ్యనున్న పొడవైన లోయలను డూన్‌లు అంటారు."
+        },
+        "ur": {
+          "question": "درمیانی ہمالیہ اور شیوالک کے درمیان وادیوں کو کیا کہتے ہیں؟",
+          "options": {
+            "A": "ڈیلٹا",
+            "B": "ڈون",
+            "C": "دوآب",
+            "D": "صحرائی وادیاں"
+          },
+          "explanation": "درمیانی ہمالیہ اور شیوالک کے درمیان لمبی وادیوں کو ڈون کہتے ہیں۔"
+        },
+        "en": {
+          "question": "The valleys between the Lesser Himalayas and Shiwaliks are called:",
+          "options": {
+            "A": "Deltas",
+            "B": "Duns",
+            "C": "Doabs",
+            "D": "Deltas"
+          },
+          "explanation": "Longitudinal valleys such as Dehradun are called duns."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-011",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 11,
+      "question": "The Northern Plains were mainly formed by deposits of:",
+      "options": {
+        "A": "Wind",
+        "B": "Glaciers only",
+        "C": "Indus, Ganga and Brahmaputra river systems",
+        "D": "Volcanic lava"
+      },
+      "correct_answer": "C",
+      "explanation": "These river systems deposited extensive alluvium over time.",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived",
+      "translations": {
+        "te": {
+          "question": "ఉత్తర మైదానాలు ప్రధానంగా దేనివల్ల ఏర్పడ్డాయి?",
+          "options": {
+            "A": "గాలితో వచ్చిన ఇసుక",
+            "B": "హిమానీనదాలు మాత్రమే",
+            "C": "సింధు, గంగా, బ్రహ్మపుత్ర నదుల నిక్షేపాలు",
+            "D": "అగ్నిపర్వత లావా"
+          },
+          "explanation": "ఈ మూడు ప్రధాన నదీ వ్యవస్థలు తెచ్చిన ఒండ్రు మట్టి ఉత్తర మైదానాలను ఏర్పరిచింది."
+        },
+        "ur": {
+          "question": "شمالی میدان بنیادی طور پر کس سے بنے ہیں؟",
+          "options": {
+            "A": "ہوا سے آئی ریت",
+            "B": "صرف گلیشیئر",
+            "C": "سندھ، گنگا اور برہم پتر کے دریائی ذخائر",
+            "D": "آتش فشانی لاوا"
+          },
+          "explanation": "ان دریائی نظاموں کے لائے ہوئے زرخیز رسوب نے شمالی میدان بنائے۔"
+        },
+        "en": {
+          "question": "The Northern Plains were mainly formed by deposits of:",
+          "options": {
+            "A": "Wind",
+            "B": "Glaciers only",
+            "C": "Indus, Ganga and Brahmaputra river systems",
+            "D": "Volcanic lava"
+          },
+          "explanation": "These river systems deposited extensive alluvium over time."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-012",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 12,
+      "question": "Which soil is widespread in the Northern Plains?",
+      "options": {
+        "A": "Laterite",
+        "B": "Alluvial",
+        "C": "Black",
+        "D": "Desert"
+      },
+      "correct_answer": "B",
+      "explanation": "The Northern Plains are covered mainly by fertile alluvial soil.",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived",
+      "translations": {
+        "te": {
+          "question": "ఉత్తర మైదానాల్లో విస్తృతంగా కనిపించే నేల ఏది?",
+          "options": {
+            "A": "లేటరైట్ నేల",
+            "B": "ఒండ్రు నేల",
+            "C": "నల్ల నేల",
+            "D": "ఎడారి నేల"
+          },
+          "explanation": "నదులు నిక్షేపించిన సారవంతమైన ఒండ్రు నేల ఉత్తర మైదానాల్లో విస్తరించింది."
+        },
+        "ur": {
+          "question": "شمالی میدانوں میں کون سی مٹی وسیع پیمانے پر پائی جاتی ہے؟",
+          "options": {
+            "A": "لیٹرائٹ",
+            "B": "جلوڑی مٹی",
+            "C": "کالی مٹی",
+            "D": "صحرائی مٹی"
+          },
+          "explanation": "دریاؤں کے جمع کردہ زرخیز رسوب کو جلوڑی مٹی کہتے ہیں۔"
+        },
+        "en": {
+          "question": "Which soil is widespread in the Northern Plains?",
+          "options": {
+            "A": "Laterite",
+            "B": "Alluvial",
+            "C": "Black",
+            "D": "Desert"
+          },
+          "explanation": "The Northern Plains are covered mainly by fertile alluvial soil."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-013",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 13,
+      "question": "Which belt is made of pebbles and coarse materials along the Himalayan foothills?",
+      "options": {
+        "A": "Terai",
+        "B": "Bhabar",
+        "C": "Bhangar",
+        "D": "Khadar"
+      },
+      "correct_answer": "B",
+      "explanation": "The Bhabar belt contains coarse pebbles and porous deposits.",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived",
+      "translations": {
+        "te": {
+          "question": "హిమాలయ పాదాల వద్ద గులకరాళ్లు, ముతక పదార్థాలతో ఏర్పడిన ప్రాంతం ఏది?",
+          "options": {
+            "A": "తరాయి",
+            "B": "భాబర్",
+            "C": "భంగర్",
+            "D": "ఖాదర్"
+          },
+          "explanation": "భాబర్ అనేది హిమాలయ పాదాల వద్ద గులకరాళ్లు పేరుకున్న సన్నని పట్టీ."
+        },
+        "ur": {
+          "question": "ہمالیہ کے دامن میں کنکروں اور موٹے مواد کی پٹی کون سی ہے؟",
+          "options": {
+            "A": "ترائی",
+            "B": "بھابھر",
+            "C": "بھانگر",
+            "D": "خادر"
+          },
+          "explanation": "بھابھر ہمالیہ کے دامن میں کنکروں پر مشتمل تنگ پٹی ہے۔"
+        },
+        "en": {
+          "question": "Which belt is made of pebbles and coarse materials along the Himalayan foothills?",
+          "options": {
+            "A": "Terai",
+            "B": "Bhabar",
+            "C": "Bhangar",
+            "D": "Khadar"
+          },
+          "explanation": "The Bhabar belt contains coarse pebbles and porous deposits."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-014",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 14,
+      "question": "The marshy belt south of Bhabar is called:",
+      "options": {
+        "A": "Terai",
+        "B": "Doab",
+        "C": "Dun",
+        "D": "Khadar"
+      },
+      "correct_answer": "A",
+      "explanation": "Streams re-emerge in the Terai, making it marshy in places.",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived",
+      "translations": {
+        "te": {
+          "question": "భాబర్‌కు దక్షిణంగా ఉన్న చిత్తడి ప్రాంతాన్ని ఏమంటారు?",
+          "options": {
+            "A": "తరాయి",
+            "B": "దోయాబ్",
+            "C": "డూన్",
+            "D": "ఖాదర్"
+          },
+          "explanation": "భాబర్‌కు దక్షిణంగా నీరు నిలిచే చిత్తడి ప్రాంతం తరాయి."
+        },
+        "ur": {
+          "question": "بھابھر کے جنوب میں دلدلی علاقے کو کیا کہتے ہیں؟",
+          "options": {
+            "A": "ترائی",
+            "B": "دوآب",
+            "C": "ڈون",
+            "D": "خادر"
+          },
+          "explanation": "بھابھر کے جنوب میں پانی جمع ہونے والا دلدلی خطہ ترائی ہے۔"
+        },
+        "en": {
+          "question": "The marshy belt south of Bhabar is called:",
+          "options": {
+            "A": "Terai",
+            "B": "Doab",
+            "C": "Dun",
+            "D": "Khadar"
+          },
+          "explanation": "Streams re-emerge in the Terai, making it marshy in places."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-015",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 15,
+      "question": "Newer alluvium in the Northern Plains is called:",
+      "options": {
+        "A": "Bhangar",
+        "B": "Khadar",
+        "C": "Bhabar",
+        "D": "Regur"
+      },
+      "correct_answer": "B",
+      "explanation": "Khadar is newer alluvium deposited by rivers.",
+      "source_category": "ssc_public_exam_pyq_or_pyq_derived",
+      "translations": {
+        "te": {
+          "question": "ఉత్తర మైదానాల్లో కొత్త ఒండ్రు మట్టిని ఏమంటారు?",
+          "options": {
+            "A": "భంగర్",
+            "B": "ఖాదర్",
+            "C": "భాబర్",
+            "D": "రేగర్"
+          },
+          "explanation": "వరదలతో తరచూ పేరుకునే కొత్త ఒండ్రు మట్టిని ఖాదర్ అంటారు."
+        },
+        "ur": {
+          "question": "شمالی میدانوں کی نئی جلوڑی مٹی کیا کہلاتی ہے؟",
+          "options": {
+            "A": "بھانگر",
+            "B": "خادر",
+            "C": "بھابھر",
+            "D": "ریگڑ"
+          },
+          "explanation": "سیلاب سے بار بار جمع ہونے والی نئی جلوڑی مٹی خادر ہے۔"
+        },
+        "en": {
+          "question": "Newer alluvium in the Northern Plains is called:",
+          "options": {
+            "A": "Bhangar",
+            "B": "Khadar",
+            "C": "Bhabar",
+            "D": "Regur"
+          },
+          "explanation": "Khadar is newer alluvium deposited by rivers."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-016",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 16,
+      "question": "Older alluvium in the Northern Plains is called:",
+      "options": {
+        "A": "Khadar",
+        "B": "Terai",
+        "C": "Bhangar",
+        "D": "Bhabar"
+      },
+      "correct_answer": "C",
+      "explanation": "Bhangar refers to older alluvial deposits.",
+      "source_category": "high_priority_repeated_concept",
+      "translations": {
+        "te": {
+          "question": "ఉత్తర మైదానాల్లో పాత ఒండ్రు మట్టిని ఏమంటారు?",
+          "options": {
+            "A": "ఖాదర్",
+            "B": "తరాయి",
+            "C": "భంగర్",
+            "D": "భాబర్"
+          },
+          "explanation": "పాత ఒండ్రు నిక్షేపాలను భంగర్ అంటారు."
+        },
+        "ur": {
+          "question": "شمالی میدانوں کی پرانی جلوڑی مٹی کیا کہلاتی ہے؟",
+          "options": {
+            "A": "خادر",
+            "B": "ترائی",
+            "C": "بھانگر",
+            "D": "بھابھر"
+          },
+          "explanation": "پرانی جلوڑی مٹی کو بھانگر کہا جاتا ہے۔"
+        },
+        "en": {
+          "question": "Older alluvium in the Northern Plains is called:",
+          "options": {
+            "A": "Khadar",
+            "B": "Terai",
+            "C": "Bhangar",
+            "D": "Bhabar"
+          },
+          "explanation": "Bhangar refers to older alluvial deposits."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-017",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 17,
+      "question": "A fertile tract of land between two rivers is called a:",
+      "options": {
+        "A": "Doab",
+        "B": "Dun",
+        "C": "Delta",
+        "D": "Pass"
+      },
+      "correct_answer": "A",
+      "explanation": "Doab literally refers to land between two rivers.",
+      "source_category": "high_priority_repeated_concept",
+      "translations": {
+        "te": {
+          "question": "రెండు నదుల మధ్యనున్న సారవంతమైన భూభాగాన్ని ఏమంటారు?",
+          "options": {
+            "A": "దోయాబ్",
+            "B": "డూన్",
+            "C": "డెల్టా",
+            "D": "కనుమ"
+          },
+          "explanation": "రెండు నదుల మధ్యనున్న భూభాగాన్ని దోయాబ్ అంటారు."
+        },
+        "ur": {
+          "question": "دو دریاؤں کے درمیان زرخیز زمین کو کیا کہتے ہیں؟",
+          "options": {
+            "A": "دوآب",
+            "B": "ڈون",
+            "C": "ڈیلٹا",
+            "D": "درہ"
+          },
+          "explanation": "دو دریاؤں کے درمیان زمین کو دوآب کہتے ہیں۔"
+        },
+        "en": {
+          "question": "A fertile tract of land between two rivers is called a:",
+          "options": {
+            "A": "Doab",
+            "B": "Dun",
+            "C": "Delta",
+            "D": "Pass"
+          },
+          "explanation": "Doab literally refers to land between two rivers."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-018",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 18,
+      "question": "Which region is especially known for mineral resources?",
+      "options": {
+        "A": "Chotanagpur Plateau",
+        "B": "Ganga Delta",
+        "C": "Malabar Coast",
+        "D": "Terai"
+      },
+      "correct_answer": "A",
+      "explanation": "The Chotanagpur Plateau has important deposits of coal, iron ore and other minerals.",
+      "source_category": "high_priority_repeated_concept",
+      "translations": {
+        "te": {
+          "question": "ఖనిజ సంపదకు ప్రత్యేకంగా ప్రసిద్ధి చెందిన ప్రాంతం ఏది?",
+          "options": {
+            "A": "ఛోటానాగ్‌పూర్ పీఠభూమి",
+            "B": "గంగా డెల్టా",
+            "C": "మలబార్ తీరం",
+            "D": "తరాయి"
+          },
+          "explanation": "ఛోటానాగ్‌పూర్ పీఠభూమిలో బొగ్గు, ఇనుము వంటి ఖనిజాలు సమృద్ధిగా ఉన్నాయి."
+        },
+        "ur": {
+          "question": "معدنی وسائل کے لیے خاص طور پر مشہور علاقہ کون سا ہے؟",
+          "options": {
+            "A": "چھوٹا ناگپور سطح مرتفع",
+            "B": "گنگا ڈیلٹا",
+            "C": "مالابار ساحل",
+            "D": "ترائی"
+          },
+          "explanation": "چھوٹا ناگپور سطح مرتفع میں کوئلہ اور لوہا جیسے معدنیات وافر ہیں۔"
+        },
+        "en": {
+          "question": "Which region is especially known for mineral resources?",
+          "options": {
+            "A": "Chotanagpur Plateau",
+            "B": "Ganga Delta",
+            "C": "Malabar Coast",
+            "D": "Terai"
+          },
+          "explanation": "The Chotanagpur Plateau has important deposits of coal, iron ore and other minerals."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-019",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 19,
+      "question": "The Peninsular Plateau is mainly composed of:",
+      "options": {
+        "A": "Recent alluvium",
+        "B": "Old crystalline igneous and metamorphic rocks",
+        "C": "Coral deposits",
+        "D": "Loose sand only"
+      },
+      "correct_answer": "B",
+      "explanation": "The plateau is an ancient region of hard crystalline rocks.",
+      "source_category": "high_priority_repeated_concept",
+      "translations": {
+        "te": {
+          "question": "ద్వీపకల్ప పీఠభూమి ప్రధానంగా దేనితో ఏర్పడింది?",
+          "options": {
+            "A": "ఇటీవలి ఒండ్రు మట్టి",
+            "B": "ప్రాచీన స్ఫటిక అగ్నిజ, రూపాంతర శిలలు",
+            "C": "పగడపు నిక్షేపాలు",
+            "D": "వదులైన ఇసుక మాత్రమే"
+          },
+          "explanation": "ఈ పీఠభూమి ప్రాచీన అగ్నిజ, రూపాంతర శిలలతో కూడిన స్థిర భూభాగం."
+        },
+        "ur": {
+          "question": "جزیرہ نما سطح مرتفع بنیادی طور پر کس سے بنا ہے؟",
+          "options": {
+            "A": "حالیہ جلوڑی مٹی",
+            "B": "قدیم قلمی آتش فشانی اور تبدیل شدہ چٹانیں",
+            "C": "مرجانی ذخائر",
+            "D": "صرف ڈھیلی ریت"
+          },
+          "explanation": "یہ سطح مرتفع قدیم آتش فشانی اور تبدیل شدہ چٹانوں پر مشتمل ہے۔"
+        },
+        "en": {
+          "question": "The Peninsular Plateau is mainly composed of:",
+          "options": {
+            "A": "Recent alluvium",
+            "B": "Old crystalline igneous and metamorphic rocks",
+            "C": "Coral deposits",
+            "D": "Loose sand only"
+          },
+          "explanation": "The plateau is an ancient region of hard crystalline rocks."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-020",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 20,
+      "question": "The Deccan Plateau generally slopes towards the:",
+      "options": {
+        "A": "West",
+        "B": "East",
+        "C": "North",
+        "D": "North-west"
+      },
+      "correct_answer": "B",
+      "explanation": "Most major peninsular rivers flow eastwards towards the Bay of Bengal.",
+      "source_category": "high_priority_repeated_concept",
+      "translations": {
+        "te": {
+          "question": "దక్కన్ పీఠభూమి సాధారణంగా ఏ దిశగా వాలుతుంది?",
+          "options": {
+            "A": "పడమర",
+            "B": "తూర్పు",
+            "C": "ఉత్తరం",
+            "D": "వాయవ్య"
+          },
+          "explanation": "దక్కన్ పీఠభూమి తూర్పు వైపు వాలడం వల్ల అనేక నదులు బంగాళాఖాతంలో కలుస్తాయి."
+        },
+        "ur": {
+          "question": "دکن کا سطح مرتفع عموماً کس سمت ڈھلوان رکھتا ہے؟",
+          "options": {
+            "A": "مغرب",
+            "B": "مشرق",
+            "C": "شمال",
+            "D": "شمال مغرب"
+          },
+          "explanation": "دکن کا سطح مرتفع مشرق کی طرف ڈھلوان ہے، اس لیے کئی دریا خلیج بنگال میں گرتے ہیں۔"
+        },
+        "en": {
+          "question": "The Deccan Plateau generally slopes towards the:",
+          "options": {
+            "A": "West",
+            "B": "East",
+            "C": "North",
+            "D": "North-west"
+          },
+          "explanation": "Most major peninsular rivers flow eastwards towards the Bay of Bengal."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-021",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 21,
+      "question": "Which pair of rivers flows westwards into the Arabian Sea?",
+      "options": {
+        "A": "Godavari and Krishna",
+        "B": "Narmada and Tapi",
+        "C": "Mahanadi and Kaveri",
+        "D": "Ganga and Yamuna"
+      },
+      "correct_answer": "B",
+      "explanation": "Narmada and Tapi are major west-flowing peninsular rivers.",
+      "source_category": "high_priority_repeated_concept",
+      "translations": {
+        "te": {
+          "question": "అరేబియా సముద్రంలో పడమరగా ప్రవహించే నదుల జత ఏది?",
+          "options": {
+            "A": "గోదావరి, కృష్ణా",
+            "B": "నర్మద, తాపీ",
+            "C": "మహానది, కావేరి",
+            "D": "గంగా, యమునా"
+          },
+          "explanation": "నర్మద, తాపీ నదులు పడమరగా ప్రవహించి అరేబియా సముద్రంలో కలుస్తాయి."
+        },
+        "ur": {
+          "question": "بحیرۂ عرب میں مغرب کی طرف بہنے والے دریاؤں کا جوڑا کون سا ہے؟",
+          "options": {
+            "A": "گوداوری اور کرشنا",
+            "B": "نرمدا اور تاپتی",
+            "C": "مہاندی اور کاویری",
+            "D": "گنگا اور جمنا"
+          },
+          "explanation": "نرمدا اور تاپتی مغرب کی طرف بہہ کر بحیرۂ عرب میں گرتے ہیں۔"
+        },
+        "en": {
+          "question": "Which pair of rivers flows westwards into the Arabian Sea?",
+          "options": {
+            "A": "Godavari and Krishna",
+            "B": "Narmada and Tapi",
+            "C": "Mahanadi and Kaveri",
+            "D": "Ganga and Yamuna"
+          },
+          "explanation": "Narmada and Tapi are major west-flowing peninsular rivers."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-022",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 22,
+      "question": "Which is the longest peninsular river of India?",
+      "options": {
+        "A": "Krishna",
+        "B": "Kaveri",
+        "C": "Godavari",
+        "D": "Narmada"
+      },
+      "correct_answer": "C",
+      "explanation": "The Godavari is commonly known as the longest peninsular river.",
+      "source_category": "high_priority_repeated_concept",
+      "translations": {
+        "te": {
+          "question": "భారతదేశంలో పొడవైన ద్వీపకల్ప నది ఏది?",
+          "options": {
+            "A": "కృష్ణా",
+            "B": "కావేరి",
+            "C": "గోదావరి",
+            "D": "నర్మద"
+          },
+          "explanation": "గోదావరి పొడవైన ద్వీపకల్ప నది; దీనిని దక్షిణ గంగా అని కూడా అంటారు."
+        },
+        "ur": {
+          "question": "بھارت کا سب سے طویل جزیرہ نما دریا کون سا ہے؟",
+          "options": {
+            "A": "کرشنا",
+            "B": "کاویری",
+            "C": "گوداوری",
+            "D": "نرمدا"
+          },
+          "explanation": "گوداوری سب سے طویل جزیرہ نما دریا ہے۔"
+        },
+        "en": {
+          "question": "Which is the longest peninsular river of India?",
+          "options": {
+            "A": "Krishna",
+            "B": "Kaveri",
+            "C": "Godavari",
+            "D": "Narmada"
+          },
+          "explanation": "The Godavari is commonly known as the longest peninsular river."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-023",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 23,
+      "question": "The Narmada flows through a:",
+      "options": {
+        "A": "Rift valley",
+        "B": "Glacial valley",
+        "C": "Delta plain",
+        "D": "Desert basin"
+      },
+      "correct_answer": "A",
+      "explanation": "The Narmada follows a rift valley between the Vindhya and Satpura ranges.",
+      "source_category": "high_priority_repeated_concept",
+      "translations": {
+        "te": {
+          "question": "నర్మద నది ఏ రకమైన లోయలో ప్రవహిస్తుంది?",
+          "options": {
+            "A": "విచ్ఛిన్న లోయ",
+            "B": "హిమానీనద లోయ",
+            "C": "డెల్టా మైదానం",
+            "D": "ఎడారి పరీవాహక ప్రాంతం"
+          },
+          "explanation": "నర్మద నది వింధ్య, సాత్పుర పర్వతాల మధ్యనున్న రిఫ్ట్ లోయలో ప్రవహిస్తుంది."
+        },
+        "ur": {
+          "question": "نرمدا دریا کس قسم کی وادی سے گزرتا ہے؟",
+          "options": {
+            "A": "رفٹ وادی",
+            "B": "گلیشیائی وادی",
+            "C": "ڈیلٹا میدان",
+            "D": "صحرائی حوض"
+          },
+          "explanation": "نرمدا وندھیا اور ست پورہ کے درمیان رفٹ وادی سے گزرتا ہے۔"
+        },
+        "en": {
+          "question": "The Narmada flows through a:",
+          "options": {
+            "A": "Rift valley",
+            "B": "Glacial valley",
+            "C": "Delta plain",
+            "D": "Desert basin"
+          },
+          "explanation": "The Narmada follows a rift valley between the Vindhya and Satpura ranges."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-024",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 24,
+      "question": "The Western Ghats lie along the western edge of the:",
+      "options": {
+        "A": "Northern Plains",
+        "B": "Deccan Plateau",
+        "C": "Thar Desert",
+        "D": "Himalayas"
+      },
+      "correct_answer": "B",
+      "explanation": "The Western Ghats border the western side of the Deccan Plateau.",
+      "source_category": "high_priority_repeated_concept",
+      "translations": {
+        "te": {
+          "question": "పశ్చిమ కనుమలు దేనికి పశ్చిమ అంచున ఉన్నాయి?",
+          "options": {
+            "A": "ఉత్తర మైదానాలు",
+            "B": "దక్కన్ పీఠభూమి",
+            "C": "థార్ ఎడారి",
+            "D": "హిమాలయాలు"
+          },
+          "explanation": "పశ్చిమ కనుమలు దక్కన్ పీఠభూమికి పశ్చిమ సరిహద్దుగా ఉన్నాయి."
+        },
+        "ur": {
+          "question": "مغربی گھاٹ کس کے مغربی کنارے پر واقع ہیں؟",
+          "options": {
+            "A": "شمالی میدان",
+            "B": "دکن کا سطح مرتفع",
+            "C": "تھار صحرا",
+            "D": "ہمالیہ"
+          },
+          "explanation": "مغربی گھاٹ دکن کے سطح مرتفع کی مغربی حد بناتے ہیں۔"
+        },
+        "en": {
+          "question": "The Western Ghats lie along the western edge of the:",
+          "options": {
+            "A": "Northern Plains",
+            "B": "Deccan Plateau",
+            "C": "Thar Desert",
+            "D": "Himalayas"
+          },
+          "explanation": "The Western Ghats border the western side of the Deccan Plateau."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-025",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 25,
+      "question": "Compared with the Eastern Ghats, the Western Ghats are generally:",
+      "options": {
+        "A": "Lower and more discontinuous",
+        "B": "Higher and more continuous",
+        "C": "Entirely desert",
+        "D": "Covered by glaciers"
+      },
+      "correct_answer": "B",
+      "explanation": "The Western Ghats form a higher, more continuous mountain chain.",
+      "source_category": "high_priority_repeated_concept",
+      "translations": {
+        "te": {
+          "question": "తూర్పు కనుమలతో పోలిస్తే పశ్చిమ కనుమలు సాధారణంగా ఎలా ఉంటాయి?",
+          "options": {
+            "A": "తక్కువ ఎత్తు, విభిన్న భాగాలు",
+            "B": "ఎక్కువ ఎత్తు, ఎక్కువగా నిరంతరంగా",
+            "C": "పూర్తిగా ఎడారి",
+            "D": "హిమానీనదాలతో కప్పబడి"
+          },
+          "explanation": "పశ్చిమ కనుమలు సాధారణంగా ఎత్తుగా, ఎక్కువ నిరంతరంగా ఉంటాయి."
+        },
+        "ur": {
+          "question": "مشرقی گھاٹ کے مقابلے میں مغربی گھاٹ عموماً کیسے ہیں؟",
+          "options": {
+            "A": "نچلے اور زیادہ منقطع",
+            "B": "بلند اور زیادہ مسلسل",
+            "C": "مکمل صحرا",
+            "D": "برفانی تودوں سے ڈھکے"
+          },
+          "explanation": "مغربی گھاٹ عموماً زیادہ بلند اور مسلسل ہیں۔"
+        },
+        "en": {
+          "question": "Compared with the Eastern Ghats, the Western Ghats are generally:",
+          "options": {
+            "A": "Lower and more discontinuous",
+            "B": "Higher and more continuous",
+            "C": "Entirely desert",
+            "D": "Covered by glaciers"
+          },
+          "explanation": "The Western Ghats form a higher, more continuous mountain chain."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-026",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 26,
+      "question": "The Eastern Ghats are discontinuous mainly because they are cut by:",
+      "options": {
+        "A": "Major rivers",
+        "B": "Glaciers",
+        "C": "Sand dunes",
+        "D": "Coral reefs"
+      },
+      "correct_answer": "A",
+      "explanation": "Rivers such as the Mahanadi, Godavari, Krishna and Kaveri cut across the Eastern Ghats.",
+      "source_category": "high_priority_repeated_concept",
+      "translations": {
+        "te": {
+          "question": "తూర్పు కనుమలు విభజితంగా ఉండటానికి ప్రధాన కారణం ఏమిటి?",
+          "options": {
+            "A": "పెద్ద నదులు వాటిని కోయడం",
+            "B": "హిమానీనదాలు",
+            "C": "ఇసుక దిబ్బలు",
+            "D": "పగడపు దిబ్బలు"
+          },
+          "explanation": "గోదావరి, కృష్ణా, కావేరి వంటి నదులు తూర్పు కనుమలను కోస్తూ ప్రవహిస్తాయి."
+        },
+        "ur": {
+          "question": "مشرقی گھاٹ غیر مسلسل کیوں ہیں؟",
+          "options": {
+            "A": "بڑے دریاؤں کے کاٹنے سے",
+            "B": "گلیشیئرز سے",
+            "C": "ریت کے ٹیلوں سے",
+            "D": "مرجانی چٹانوں سے"
+          },
+          "explanation": "بڑے دریا مشرقی گھاٹ کو کاٹتے ہوئے گزرتے ہیں۔"
+        },
+        "en": {
+          "question": "The Eastern Ghats are discontinuous mainly because they are cut by:",
+          "options": {
+            "A": "Major rivers",
+            "B": "Glaciers",
+            "C": "Sand dunes",
+            "D": "Coral reefs"
+          },
+          "explanation": "Rivers such as the Mahanadi, Godavari, Krishna and Kaveri cut across the Eastern Ghats."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-027",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 27,
+      "question": "Which coast has larger river deltas in general?",
+      "options": {
+        "A": "Western Coastal Plain",
+        "B": "Eastern Coastal Plain",
+        "C": "Konkan Coast only",
+        "D": "Malabar Coast only"
+      },
+      "correct_answer": "B",
+      "explanation": "Major east-flowing rivers deposit sediment near the Bay of Bengal and form deltas.",
+      "source_category": "high_priority_repeated_concept",
+      "translations": {
+        "te": {
+          "question": "సాధారణంగా పెద్ద నదీ డెల్టాలు ఏ తీరంలో ఏర్పడతాయి?",
+          "options": {
+            "A": "పశ్చిమ తీర మైదానం",
+            "B": "తూర్పు తీర మైదానం",
+            "C": "కొంకణ్ తీరం మాత్రమే",
+            "D": "మలబార్ తీరం మాత్రమే"
+          },
+          "explanation": "తూర్పు వైపు ప్రవహించే పెద్ద నదులు బంగాళాఖాత తీరంలో విస్తృత డెల్టాలను ఏర్పరుస్తాయి."
+        },
+        "ur": {
+          "question": "عام طور پر بڑے دریائی ڈیلٹا کس ساحل پر بنتے ہیں؟",
+          "options": {
+            "A": "مغربی ساحلی میدان",
+            "B": "مشرقی ساحلی میدان",
+            "C": "صرف کونکن ساحل",
+            "D": "صرف مالابار ساحل"
+          },
+          "explanation": "بنگال کی خلیج کے ساحل پر بہنے والے بڑے دریا وسیع ڈیلٹا بناتے ہیں۔"
+        },
+        "en": {
+          "question": "Which coast has larger river deltas in general?",
+          "options": {
+            "A": "Western Coastal Plain",
+            "B": "Eastern Coastal Plain",
+            "C": "Konkan Coast only",
+            "D": "Malabar Coast only"
+          },
+          "explanation": "Major east-flowing rivers deposit sediment near the Bay of Bengal and form deltas."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-028",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 28,
+      "question": "The Western Coastal Plain lies between the Western Ghats and the:",
+      "options": {
+        "A": "Bay of Bengal",
+        "B": "Arabian Sea",
+        "C": "Himalayas",
+        "D": "Ganga River"
+      },
+      "correct_answer": "B",
+      "explanation": "The Western Coastal Plain is between the Western Ghats and Arabian Sea.",
+      "source_category": "high_priority_repeated_concept",
+      "translations": {
+        "te": {
+          "question": "పశ్చిమ తీర మైదానం పశ్చిమ కనుమలు, దేని మధ్య ఉంది?",
+          "options": {
+            "A": "బంగాళాఖాతం",
+            "B": "అరేబియా సముద్రం",
+            "C": "హిమాలయాలు",
+            "D": "గంగా నది"
+          },
+          "explanation": "పశ్చిమ తీర మైదానం పశ్చిమ కనుమలు, అరేబియా సముద్రం మధ్య ఉంది."
+        },
+        "ur": {
+          "question": "مغربی ساحلی میدان مغربی گھاٹ اور کس کے درمیان ہے؟",
+          "options": {
+            "A": "خلیج بنگال",
+            "B": "بحیرۂ عرب",
+            "C": "ہمالیہ",
+            "D": "دریائے گنگا"
+          },
+          "explanation": "مغربی ساحلی میدان مغربی گھاٹ اور بحیرۂ عرب کے درمیان ہے۔"
+        },
+        "en": {
+          "question": "The Western Coastal Plain lies between the Western Ghats and the:",
+          "options": {
+            "A": "Bay of Bengal",
+            "B": "Arabian Sea",
+            "C": "Himalayas",
+            "D": "Ganga River"
+          },
+          "explanation": "The Western Coastal Plain is between the Western Ghats and Arabian Sea."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-029",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 29,
+      "question": "The Eastern Coastal Plain lies between the Eastern Ghats and the:",
+      "options": {
+        "A": "Arabian Sea",
+        "B": "Bay of Bengal",
+        "C": "Thar Desert",
+        "D": "Himalayas"
+      },
+      "correct_answer": "B",
+      "explanation": "The Eastern Coastal Plain borders the Bay of Bengal.",
+      "source_category": "high_priority_repeated_concept",
+      "translations": {
+        "te": {
+          "question": "తూర్పు తీర మైదానం తూర్పు కనుమలు, దేని మధ్య ఉంది?",
+          "options": {
+            "A": "అరేబియా సముద్రం",
+            "B": "బంగాళాఖాతం",
+            "C": "థార్ ఎడారి",
+            "D": "హిమాలయాలు"
+          },
+          "explanation": "తూర్పు తీర మైదానం తూర్పు కనుమలు, బంగాళాఖాతం మధ్య ఉంది."
+        },
+        "ur": {
+          "question": "مشرقی ساحلی میدان مشرقی گھاٹ اور کس کے درمیان ہے؟",
+          "options": {
+            "A": "بحیرۂ عرب",
+            "B": "خلیج بنگال",
+            "C": "تھار صحرا",
+            "D": "ہمالیہ"
+          },
+          "explanation": "مشرقی ساحلی میدان مشرقی گھاٹ اور خلیج بنگال کے درمیان ہے۔"
+        },
+        "en": {
+          "question": "The Eastern Coastal Plain lies between the Eastern Ghats and the:",
+          "options": {
+            "A": "Arabian Sea",
+            "B": "Bay of Bengal",
+            "C": "Thar Desert",
+            "D": "Himalayas"
+          },
+          "explanation": "The Eastern Coastal Plain borders the Bay of Bengal."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-030",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 30,
+      "question": "The Malabar Coast is mainly associated with:",
+      "options": {
+        "A": "Kerala",
+        "B": "Odisha",
+        "C": "Gujarat",
+        "D": "West Bengal"
+      },
+      "correct_answer": "A",
+      "explanation": "The Malabar Coast is the southern section of India's western coast, mainly in Kerala.",
+      "source_category": "high_priority_repeated_concept",
+      "translations": {
+        "te": {
+          "question": "మలబార్ తీరం ప్రధానంగా ఏ రాష్ట్రంతో సంబంధం కలిగి ఉంది?",
+          "options": {
+            "A": "కేరళ",
+            "B": "ఒడిశా",
+            "C": "గుజరాత్",
+            "D": "పశ్చిమ బెంగాల్"
+          },
+          "explanation": "మలబార్ తీరం భారతదేశ నైరుతి భాగంలోని కేరళ తీర ప్రాంతంతో సంబంధం కలిగి ఉంది."
+        },
+        "ur": {
+          "question": "مالابار ساحل بنیادی طور پر کس ریاست سے متعلق ہے؟",
+          "options": {
+            "A": "کیرالا",
+            "B": "اوڈیشہ",
+            "C": "گجرات",
+            "D": "مغربی بنگال"
+          },
+          "explanation": "مالابار ساحل بھارت کے جنوب مغرب میں کیرالا سے متعلق ہے۔"
+        },
+        "en": {
+          "question": "The Malabar Coast is mainly associated with:",
+          "options": {
+            "A": "Kerala",
+            "B": "Odisha",
+            "C": "Gujarat",
+            "D": "West Bengal"
+          },
+          "explanation": "The Malabar Coast is the southern section of India's western coast, mainly in Kerala."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-031",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 31,
+      "question": "The Coromandel Coast is mainly associated with:",
+      "options": {
+        "A": "Tamil Nadu",
+        "B": "Gujarat",
+        "C": "Goa",
+        "D": "Punjab"
+      },
+      "correct_answer": "A",
+      "explanation": "The Coromandel Coast lies along the southeastern coast, mainly Tamil Nadu.",
+      "source_category": "scert_expected_practice",
+      "translations": {
+        "te": {
+          "question": "కోరమాండల్ తీరం ప్రధానంగా ఏ రాష్ట్రానికి చెందుతుంది?",
+          "options": {
+            "A": "తమిళనాడు",
+            "B": "గుజరాత్",
+            "C": "గోవా",
+            "D": "పంజాబ్"
+          },
+          "explanation": "కోరమాండల్ తీరం ప్రధానంగా తమిళనాడు తూర్పు తీరంలో ఉంది."
+        },
+        "ur": {
+          "question": "کورومینڈل ساحل بنیادی طور پر کس ریاست سے متعلق ہے؟",
+          "options": {
+            "A": "تمل ناڈو",
+            "B": "گجرات",
+            "C": "گوا",
+            "D": "پنجاب"
+          },
+          "explanation": "کورومینڈل ساحل زیادہ تر تمل ناڈو کے مشرقی ساحل پر ہے۔"
+        },
+        "en": {
+          "question": "The Coromandel Coast is mainly associated with:",
+          "options": {
+            "A": "Tamil Nadu",
+            "B": "Gujarat",
+            "C": "Goa",
+            "D": "Punjab"
+          },
+          "explanation": "The Coromandel Coast lies along the southeastern coast, mainly Tamil Nadu."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-032",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 32,
+      "question": "Chilika Lake is located in:",
+      "options": {
+        "A": "Kerala",
+        "B": "Odisha",
+        "C": "Gujarat",
+        "D": "Tamil Nadu"
+      },
+      "correct_answer": "B",
+      "explanation": "Chilika is a large brackish-water lagoon on the Odisha coast.",
+      "source_category": "scert_expected_practice",
+      "translations": {
+        "te": {
+          "question": "చిలికా సరస్సు ఎక్కడ ఉంది?",
+          "options": {
+            "A": "కేరళ",
+            "B": "ఒడిశా",
+            "C": "గుజరాత్",
+            "D": "తమిళనాడు"
+          },
+          "explanation": "చిలికా సరస్సు ఒడిశా తీరంలో ఉన్న ప్రసిద్ధ ఉప్పునీటి సరస్సు."
+        },
+        "ur": {
+          "question": "چلکا جھیل کہاں واقع ہے؟",
+          "options": {
+            "A": "کیرالا",
+            "B": "اوڈیشہ",
+            "C": "گجرات",
+            "D": "تمل ناڈو"
+          },
+          "explanation": "چلکا جھیل اوڈیشہ کے ساحل پر واقع مشہور نمکین پانی کی جھیل ہے۔"
+        },
+        "en": {
+          "question": "Chilika Lake is located in:",
+          "options": {
+            "A": "Kerala",
+            "B": "Odisha",
+            "C": "Gujarat",
+            "D": "Tamil Nadu"
+          },
+          "explanation": "Chilika is a large brackish-water lagoon on the Odisha coast."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-033",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 33,
+      "question": "Lakshadweep Islands are located in the:",
+      "options": {
+        "A": "Bay of Bengal",
+        "B": "Arabian Sea",
+        "C": "Red Sea",
+        "D": "Andaman Sea"
+      },
+      "correct_answer": "B",
+      "explanation": "Lakshadweep lies in the Arabian Sea, off India's southwest coast.",
+      "source_category": "scert_expected_practice",
+      "translations": {
+        "te": {
+          "question": "లక్షద్వీప దీవులు ఏ సముద్రంలో ఉన్నాయి?",
+          "options": {
+            "A": "బంగాళాఖాతం",
+            "B": "అరేబియా సముద్రం",
+            "C": "ఎర్ర సముద్రం",
+            "D": "అండమాన్ సముద్రం"
+          },
+          "explanation": "లక్షద్వీప దీవులు భారతదేశానికి పశ్చిమాన అరేబియా సముద్రంలో ఉన్నాయి."
+        },
+        "ur": {
+          "question": "لکشدیپ جزائر کس سمندر میں واقع ہیں؟",
+          "options": {
+            "A": "خلیج بنگال",
+            "B": "بحیرۂ عرب",
+            "C": "بحیرۂ احمر",
+            "D": "بحیرۂ انڈمان"
+          },
+          "explanation": "لکشدیپ جزائر بھارت کے مغرب میں بحیرۂ عرب میں ہیں۔"
+        },
+        "en": {
+          "question": "Lakshadweep Islands are located in the:",
+          "options": {
+            "A": "Bay of Bengal",
+            "B": "Arabian Sea",
+            "C": "Red Sea",
+            "D": "Andaman Sea"
+          },
+          "explanation": "Lakshadweep lies in the Arabian Sea, off India's southwest coast."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-034",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 34,
+      "question": "Lakshadweep Islands are mainly of which origin?",
+      "options": {
+        "A": "Volcanic",
+        "B": "Coral",
+        "C": "Glacial",
+        "D": "River alluvial"
+      },
+      "correct_answer": "B",
+      "explanation": "The Lakshadweep islands are primarily coral islands.",
+      "source_category": "scert_expected_practice",
+      "translations": {
+        "te": {
+          "question": "లక్షద్వీప దీవులు ప్రధానంగా ఏ విధంగా ఏర్పడ్డాయి?",
+          "options": {
+            "A": "అగ్నిపర్వత మూలం",
+            "B": "పగడపు మూలం",
+            "C": "హిమానీనద మూలం",
+            "D": "నదీ ఒండ్రు మూలం"
+          },
+          "explanation": "లక్షద్వీప దీవులు ప్రధానంగా పగడాల నిర్మాణాలతో ఏర్పడ్డాయి."
+        },
+        "ur": {
+          "question": "لکشدیپ جزائر بنیادی طور پر کس اصل کے ہیں؟",
+          "options": {
+            "A": "آتش فشانی",
+            "B": "مرجانی",
+            "C": "گلیشیائی",
+            "D": "دریائی رسوبی"
+          },
+          "explanation": "لکشدیپ جزائر زیادہ تر مرجان سے بنے ہیں۔"
+        },
+        "en": {
+          "question": "Lakshadweep Islands are mainly of which origin?",
+          "options": {
+            "A": "Volcanic",
+            "B": "Coral",
+            "C": "Glacial",
+            "D": "River alluvial"
+          },
+          "explanation": "The Lakshadweep islands are primarily coral islands."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-035",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 35,
+      "question": "Andaman and Nicobar Islands are located in the:",
+      "options": {
+        "A": "Arabian Sea",
+        "B": "Bay of Bengal",
+        "C": "Persian Gulf",
+        "D": "Gulf of Kutch"
+      },
+      "correct_answer": "B",
+      "explanation": "The Andaman and Nicobar island group lies in the Bay of Bengal region.",
+      "source_category": "scert_expected_practice",
+      "translations": {
+        "te": {
+          "question": "అండమాన్, నికోబార్ దీవులు ఏ సముద్రంలో ఉన్నాయి?",
+          "options": {
+            "A": "అరేబియా సముద్రం",
+            "B": "బంగాళాఖాతం",
+            "C": "పర్షియన్ గల్ఫ్",
+            "D": "కచ్ గల్ఫ్"
+          },
+          "explanation": "అండమాన్, నికోబార్ దీవులు బంగాళాఖాతంలో ఉన్నాయి."
+        },
+        "ur": {
+          "question": "انڈمان اور نکوبار جزائر کس سمندر میں واقع ہیں؟",
+          "options": {
+            "A": "بحیرۂ عرب",
+            "B": "خلیج بنگال",
+            "C": "خلیج فارس",
+            "D": "خلیج کَچھ"
+          },
+          "explanation": "انڈمان اور نکوبار جزائر خلیج بنگال میں واقع ہیں۔"
+        },
+        "en": {
+          "question": "Andaman and Nicobar Islands are located in the:",
+          "options": {
+            "A": "Arabian Sea",
+            "B": "Bay of Bengal",
+            "C": "Persian Gulf",
+            "D": "Gulf of Kutch"
+          },
+          "explanation": "The Andaman and Nicobar island group lies in the Bay of Bengal region."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-036",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 36,
+      "question": "Indira Point is located on:",
+      "options": {
+        "A": "Little Andaman",
+        "B": "Great Nicobar Island",
+        "C": "Lakshadweep",
+        "D": "Diu"
+      },
+      "correct_answer": "B",
+      "explanation": "Indira Point is at the southern end of Great Nicobar Island.",
+      "source_category": "scert_expected_practice",
+      "translations": {
+        "te": {
+          "question": "ఇందిరా పాయింట్ ఎక్కడ ఉంది?",
+          "options": {
+            "A": "లిటిల్ అండమాన్",
+            "B": "గ్రేట్ నికోబార్ దీవి",
+            "C": "లక్షద్వీపం",
+            "D": "దియూ"
+          },
+          "explanation": "ఇందిరా పాయింట్ గ్రేట్ నికోబార్ దీవి దక్షిణ చివరలో ఉంది."
+        },
+        "ur": {
+          "question": "اندرا پوائنٹ کہاں واقع ہے؟",
+          "options": {
+            "A": "لٹل انڈمان",
+            "B": "گریٹ نکوبار جزیرہ",
+            "C": "لکشدیپ",
+            "D": "دیو"
+          },
+          "explanation": "اندرا پوائنٹ گریٹ نکوبار جزیرے کے جنوبی سرے پر ہے۔"
+        },
+        "en": {
+          "question": "Indira Point is located on:",
+          "options": {
+            "A": "Little Andaman",
+            "B": "Great Nicobar Island",
+            "C": "Lakshadweep",
+            "D": "Diu"
+          },
+          "explanation": "Indira Point is at the southern end of Great Nicobar Island."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-037",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 37,
+      "question": "The southernmost point of the Indian mainland is:",
+      "options": {
+        "A": "Indira Point",
+        "B": "Kanyakumari",
+        "C": "Kavaratti",
+        "D": "Port Blair"
+      },
+      "correct_answer": "B",
+      "explanation": "Kanyakumari is the southernmost point of mainland India.",
+      "source_category": "scert_expected_practice",
+      "translations": {
+        "te": {
+          "question": "భారత ప్రధాన భూభాగానికి దక్షిణ అంచు ఏది?",
+          "options": {
+            "A": "ఇందిరా పాయింట్",
+            "B": "కన్యాకుమారి",
+            "C": "కవరత్తి",
+            "D": "పోర్ట్ బ్లెయిర్"
+          },
+          "explanation": "కన్యాకుమారి భారత ప్రధాన భూభాగానికి దక్షిణ అంచు; ఇందిరా పాయింట్ దీవుల్లో ఉంది."
+        },
+        "ur": {
+          "question": "بھارت کے اصل براعظمی حصے کا جنوبی سرا کون سا ہے؟",
+          "options": {
+            "A": "اندرا پوائنٹ",
+            "B": "کنیاکماری",
+            "C": "کَوارتی",
+            "D": "پورٹ بلیئر"
+          },
+          "explanation": "کنیاکماری بھارت کے مرکزی زمینی حصے کا جنوبی سرا ہے؛ اندرا پوائنٹ جزیرے پر ہے۔"
+        },
+        "en": {
+          "question": "The southernmost point of the Indian mainland is:",
+          "options": {
+            "A": "Indira Point",
+            "B": "Kanyakumari",
+            "C": "Kavaratti",
+            "D": "Port Blair"
+          },
+          "explanation": "Kanyakumari is the southernmost point of mainland India."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-038",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 38,
+      "question": "The Thar Desert lies mainly in:",
+      "options": {
+        "A": "Rajasthan",
+        "B": "Assam",
+        "C": "Kerala",
+        "D": "Bihar"
+      },
+      "correct_answer": "A",
+      "explanation": "Most of the Thar Desert in India lies in western Rajasthan.",
+      "source_category": "scert_expected_practice",
+      "translations": {
+        "te": {
+          "question": "థార్ ఎడారి ప్రధానంగా ఏ రాష్ట్రంలో ఉంది?",
+          "options": {
+            "A": "రాజస్థాన్",
+            "B": "అస్సాం",
+            "C": "కేరళ",
+            "D": "బీహార్"
+          },
+          "explanation": "థార్ ఎడారి ఎక్కువ భాగం రాజస్థాన్‌లో విస్తరించి ఉంది."
+        },
+        "ur": {
+          "question": "تھار صحرا زیادہ تر کس ریاست میں واقع ہے؟",
+          "options": {
+            "A": "راجستھان",
+            "B": "آسام",
+            "C": "کیرالا",
+            "D": "بہار"
+          },
+          "explanation": "تھار صحرا کا زیادہ حصہ راجستھان میں ہے۔"
+        },
+        "en": {
+          "question": "The Thar Desert lies mainly in:",
+          "options": {
+            "A": "Rajasthan",
+            "B": "Assam",
+            "C": "Kerala",
+            "D": "Bihar"
+          },
+          "explanation": "Most of the Thar Desert in India lies in western Rajasthan."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-039",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 39,
+      "question": "The Thar Desert lies largely on the leeward side of the:",
+      "options": {
+        "A": "Aravalli Range",
+        "B": "Western Ghats",
+        "C": "Himalayas",
+        "D": "Eastern Ghats"
+      },
+      "correct_answer": "A",
+      "explanation": "The Aravalli range runs in a direction that does not effectively block the southwest monsoon winds, contributing to aridity west of it.",
+      "source_category": "scert_expected_practice",
+      "translations": {
+        "te": {
+          "question": "థార్ ఎడారి ప్రధానంగా ఏ పర్వత శ్రేణి వర్షచ్ఛాయ ప్రాంతంలో ఉంది?",
+          "options": {
+            "A": "అరవళ్లు",
+            "B": "పశ్చిమ కనుమలు",
+            "C": "హిమాలయాలు",
+            "D": "తూర్పు కనుమలు"
+          },
+          "explanation": "అరవళ్ల శ్రేణికి వర్షాన్ని తెచ్చే గాలులకు ఎదురుగా కాకుండా ఉన్న ప్రాంతంలో వర్షపాతం తక్కువ."
+        },
+        "ur": {
+          "question": "تھار صحرا زیادہ تر کس پہاڑی سلسلے کے بارش سے محروم جانب ہے؟",
+          "options": {
+            "A": "اراولی",
+            "B": "مغربی گھاٹ",
+            "C": "ہمالیہ",
+            "D": "مشرقی گھاٹ"
+          },
+          "explanation": "اراولی کے بارش سے محروم جانب بارش کم ہوتی ہے۔"
+        },
+        "en": {
+          "question": "The Thar Desert lies largely on the leeward side of the:",
+          "options": {
+            "A": "Aravalli Range",
+            "B": "Western Ghats",
+            "C": "Himalayas",
+            "D": "Eastern Ghats"
+          },
+          "explanation": "The Aravalli range runs in a direction that does not effectively block the southwest monsoon winds, contributing to aridity west of it."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-040",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 40,
+      "question": "Which river is associated with the Thar Desert region?",
+      "options": {
+        "A": "Luni",
+        "B": "Brahmaputra",
+        "C": "Periyar",
+        "D": "Subarnarekha"
+      },
+      "correct_answer": "A",
+      "explanation": "The Luni is an important river in the arid western Rajasthan region.",
+      "source_category": "scert_expected_practice",
+      "translations": {
+        "te": {
+          "question": "థార్ ఎడారి ప్రాంతంతో సంబంధం ఉన్న నది ఏది?",
+          "options": {
+            "A": "లూని",
+            "B": "బ్రహ్మపుత్ర",
+            "C": "పెరియార్",
+            "D": "సుబర్ణరేఖ"
+          },
+          "explanation": "లూని నది పశ్చిమ రాజస్థాన్‌లోని శుష్క ప్రాంతం గుండా ప్రవహిస్తుంది."
+        },
+        "ur": {
+          "question": "تھار صحرا کے علاقے سے متعلق دریا کون سا ہے؟",
+          "options": {
+            "A": "لونی",
+            "B": "برہم پتر",
+            "C": "پیریار",
+            "D": "سبرن ریکھا"
+          },
+          "explanation": "لونی دریا مغربی راجستھان کے خشک علاقے سے گزرتا ہے۔"
+        },
+        "en": {
+          "question": "Which river is associated with the Thar Desert region?",
+          "options": {
+            "A": "Luni",
+            "B": "Brahmaputra",
+            "C": "Periyar",
+            "D": "Subarnarekha"
+          },
+          "explanation": "The Luni is an important river in the arid western Rajasthan region."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-041",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 41,
+      "question": "Which is the highest peak in South India?",
+      "options": {
+        "A": "Doddabetta",
+        "B": "Anamudi",
+        "C": "Mahendragiri",
+        "D": "Guru Shikhar"
+      },
+      "correct_answer": "B",
+      "explanation": "Anamudi in Kerala is the highest peak in South India.",
+      "source_category": "scert_expected_practice",
+      "translations": {
+        "te": {
+          "question": "దక్షిణ భారతదేశంలో అత్యంత ఎత్తైన శిఖరం ఏది?",
+          "options": {
+            "A": "దొడ్డబెట్ట",
+            "B": "అనముడి",
+            "C": "మహేంద్రగిరి",
+            "D": "గురు శిఖర్"
+          },
+          "explanation": "కేరళలోని అనముడి దక్షిణ భారతదేశంలో అత్యంత ఎత్తైన శిఖరం."
+        },
+        "ur": {
+          "question": "جنوبی بھارت کی بلند ترین چوٹی کون سی ہے؟",
+          "options": {
+            "A": "ڈوڈابیٹا",
+            "B": "اناموڈی",
+            "C": "مہندرگیری",
+            "D": "گرو شکھر"
+          },
+          "explanation": "کیرالا میں واقع اناموڈی جنوبی بھارت کی بلند ترین چوٹی ہے۔"
+        },
+        "en": {
+          "question": "Which is the highest peak in South India?",
+          "options": {
+            "A": "Doddabetta",
+            "B": "Anamudi",
+            "C": "Mahendragiri",
+            "D": "Guru Shikhar"
+          },
+          "explanation": "Anamudi in Kerala is the highest peak in South India."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-042",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 42,
+      "question": "The Nilgiri Hills connect the:",
+      "options": {
+        "A": "Western and Eastern Ghats",
+        "B": "Himalayas and Aravallis",
+        "C": "Vindhyas and Himalayas",
+        "D": "Satpuras and Shiwaliks"
+      },
+      "correct_answer": "A",
+      "explanation": "The Nilgiris form a meeting region between the Western and Eastern Ghats.",
+      "source_category": "scert_expected_practice",
+      "translations": {
+        "te": {
+          "question": "నీలగిరి కొండలు ఏ రెండు కనుమలను కలుపుతాయి?",
+          "options": {
+            "A": "పశ్చిమ, తూర్పు కనుమలు",
+            "B": "హిమాలయాలు, అరవళ్లు",
+            "C": "వింధ్యాలు, హిమాలయాలు",
+            "D": "సాత్పురాలు, శివాలిక్‌లు"
+          },
+          "explanation": "నీలగిరి ప్రాంతంలో పశ్చిమ, తూర్పు కనుమలు కలుస్తాయి."
+        },
+        "ur": {
+          "question": "نیلگیری پہاڑ کن دو گھاٹوں کو ملاتے ہیں؟",
+          "options": {
+            "A": "مغربی اور مشرقی گھاٹ",
+            "B": "ہمالیہ اور اراولی",
+            "C": "وندھیا اور ہمالیہ",
+            "D": "ست پورہ اور شیوالک"
+          },
+          "explanation": "نیلگیری کے علاقے میں مغربی اور مشرقی گھاٹ ملتے ہیں۔"
+        },
+        "en": {
+          "question": "The Nilgiri Hills connect the:",
+          "options": {
+            "A": "Western and Eastern Ghats",
+            "B": "Himalayas and Aravallis",
+            "C": "Vindhyas and Himalayas",
+            "D": "Satpuras and Shiwaliks"
+          },
+          "explanation": "The Nilgiris form a meeting region between the Western and Eastern Ghats."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-043",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 43,
+      "question": "Which is a major physiographic division of India?",
+      "options": {
+        "A": "Northern Plains",
+        "B": "Amazon Basin",
+        "C": "Sahara Plateau",
+        "D": "Andes Coast"
+      },
+      "correct_answer": "A",
+      "explanation": "The Northern Plains are one of India's major physiographic divisions.",
+      "source_category": "scert_expected_practice",
+      "translations": {
+        "te": {
+          "question": "భారతదేశంలోని ప్రధాన భౌతిక విభాగం ఏది?",
+          "options": {
+            "A": "ఉత్తర మైదానాలు",
+            "B": "అమెజాన్ పరీవాహక ప్రాంతం",
+            "C": "సహారా పీఠభూమి",
+            "D": "ఆండీస్ తీరం"
+          },
+          "explanation": "ఉత్తర మైదానాలు భారతదేశంలోని ప్రధాన భౌతిక విభాగాల్లో ఒకటి."
+        },
+        "ur": {
+          "question": "بھارت کا ایک بڑا طبعی خطہ کون سا ہے؟",
+          "options": {
+            "A": "شمالی میدان",
+            "B": "ایمازون طاس",
+            "C": "صحارا سطح مرتفع",
+            "D": "اینڈیز ساحل"
+          },
+          "explanation": "شمالی میدان بھارت کے بڑے طبعی خطوں میں شامل ہیں۔"
+        },
+        "en": {
+          "question": "Which is a major physiographic division of India?",
+          "options": {
+            "A": "Northern Plains",
+            "B": "Amazon Basin",
+            "C": "Sahara Plateau",
+            "D": "Andes Coast"
+          },
+          "explanation": "The Northern Plains are one of India's major physiographic divisions."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-044",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 44,
+      "question": "The Himalayas help protect India from:",
+      "options": {
+        "A": "Cold winds from Central Asia",
+        "B": "All cyclones",
+        "C": "Earthquakes everywhere",
+        "D": "All droughts"
+      },
+      "correct_answer": "A",
+      "explanation": "The Himalayas act as a climatic barrier to very cold winds from the north.",
+      "source_category": "scert_expected_practice",
+      "translations": {
+        "te": {
+          "question": "మధ్య ఆసియా నుంచి వచ్చే దేనినుంచి హిమాలయాలు భారతదేశాన్ని రక్షించడంలో సహాయపడతాయి?",
+          "options": {
+            "A": "చల్లని గాలులు",
+            "B": "అన్ని తుఫాన్లు",
+            "C": "ప్రతిచోటా భూకంపాలు",
+            "D": "అన్ని కరువులు"
+          },
+          "explanation": "హిమాలయాలు మధ్య ఆసియా నుంచి వచ్చే చల్లని గాలులకు సహజ అవరోధంగా ఉంటాయి."
+        },
+        "ur": {
+          "question": "ہمالیہ بھارت کو وسطی ایشیا سے آنے والی کس چیز سے بچانے میں مدد دیتا ہے؟",
+          "options": {
+            "A": "سرد ہوائیں",
+            "B": "تمام طوفان",
+            "C": "ہر جگہ زلزلے",
+            "D": "تمام خشک سالی"
+          },
+          "explanation": "ہمالیہ وسطی ایشیا کی سرد ہواؤں کے لیے قدرتی رکاوٹ ہے۔"
+        },
+        "en": {
+          "question": "The Himalayas help protect India from:",
+          "options": {
+            "A": "Cold winds from Central Asia",
+            "B": "All cyclones",
+            "C": "Earthquakes everywhere",
+            "D": "All droughts"
+          },
+          "explanation": "The Himalayas act as a climatic barrier to very cold winds from the north."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-045",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 45,
+      "question": "Why are the Northern Plains densely populated?",
+      "options": {
+        "A": "Fertile soil and water availability",
+        "B": "Permanent snow cover",
+        "C": "Lack of rivers",
+        "D": "Very steep slopes"
+      },
+      "correct_answer": "A",
+      "explanation": "Fertile alluvial soil, water and relatively level land support farming and settlement.",
+      "source_category": "scert_expected_practice",
+      "translations": {
+        "te": {
+          "question": "ఉత్తర మైదానాల్లో జనసాంద్రత ఎక్కువగా ఉండటానికి కారణం ఏమిటి?",
+          "options": {
+            "A": "సారవంతమైన నేల, నీటి లభ్యత",
+            "B": "శాశ్వత మంచు",
+            "C": "నదులు లేకపోవడం",
+            "D": "చాలా నిటారైన వాలులు"
+          },
+          "explanation": "సారవంతమైన ఒండ్రు నేల, నీరు, వ్యవసాయ అనుకూలత జనసాంద్రతను పెంచాయి."
+        },
+        "ur": {
+          "question": "شمالی میدانوں میں آبادی زیادہ ہونے کی وجہ کیا ہے؟",
+          "options": {
+            "A": "زرخیز مٹی اور پانی کی دستیابی",
+            "B": "ہمیشہ برف",
+            "C": "دریاؤں کی کمی",
+            "D": "بہت ڈھلوان زمین"
+          },
+          "explanation": "زرخیز جلوڑی مٹی، پانی اور زراعت کے مواقع آبادی کو بڑھاتے ہیں۔"
+        },
+        "en": {
+          "question": "Why are the Northern Plains densely populated?",
+          "options": {
+            "A": "Fertile soil and water availability",
+            "B": "Permanent snow cover",
+            "C": "Lack of rivers",
+            "D": "Very steep slopes"
+          },
+          "explanation": "Fertile alluvial soil, water and relatively level land support farming and settlement."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-046",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 46,
+      "question": "Which of the following is a young fold mountain system?",
+      "options": {
+        "A": "Aravalli Range",
+        "B": "Himalayas",
+        "C": "Deccan Plateau",
+        "D": "Chotanagpur Plateau"
+      },
+      "correct_answer": "B",
+      "explanation": "The Himalayas are young fold mountains formed by plate collision.",
+      "source_category": "scert_expected_practice",
+      "translations": {
+        "te": {
+          "question": "క్రింది వాటిలో నూతన ముడత పర్వత వ్యవస్థ ఏది?",
+          "options": {
+            "A": "అరవళ్లు",
+            "B": "హిమాలయాలు",
+            "C": "దక్కన్ పీఠభూమి",
+            "D": "ఛోటానాగ్‌పూర్ పీఠభూమి"
+          },
+          "explanation": "హిమాలయాలు భౌగోళికంగా నూతన ముడత పర్వతాలు."
+        },
+        "ur": {
+          "question": "ان میں سے نوجوان تہہ دار پہاڑی نظام کون سا ہے؟",
+          "options": {
+            "A": "اراولی",
+            "B": "ہمالیہ",
+            "C": "دکن سطح مرتفع",
+            "D": "چھوٹا ناگپور سطح مرتفع"
+          },
+          "explanation": "ہمالیہ ارضیاتی اعتبار سے نوجوان تہہ دار پہاڑ ہیں۔"
+        },
+        "en": {
+          "question": "Which of the following is a young fold mountain system?",
+          "options": {
+            "A": "Aravalli Range",
+            "B": "Himalayas",
+            "C": "Deccan Plateau",
+            "D": "Chotanagpur Plateau"
+          },
+          "explanation": "The Himalayas are young fold mountains formed by plate collision."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-047",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 47,
+      "question": "Which range is part of the Purvanchal hills?",
+      "options": {
+        "A": "Patkai Hills",
+        "B": "Aravalli Hills",
+        "C": "Nilgiri Hills",
+        "D": "Satpura Range"
+      },
+      "correct_answer": "A",
+      "explanation": "The Patkai, Naga and Mizo hills are associated with the Purvanchal region.",
+      "source_category": "scert_expected_practice",
+      "translations": {
+        "te": {
+          "question": "పూర్వాంచల్ కొండల్లో భాగమైన శ్రేణి ఏది?",
+          "options": {
+            "A": "పట్కై కొండలు",
+            "B": "అరవళ్లు",
+            "C": "నీలగిరి కొండలు",
+            "D": "సాత్పురా శ్రేణి"
+          },
+          "explanation": "పట్కై కొండలు ఈశాన్య భారతదేశంలోని పూర్వాంచల్ కొండలలో భాగం."
+        },
+        "ur": {
+          "question": "پوروانچل پہاڑیوں کا حصہ کون سا سلسلہ ہے؟",
+          "options": {
+            "A": "پٹکائی پہاڑیاں",
+            "B": "اراولی پہاڑیاں",
+            "C": "نیلگیری پہاڑیاں",
+            "D": "ست پورہ سلسلہ"
+          },
+          "explanation": "پٹکائی پہاڑیاں شمال مشرقی بھارت کے پوروانچل سلسلے کا حصہ ہیں۔"
+        },
+        "en": {
+          "question": "Which range is part of the Purvanchal hills?",
+          "options": {
+            "A": "Patkai Hills",
+            "B": "Aravalli Hills",
+            "C": "Nilgiri Hills",
+            "D": "Satpura Range"
+          },
+          "explanation": "The Patkai, Naga and Mizo hills are associated with the Purvanchal region."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-048",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 48,
+      "question": "Which river system is associated with the Northern Plains?",
+      "options": {
+        "A": "Indus-Ganga-Brahmaputra",
+        "B": "Narmada-Tapi only",
+        "C": "Godavari-Kaveri only",
+        "D": "Luni-Sabarmati only"
+      },
+      "correct_answer": "A",
+      "explanation": "The Northern Plains were built mainly by the Indus, Ganga and Brahmaputra river systems.",
+      "source_category": "scert_expected_practice",
+      "translations": {
+        "te": {
+          "question": "ఉత్తర మైదానాలకు సంబంధించిన నదీ వ్యవస్థ ఏది?",
+          "options": {
+            "A": "సింధు-గంగా-బ్రహ్మపుత్ర",
+            "B": "నర్మద-తాపీ మాత్రమే",
+            "C": "గోదావరి-కావేరి మాత్రమే",
+            "D": "లూని-సబర్మతి మాత్రమే"
+          },
+          "explanation": "సింధు, గంగా, బ్రహ్మపుత్ర నదీ వ్యవస్థల నిక్షేపాలు ఉత్తర మైదానాలను నిర్మించాయి."
+        },
+        "ur": {
+          "question": "شمالی میدانوں سے متعلق دریائی نظام کون سا ہے؟",
+          "options": {
+            "A": "سندھ-گنگا-برہم پتر",
+            "B": "صرف نرمدا-تاپتی",
+            "C": "صرف گوداوری-کاویری",
+            "D": "صرف لونی-سبرمتی"
+          },
+          "explanation": "سندھ، گنگا اور برہم پتر کے دریائی رسوب نے شمالی میدان بنائے۔"
+        },
+        "en": {
+          "question": "Which river system is associated with the Northern Plains?",
+          "options": {
+            "A": "Indus-Ganga-Brahmaputra",
+            "B": "Narmada-Tapi only",
+            "C": "Godavari-Kaveri only",
+            "D": "Luni-Sabarmati only"
+          },
+          "explanation": "The Northern Plains were built mainly by the Indus, Ganga and Brahmaputra river systems."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-049",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 49,
+      "question": "Which statement about the Peninsular Plateau is correct?",
+      "options": {
+        "A": "It is a young fold mountain region",
+        "B": "It is an ancient stable landmass",
+        "C": "It is made entirely of recent alluvium",
+        "D": "It is a coral island group"
+      },
+      "correct_answer": "B",
+      "explanation": "The Peninsular Plateau is an old and geologically stable part of India.",
+      "source_category": "scert_expected_practice",
+      "translations": {
+        "te": {
+          "question": "ద్వీపకల్ప పీఠభూమి గురించి సరైన వాక్యం ఏది?",
+          "options": {
+            "A": "ఇది నూతన ముడత పర్వత ప్రాంతం",
+            "B": "ఇది ప్రాచీన స్థిర భూభాగం",
+            "C": "ఇది పూర్తిగా కొత్త ఒండ్రు మట్టితో ఉంది",
+            "D": "ఇది పగడపు దీవుల సమూహం"
+          },
+          "explanation": "ద్వీపకల్ప పీఠభూమి ప్రాచీన, స్థిరమైన భూభాగం."
+        },
+        "ur": {
+          "question": "جزیرہ نما سطح مرتفع کے بارے میں درست بیان کون سا ہے؟",
+          "options": {
+            "A": "یہ نوجوان تہہ دار پہاڑی علاقہ ہے",
+            "B": "یہ قدیم مستحکم زمینی حصہ ہے",
+            "C": "یہ مکمل نئی جلوڑی مٹی سے بنا ہے",
+            "D": "یہ مرجانی جزائر کا گروہ ہے"
+          },
+          "explanation": "جزیرہ نما سطح مرتفع قدیم اور مستحکم زمینی حصہ ہے۔"
+        },
+        "en": {
+          "question": "Which statement about the Peninsular Plateau is correct?",
+          "options": {
+            "A": "It is a young fold mountain region",
+            "B": "It is an ancient stable landmass",
+            "C": "It is made entirely of recent alluvium",
+            "D": "It is a coral island group"
+          },
+          "explanation": "The Peninsular Plateau is an old and geologically stable part of India."
+        }
+      }
+    },
+    {
+      "id": "TG10-SS-CH01-050",
+      "class": 10,
+      "subject": "Social Studies",
+      "chapter": "India – Relief Features",
+      "chapter_number": 1,
+      "language": "en",
+      "question_number": 50,
+      "question": "Which factor helps explain India's diverse relief features?",
+      "options": {
+        "A": "Only recent volcanic activity",
+        "B": "Different geological processes and landform history",
+        "C": "Absence of rivers",
+        "D": "Uniform elevation everywhere"
+      },
+      "correct_answer": "B",
+      "explanation": "India's varied relief reflects different geological structures, tectonic processes, erosion and deposition.",
+      "source_category": "scert_expected_practice",
+      "translations": {
+        "te": {
+          "question": "భారతదేశంలో భూప్రకృతి వైవిధ్యానికి కారణం ఏమిటి?",
+          "options": {
+            "A": "ఇటీవలి అగ్నిపర్వత చర్య మాత్రమే",
+            "B": "వివిధ భౌగోళిక ప్రక్రియలు, భూభాగ చరిత్ర",
+            "C": "నదులు లేకపోవడం",
+            "D": "ప్రతిచోటా ఒకే ఎత్తు"
+          },
+          "explanation": "వివిధ భౌగోళిక ప్రక్రియలు, శిలల చరిత్ర భారతదేశంలో భూప్రకృతి వైవిధ్యాన్ని సృష్టించాయి."
+        },
+        "ur": {
+          "question": "بھارت کے متنوع طبعی خد و خال کی وجہ کیا ہے؟",
+          "options": {
+            "A": "صرف حالیہ آتش فشانی سرگرمی",
+            "B": "مختلف ارضیاتی عمل اور زمینی تاریخ",
+            "C": "دریاؤں کی عدم موجودگی",
+            "D": "ہر جگہ یکساں بلندی"
+          },
+          "explanation": "مختلف ارضیاتی عمل اور چٹانوں کی تاریخ بھارت کے متنوع طبعی خد و خال کی وجہ ہیں۔"
+        },
+        "en": {
+          "question": "Which factor helps explain India's diverse relief features?",
+          "options": {
+            "A": "Only recent volcanic activity",
+            "B": "Different geological processes and landform history",
+            "C": "Absence of rivers",
+            "D": "Uniform elevation everywhere"
+          },
+          "explanation": "India's varied relief reflects different geological structures, tectonic processes, erosion and deposition."
+        }
+      }
+    }
+  ]
+}
